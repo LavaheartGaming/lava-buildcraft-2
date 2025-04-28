@@ -1,0 +1,34 @@
+{
+	"health": 10.0,
+	"movementSpeed": 1.0,
+	"maxSpawnedInChunk": 5,
+	"spawnBiomes": [
+		{
+			"weight": 12,
+			"minGroupSize": 2,
+			"maxGroupSize": 5,
+			"biomes": [
+				"minecraft:ocean",
+				"minecraft:deep_ocean",
+				"minecraft:frozen_ocean",
+				"minecraft:deep_frozen_ocean",
+				"minecraft:cold_ocean",
+				"minecraft:deep_cold_ocean",
+				"minecraft:warm_ocean",
+				"minecraft:lukewarm_ocean",
+				"minecraft:deep_lukewarm_ocean",
+				"minecraft:river"
+			]
+		}
+	],
+	"colorVariants": {
+		"colorBlueVariant": 50,
+		"colorBrownVariant": 50
+	},
+	"scalingVariants": {
+		"scalingNormalWeight": 30,
+		"scalingSmallVariant": 30,
+		"scalingLargeVariant": 25,
+		"scalingExtraLargeWeight": 15
+	}
+}

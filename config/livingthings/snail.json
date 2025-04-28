@@ -1,0 +1,30 @@
+{
+	"health": 4.0,
+	"movementSpeed": 0.1,
+	"maxSpawnedInChunk": 6,
+	"spawnBiomes": [
+		{
+			"weight": 12,
+			"minGroupSize": 3,
+			"maxGroupSize": 5,
+			"biomes": [
+				"minecraft:plains",
+				"minecraft:sunflower_plains",
+				"minecraft:swamp",
+				"minecraft:forest",
+				"minecraft:birch_forest",
+				"minecraft:flower_forest",
+				"minecraft:river",
+				"minecraft:cherry_grove"
+			]
+		},
+		{
+			"weight": 10,
+			"minGroupSize": 4,
+			"maxGroupSize": 6,
+			"biomes": [
+				"minecraft:mushroom_fields"
+			]
+		}
+	]
+}

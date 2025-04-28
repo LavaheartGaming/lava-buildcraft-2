@@ -1,0 +1,134 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 2025-03-28 15:27:22
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Mod loading issue for: aeinfinitybooster --
+Details:
+	Mod file: /C:/Users/User/curseforge/minecraft/Instances/Lava's buildcraft 2/mods/aeinfinitybooster-neoforge-1.21.1-1.0.0.49.jar
+	Failure message: Mod aeinfinitybooster requires neoforge 21.1.122 or above
+		Currently, neoforge is 21.1.115
+		
+	Mod version: 1.21.1-1.0.0.49
+	Mod issues URL: <No issues URL found>
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: glassential --
+Details:
+	Mod file: /C:/Users/User/curseforge/minecraft/Instances/Lava's buildcraft 2/mods/Glassential-renewed-neoforge-1.21.1-3.1.6.jar
+	Failure message: Mod glassential requires neoforge 21.1.138 or above
+		Currently, neoforge is 21.1.115
+		
+	Mod version: 3.1.6
+	Mod issues URL: https://github.com/bigenergy/glassential-renewed/issues
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: mekanism --
+Details:
+	Mod file: /C:/Users/User/curseforge/minecraft/Instances/Lava's buildcraft 2/mods/Mekanism-1.21.1-10.7.10.73.jar
+	Failure message: Mod mekanism requires neoforge 21.1.118 or above
+		Currently, neoforge is 21.1.115
+		
+	Mod version: 10.7.10
+	Mod issues URL: https://github.com/mekanism/Mekanism/issues
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: bibliowoods --
+Details:
+	Mod file: /C:/Users/User/curseforge/minecraft/Instances/Lava's buildcraft 2/mods/bibliowoods-1.21.1-1.4.0.jar
+	Failure message: Mod bibliowoods requires bibliocraft 1.3.0 or above, and below 1.5
+		Currently, bibliocraft is 1.5.0
+		
+	Mod version: 1.4.0
+	Mod issues URL: <No issues URL found>
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: framedblocks --
+Details:
+	Mod file: /C:/Users/User/curseforge/minecraft/Instances/Lava's buildcraft 2/mods/FramedBlocks-10.3.1.jar
+	Failure message: Mod framedblocks requires neoforge 21.1.125 or above
+		Currently, neoforge is 21.1.115
+		
+	Mod version: 10.3.1
+	Mod issues URL: https://www.github.com/xfacthd/framedblocks
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: create --
+Details:
+	Mod file: /C:/Users/User/curseforge/minecraft/Instances/Lava's buildcraft 2/mods/create-1.21.1-6.0.4.jar
+	Failure message: Mod create requires neoforge 21.1.129 or above
+		Currently, neoforge is 21.1.115
+		
+	Mod version: 6.0.4
+	Mod issues URL: https://github.com/Creators-of-Create/Create/issues
+	Exception message: <No associated exception found>
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.3, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 492089472 bytes (469 MiB) / 1409286144 bytes (1344 MiB) up to 35836133376 bytes (34176 MiB)
+	CPUs: 24
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i9-12900K
+	Identifier: Intel64 Family 6 Model 151 Stepping 2
+	Microarchitecture: Alder Lake
+	Frequency (GHz): 3.19
+	Number of physical packages: 1
+	Number of physical CPUs: 16
+	Number of logical CPUs: 24
+	Graphics card #0 name: NVIDIA GeForce RTX 3080 Ti
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 12288.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.15.6636
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 4.00
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MiB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 4.00
+	Memory slot #1 type: Unknown
+	Memory slot #2 capacity (MiB): 16384.00
+	Memory slot #2 clockSpeed (GHz): 4.00
+	Memory slot #2 type: Unknown
+	Memory slot #3 capacity (MiB): 16384.00
+	Memory slot #3 clockSpeed (GHz): 4.00
+	Memory slot #3 type: Unknown
+	Virtual memory max (MiB): 69340.28
+	Virtual memory used (MiB): 24782.63
+	Swap memory total (MiB): 4096.00
+	Swap memory used (MiB): 133.27
+	Space in storage for jna.tmpdir (MiB): available: 422318.97, total: 1906822.88
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 422318.97, total: 1906822.88
+	Space in storage for io.netty.native.workdir (MiB): available: 422318.97, total: 1906822.88
+	Space in storage for java.io.tmpdir (MiB): available: 422318.97, total: 1906822.88
+	Space in storage for workdir (MiB): available: 422318.97, total: 1906822.88
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx34176m -Xms256m
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: forgeclient
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.35.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.35.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.35.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		kotlinforforge@5.7.0
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		client-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		neoforge-21.1.115-universal.jar                   |NeoForge                      |neoforge                      |21.1.115            |Manifest: NOSIGNATURE

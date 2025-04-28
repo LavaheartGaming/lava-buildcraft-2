@@ -1,0 +1,534 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch3_farming_master_chef"
+	group: "097460243B4AA538"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "mysticalagriculture:awakened_supremium_hoe"
+	}
+	id: "23896B2F5FBC8AC9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6E08B98EBCA979D0"]
+			id: "19BE1F2F331DAA64"
+			tasks: [{
+				id: "1D0CADD5EA06AA36"
+				item: { count: 1, id: "pamhc2foodextended:gourmetbeefburgeritem" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6E08B98EBCA979D0"]
+			id: "7E792F29477D43FF"
+			tasks: [{
+				id: "034BCD7E88037A47"
+				item: { count: 1, id: "pamhc2foodextended:deluxenachoesitem" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E08B98EBCA979D0"]
+			id: "07E6851E2D062B3D"
+			tasks: [{
+				id: "49C90F4386A017E1"
+				item: { count: 1, id: "pamhc2foodextended:bentoboxitem" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E08B98EBCA979D0"]
+			id: "25223013F900F94F"
+			tasks: [{
+				id: "36D8531C95A63738"
+				item: { count: 1, id: "pamhc2foodextended:delightedmealitem" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E08B98EBCA979D0"]
+			id: "37D9A2E9CDDCD3E6"
+			tasks: [{
+				id: "0FBEC0DC9E6EFD27"
+				item: { count: 1, id: "pamhc2foodextended:charsiuitem" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E08B98EBCA979D0"]
+			id: "766B43ED2975BAA2"
+			tasks: [{
+				id: "4B652FD0BE563358"
+				item: { count: 1, id: "pamhc2foodextended:cornedbeefbreakfastitem" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E08B98EBCA979D0"]
+			id: "26E625C74EF540C2"
+			tasks: [{
+				id: "6510C5287F596FC1"
+				item: { count: 1, id: "pamhc2foodextended:friedfeastitem" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6E08B98EBCA979D0"]
+			id: "7FDBF4D63700147C"
+			tasks: [{
+				id: "68F565C0BC579CD6"
+				item: { count: 1, id: "pamhc2foodextended:deluxechickencurryitem" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6E08B98EBCA979D0"]
+			id: "2935278E64DB9FD1"
+			tasks: [{
+				id: "1E0CD930331D19D7"
+				item: { count: 1, id: "pamhc2foodextended:koreandinneritem" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["38FAEA661927A87D"]
+			id: "6E08B98EBCA979D0"
+			tasks: [{
+				id: "572B7DDC1FE05D95"
+				item: { count: 1, id: "pamhc2foodextended:briochebunitem" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["37C7B3580C86C99C"]
+			hide_dependency_lines: false
+			id: "364FC046609AD062"
+			rewards: [{
+				id: "4D169190B30500AC"
+				item: {
+					count: 1
+					id: "mysticalagriculture:supremium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5724CA1BE54F55D4"
+				item: { count: 1, id: "mysticalagriculture:supremium_essence" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["364FC046609AD062"]
+			hide_dependent_lines: true
+			id: "39B5A9C5697ACE89"
+			rewards: [{
+				id: "25381E5381ED3565"
+				item: {
+					count: 1
+					id: "mysticalagradditions:insanium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6900F601B817EE0A"
+				item: { count: 1, id: "mysticalagradditions:insanium_essence" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1DB5F446D9C297D8"]
+			id: "5396CE9F130EB594"
+			rewards: [{
+				id: "0C6E99BE2A2FB924"
+				item: {
+					count: 1
+					id: "mysticalagriculture:awakened_supremium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "45805AA3B9027A8A"
+				item: { count: 1, id: "mysticalagriculture:awakened_supremium_essence" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["364FC046609AD062"]
+			id: "1DB5F446D9C297D8"
+			rewards: [{
+				id: "1CF1A7C1B0AAEA8D"
+				item: {
+					count: 1
+					id: "mysticalagriculture:supremium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "66974D8746FAC9F5"
+					item: { count: 1, id: "mysticalagriculture:awakening_altar" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1DFC47A5897AC525"
+					item: { count: 8, id: "mysticalagriculture:awakening_pedestal" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0E1434718A5B28BD"]
+			id: "4493E3F43A44466B"
+			rewards: [{
+				id: "72BD2AB29BD6F564"
+				item: {
+					count: 1
+					id: "mysticalagriculture:supremium_growth_accelerator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03929ACE0D40E440"
+				item: { count: 1, id: "mysticalagriculture:supremium_growth_accelerator" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["364FC046609AD062"]
+			hide_dependency_lines: true
+			id: "7F729D03A7CAC178"
+			rewards: [{
+				id: "488B3E2E58220801"
+				type: "xp"
+				xp: 350
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4064A8F9A3B45D41"
+				item: { count: 1, id: "mysticalagriculture:diamond_seeds" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["364FC046609AD062"]
+			hide_dependency_lines: true
+			id: "7ECFFF607FE2F8B9"
+			rewards: [{
+				id: "3D847275466E2999"
+				type: "xp"
+				xp: 350
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "009C06FDA9B982B5"
+				item: { count: 1, id: "mysticalagriculture:emerald_seeds" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["364FC046609AD062"]
+			hide_dependency_lines: true
+			id: "0CEC72CF0F1BD907"
+			rewards: [{
+				id: "266D12543B97763B"
+				type: "xp"
+				xp: 350
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1B4EA74BC90590EC"
+				item: { count: 1, id: "mysticalagriculture:netherite_seeds" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["364FC046609AD062"]
+			hide_dependency_lines: true
+			id: "69B80E310F1B9539"
+			rewards: [{
+				id: "73D40F8243E1EA18"
+				type: "xp"
+				xp: 350
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "32087B1751BDAFCE"
+				item: { count: 1, id: "mysticalagriculture:iridium_seeds" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["364FC046609AD062"]
+			hide_dependency_lines: true
+			id: "40CEBDE65D6A1BE3"
+			rewards: [{
+				id: "5850B7CBB370E7A3"
+				type: "xp"
+				xp: 350
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "21F78D8D29DA6EAF"
+				item: { count: 1, id: "mysticalagriculture:platinum_seeds" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["364FC046609AD062"]
+			hide_dependency_lines: true
+			id: "744B6678219D3A6F"
+			rewards: [{
+				id: "163391A8D1C7E9EC"
+				type: "xp"
+				xp: 350
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7C08B37604995859"
+				item: { count: 1, id: "mysticalagriculture:vibrant_alloy_seeds" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["364FC046609AD062"]
+			hide_dependency_lines: true
+			id: "5FD9CD5313B27DD9"
+			rewards: [{
+				id: "42381AD571F904AE"
+				type: "xp"
+				xp: 350
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5AF649672285FCAD"
+				item: { count: 1, id: "mysticalagriculture:vibrant_alloy_seeds" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["364FC046609AD062"]
+			hide_dependency_lines: true
+			id: "0027CD80D2E361C3"
+			rewards: [{
+				id: "211ABB1E08D6229A"
+				type: "xp"
+				xp: 350
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "18B09AF2A9B7BB9B"
+				item: { count: 1, id: "mysticalagriculture:yellorium_seeds" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["364FC046609AD062"]
+			hide_dependency_lines: true
+			id: "14693BC43B8E9869"
+			rewards: [{
+				id: "2242FBC687526738"
+				type: "xp"
+				xp: 350
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3634BB063FA7523F"
+				item: { count: 1, id: "mysticalagriculture:end_steel_seeds" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["364FC046609AD062"]
+			hide_dependency_lines: true
+			id: "7D6F8F8A42099AB8"
+			rewards: [{
+				id: "11D2F7DD3BF18D05"
+				type: "xp"
+				xp: 350
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7595ED8C67784424"
+				item: { count: 1, id: "mysticalagriculture:cyanite_seeds" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["364FC046609AD062"]
+			hide_dependency_lines: true
+			id: "0FF7ECDEB1E58973"
+			rewards: [{
+				id: "3FA8AD263C58DBE8"
+				type: "xp"
+				xp: 350
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "72679E92EAFFC685"
+				item: { count: 1, id: "mysticalagriculture:niotic_crystal_seeds" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["364FC046609AD062"]
+			hide_dependency_lines: true
+			id: "5B6883DCBB6E6940"
+			rewards: [{
+				id: "5174DAC3F84FFE62"
+				type: "xp"
+				xp: 350
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "36BCABAFD26C090B"
+				item: { count: 1, id: "mysticalagriculture:spirited_crystal_seeds" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["364FC046609AD062"]
+			hide_dependency_lines: true
+			id: "7C930191956B1BD3"
+			rewards: [{
+				id: "4D5307D465A653E0"
+				type: "xp"
+				xp: 350
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4DCF536769DFFE9C"
+				item: { count: 1, id: "mysticalagriculture:uraninite_seeds" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5396CE9F130EB594"]
+			id: "7885D4DBF42D0000"
+			rewards: [{
+				id: "351010A4C55A1A86"
+				item: {
+					count: 1
+					id: "mysticalagriculture:flight_augment"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59A0EBF80E8CA386"
+				item: { count: 1, id: "mysticalagriculture:awakened_supremium_chestplate" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["39B5A9C5697ACE89"]
+			id: "1A0AFCD10E28516F"
+			rewards: [{
+				id: "6006FBD0A21B90D5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2CDBFAA392E20E3A"
+				item: { count: 1, id: "mysticalagriculture:nether_star_seeds" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["39B5A9C5697ACE89"]
+			id: "49A30635552925D6"
+			rewards: [{
+				id: "5AE424DA98F8F162"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "76F74B22A662D335"
+				item: { count: 1, id: "mysticalagriculture:dragon_egg_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39B5A9C5697ACE89"]
+			id: "4426AD116CDF92B0"
+			rewards: [{
+				id: "7FFFF4940FCCE6AD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0ECE84571185799B"
+				item: { count: 1, id: "mysticalagriculture:nitro_crystal_seeds" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+	]
+}

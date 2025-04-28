@@ -1,0 +1,1810 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch_1_bis_reap_and_sow"
+	group: "482DD8A241D1335B"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "minecraft:iron_hoe"
+	}
+	id: "6642BFB1D995C300"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1C39D748DA5D0FD2"]
+			hide_until_deps_complete: true
+			id: "1672EA87449E3B54"
+			rewards: [{
+				id: "24BF0B49E33C52D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4B34E2C3DD8F22F8"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			id: "5B3B82AE1671E769"
+			rewards: [{
+				id: "060422EEE4EAE9B6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "13C0E7B1C9C91825"
+				item: { count: 1, id: "pamhc2crops:agaveseeditem" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 2.5d
+		}
+		{
+			id: "07A1007B6F3F6D80"
+			rewards: [{
+				id: "422B29CE45766725"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3B4EEA08F7DEBA7E"
+				item: { count: 1, id: "pamhc2crops:amaranthseeditem" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: 1.5d
+		}
+		{
+			id: "25BCB54E253ED52A"
+			rewards: [{
+				id: "05AB0519E7B8E435"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "547093BD081A5157"
+				item: { count: 1, id: "pamhc2crops:arrowrootseeditem" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "461990CFC36EF057"
+			rewards: [{
+				id: "779FDC1DD129161C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5649D8CDFE05A9A4"
+				item: { count: 1, id: "pamhc2crops:artichokeseeditem" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			id: "7E291331FC730D86"
+			rewards: [{
+				id: "1E37351496C706BF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "365A6E08725399D3"
+				item: { count: 1, id: "pamhc2crops:asparagusseeditem" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			id: "4CAA367669432227"
+			rewards: [{
+				id: "54575DD638884EFE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "19D5BC60E1CD12CD"
+				item: { count: 1, id: "pamhc2crops:barleyseeditem" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			id: "2B81954E50648BC3"
+			rewards: [{
+				id: "10679FDE0A6F82CA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "727C148FA342F912"
+				item: { count: 1, id: "pamhc2crops:beanseeditem" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			id: "51FE83B84B3ED230"
+			rewards: [{
+				id: "25D85C29BCBC4E59"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "43F89F8D3FB74037"
+				item: { count: 1, id: "pamhc2crops:bellpepperseeditem" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			id: "53BC7FB1858338D9"
+			rewards: [{
+				id: "6DBB52D64F2BBBF9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "24405307F0B08A41"
+				item: { count: 1, id: "pamhc2crops:blackberryseeditem" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			id: "5CC538BDFFF7979C"
+			rewards: [{
+				id: "10D0BD1DE36C5176"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4724B95305F08794"
+				item: { count: 1, id: "pamhc2crops:blueberryseeditem" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			id: "231A9A1AAD44DD23"
+			rewards: [{
+				id: "3D17A4841BCA5873"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A76FB1ADA35AAB4"
+				item: { count: 1, id: "pamhc2crops:broccoliseeditem" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.5d
+		}
+		{
+			id: "13FDE56C3B4F7EC2"
+			rewards: [{
+				id: "47DF4FC6A70ACAC9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "575B6B6758FE5739"
+				item: { count: 1, id: "pamhc2crops:brusselsproutseeditem" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			id: "4331903CD4CBF286"
+			rewards: [{
+				id: "042574E4E47C30F2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "57F8A4BBFE8F8EEC"
+				item: { count: 1, id: "pamhc2crops:cabbageseeditem" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			id: "623A997D08CB711C"
+			rewards: [{
+				id: "13F78DF34214CD7B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0FA7ED12B2B3EC12"
+				item: { count: 1, id: "pamhc2crops:cactusfruitseeditem" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			id: "589E95F84DEA30C3"
+			rewards: [{
+				id: "361476843C5C37E5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3169A26478A38B86"
+				item: { count: 1, id: "pamhc2crops:candleberryseeditem" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			id: "2CC8BDB1A6C65E71"
+			rewards: [{
+				id: "0A180AED8C20DCED"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "45874A34E9B01145"
+				item: { count: 1, id: "pamhc2crops:cantaloupeseeditem" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			id: "5AB6799264D27EEA"
+			rewards: [{
+				id: "6C103AEFD42AD0DC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "577424A80C973778"
+				item: { count: 1, id: "pamhc2crops:cassavaseeditem" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			id: "526048B44DA00FBF"
+			rewards: [{
+				id: "324CA8CA77E1FE3A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4CCDD7A7DB9E0D43"
+				item: { count: 1, id: "pamhc2crops:cauliflowerseeditem" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			id: "5E1AC008B1E8A5AF"
+			rewards: [{
+				id: "6DC2DF8DACAB9622"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "42E75589C4E0180F"
+				item: { count: 1, id: "pamhc2crops:celeryseeditem" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			id: "7F545545C3184CA6"
+			rewards: [{
+				id: "2C12ADEAB235F1F9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0950D6C415553F4A"
+				item: { count: 1, id: "pamhc2crops:chickpeaseeditem" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			id: "05B237FB289A2F25"
+			rewards: [{
+				id: "1B3CC3BCE92C54CA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "12670425FD08AFF2"
+				item: { count: 1, id: "pamhc2crops:chilipepperseeditem" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			id: "7DF47E006432674D"
+			rewards: [{
+				id: "479E20A3CD4634FB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4C2EF7259AC1131E"
+				item: { count: 1, id: "pamhc2crops:coffeebeanseeditem" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			id: "41B3A653A801C7CC"
+			rewards: [{
+				id: "2E857FB6E284A96E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "72DC481C6A1917DF"
+				item: { count: 1, id: "pamhc2crops:cornseeditem" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			id: "56DAC840D2DF6007"
+			rewards: [{
+				id: "41FA03A4AB9EBEE6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "40ABCD45D767C09E"
+				item: { count: 1, id: "pamhc2crops:cottonseeditem" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			id: "2238A87EE92288E7"
+			rewards: [{
+				id: "4983DBB878802496"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "369F87B5263BC2DD"
+				item: { count: 1, id: "pamhc2crops:cranberryseeditem" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			id: "5436BED639894F01"
+			rewards: [{
+				id: "66AA6608ED3CEF49"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C246FD09F198E97"
+				item: { count: 1, id: "pamhc2crops:cucumberseeditem" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "2DB7BE841D4491E1"
+			rewards: [{
+				id: "26052291444F415F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "67C8A9B6F1FE98EC"
+				item: { count: 1, id: "pamhc2crops:eggplantseeditem" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "5BB239CDC8BAEDC9"
+			rewards: [{
+				id: "4296447D5A1D4BEF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3CDAC8814C4CD399"
+				item: { count: 1, id: "pamhc2crops:elderberryseeditem" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "65CC591C4B653B0F"
+			rewards: [{
+				id: "5F212CB996A9533F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "526CD611CEBF1369"
+				item: { count: 1, id: "pamhc2crops:flaxseeditem" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 2.5d
+		}
+		{
+			id: "6DE1A5640C4F2EAC"
+			rewards: [{
+				id: "17BD606CC5CF10A6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C1993119C98E9EC"
+				item: { count: 1, id: "pamhc2crops:garlicseeditem" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			id: "6FA374710C76D981"
+			rewards: [{
+				id: "10837D5DBF20DC21"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7170CCC94972199A"
+				item: { count: 1, id: "pamhc2crops:gingerseeditem" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			id: "5404BE65B5F6DCB1"
+			rewards: [{
+				id: "3011B7F05C08B068"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "605319C5EB27720A"
+				item: { count: 1, id: "pamhc2crops:grapeseeditem" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			id: "4CBA27238FAC6C1C"
+			rewards: [{
+				id: "4AA096B0A51E0BA9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C665A589F2FBB67"
+				item: { count: 1, id: "pamhc2crops:greengrapeseeditem" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			id: "5F723A655E11C587"
+			rewards: [{
+				id: "50A7A9E5A0A17268"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7754FE1DD1E49ADE"
+				item: { count: 1, id: "pamhc2crops:huckleberryseeditem" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			id: "5008C46B35B47CDF"
+			rewards: [{
+				id: "547F18E93A8E3528"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51666BEF3BD2EBE5"
+				item: { count: 1, id: "pamhc2crops:jicamaseeditem" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			id: "2687394A68C10B71"
+			rewards: [{
+				id: "32FAEFD45A12F17F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E3D282ED1D7F797"
+				item: { count: 1, id: "pamhc2crops:juniperberryseeditem" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			id: "2DABE47CF1738ABB"
+			rewards: [{
+				id: "357B1BC9C1D26309"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3FC9343448D20BCD"
+				item: { count: 1, id: "pamhc2crops:juteseeditem" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			id: "067376D805A85417"
+			rewards: [{
+				id: "4C6F25F7062867C1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0FB38D7A40514B7F"
+				item: { count: 1, id: "pamhc2crops:kaleseeditem" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			id: "52FF1E500BE2200F"
+			rewards: [{
+				id: "083F9CD49DD25F54"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1BB9A05957B2BC02"
+				item: { count: 1, id: "pamhc2crops:kenafseeditem" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "535EFDD1112C9180"
+			rewards: [{
+				id: "7E29FFE81D998D89"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5BFD5313BDD0F325"
+				item: { count: 1, id: "pamhc2crops:kiwiseeditem" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "12461981F8AC6E5B"
+			rewards: [{
+				id: "5E67ED02232E9B55"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "561240751A5B8331"
+				item: { count: 1, id: "pamhc2crops:kohlrabiseeditem" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			id: "00A9237B239A2340"
+			rewards: [{
+				id: "24B32F8D1AF16BCC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26C738ADB827BC78"
+				item: { count: 1, id: "pamhc2crops:leekseeditem" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			id: "7C128143C4452ED8"
+			rewards: [{
+				id: "46F9498A3EB8366D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "20559E67AD1C5886"
+				item: { count: 1, id: "pamhc2crops:lentilseeditem" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			id: "48B1217BEF66FB1F"
+			rewards: [{
+				id: "4145B271723BFB20"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2ADD7DF1B1F58926"
+				item: { count: 1, id: "pamhc2crops:lettuceseeditem" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			id: "6C9918E204613A8A"
+			rewards: [{
+				id: "16448589A88FAB30"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2B70DB779BC8021E"
+				item: { count: 1, id: "pamhc2crops:milletseeditem" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			id: "4AD17E3D74F72880"
+			rewards: [{
+				id: "5A64F62E57299EC3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "449B912470489F01"
+				item: { count: 1, id: "pamhc2crops:mulberryseeditem" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			id: "33E0CCAF0A0014B8"
+			rewards: [{
+				id: "20D6CDEBEC9D64D2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1992CC7B5691B292"
+				item: { count: 1, id: "pamhc2crops:mustardseedsseeditem" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			id: "0EBE97A3653BC34F"
+			rewards: [{
+				id: "5B974BBC9EBF7F7F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "27E74B0A179697E7"
+				item: { count: 1, id: "pamhc2crops:oatsseeditem" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 5.5d
+		}
+		{
+			id: "07087C5C089D1DC1"
+			rewards: [{
+				id: "55456F485F165D21"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6EE9186C25C3BA45"
+				item: { count: 1, id: "pamhc2crops:okraseeditem" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 5.5d
+		}
+		{
+			id: "67B6C51159713993"
+			rewards: [{
+				id: "26EA644D7C204EA0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0CF3531716C95511"
+				item: { count: 1, id: "pamhc2crops:onionseeditem" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 5.5d
+		}
+		{
+			id: "19187D9855C81E6D"
+			rewards: [{
+				id: "471B7E82D7BBF3F6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4DFDCD969A08B58A"
+				item: { count: 1, id: "pamhc2crops:parsnipseeditem" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.5d
+		}
+		{
+			id: "18E747BFFBA5D6A6"
+			rewards: [{
+				id: "68BD15F6627D9CD0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "249F93E6079ACF88"
+				item: { count: 1, id: "pamhc2crops:peanutseeditem" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.5d
+		}
+		{
+			id: "76EE460926E06326"
+			rewards: [{
+				id: "56DA73CF2D57586F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3DEC7955D2C0224F"
+				item: { count: 1, id: "pamhc2crops:peasseeditem" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			id: "2C3A8051A6D21B76"
+			rewards: [{
+				id: "4066FD3C8373BD83"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "78454CD9B627FF98"
+				item: { count: 1, id: "pamhc2crops:pineappleseeditem" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: 6.5d
+		}
+		{
+			id: "1F4A337B2B3BEE93"
+			rewards: [{
+				id: "04855CEB6DDCC178"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6CA0B30516762839"
+				item: { count: 1, id: "pamhc2crops:quinoaseeditem" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 6.5d
+		}
+		{
+			id: "1A1108B65A35A2FC"
+			rewards: [{
+				id: "7791D395FC588A89"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7504FF35F663290C"
+				item: { count: 1, id: "pamhc2crops:radishseeditem" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 6.5d
+		}
+		{
+			id: "1091DE926427802E"
+			rewards: [{
+				id: "3FDDF020F337D293"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0EC8C6B9ED25C8D3"
+				item: { count: 1, id: "pamhc2crops:raspberryseeditem" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.5d
+		}
+		{
+			id: "4C290A6F35AA4D19"
+			rewards: [{
+				id: "70AD6AB27F954799"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "157C5C9159832F7F"
+				item: { count: 1, id: "pamhc2crops:rhubarbseeditem" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.5d
+		}
+		{
+			id: "6D8FC29A1CB3AF48"
+			rewards: [{
+				id: "5F3F4BB4F6C5AB56"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "38525D3A07A7215C"
+				item: { count: 1, id: "pamhc2crops:riceseeditem" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.5d
+		}
+		{
+			id: "0EC2ACF31DC435C7"
+			rewards: [{
+				id: "50C4FD23D3214730"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "44DC6080C29E4C36"
+				item: { count: 1, id: "pamhc2crops:rutabagaseeditem" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.5d
+		}
+		{
+			id: "50876DFFA2E09184"
+			rewards: [{
+				id: "76713DC1D76C90DB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "510DC8E761CB25BD"
+				item: { count: 1, id: "pamhc2crops:ryeseeditem" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			id: "2D290F5F8261721E"
+			rewards: [{
+				id: "37C65744366756E4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "55348C9DA5B2C393"
+				item: { count: 1, id: "pamhc2crops:scallionseeditem" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			id: "0D6F42D5D327B159"
+			rewards: [{
+				id: "3B8B35129063DEBD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "11D60790CDCFB2B8"
+				item: { count: 1, id: "pamhc2crops:sesameseedsseeditem" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			id: "562D82550FB72E76"
+			rewards: [{
+				id: "6C2B3152DDFF4062"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "25DA8A65B7B83DDA"
+				item: { count: 1, id: "pamhc2crops:sisalseeditem" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			id: "138E38AD1A21AB6D"
+			rewards: [{
+				id: "16CD348CB6C6621F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4ADDEAB9BE99D33F"
+				item: { count: 1, id: "pamhc2crops:soybeanseeditem" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			id: "3F7C2C71A14D4C5C"
+			rewards: [{
+				id: "07AE0C08282E3B5D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0195605386C5629C"
+				item: { count: 1, id: "pamhc2crops:spiceleafseeditem" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.5d
+		}
+		{
+			id: "57E779AF5CD5ED2E"
+			rewards: [{
+				id: "79F449A17C06EDD7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "07E767DCC8DFCF1F"
+				item: { count: 1, id: "pamhc2crops:spinachseeditem" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 7.5d
+		}
+		{
+			id: "26F19CA5296F022A"
+			rewards: [{
+				id: "0FF2A9E601D156A7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "69F5955EF87BF639"
+				item: { count: 1, id: "pamhc2crops:strawberryseeditem" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			id: "44C27FCD3F81BC09"
+			rewards: [{
+				id: "20A1C84651D4FB8B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A2F927F7BEAD72C"
+				item: { count: 1, id: "pamhc2crops:sweetpotatoseeditem" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.5d
+		}
+		{
+			id: "170859523F338B56"
+			rewards: [{
+				id: "44E44102A8845254"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52C1BB858034D8A8"
+				item: { count: 1, id: "pamhc2crops:taroseeditem" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			id: "2948296AA7F48F00"
+			rewards: [{
+				id: "6DB5FECF84CBF4C6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3CF62A1EE355A0BC"
+				item: { count: 1, id: "pamhc2crops:tealeafseeditem" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			id: "235A6B4F00C9CAC6"
+			rewards: [{
+				id: "68098AC3ADD16A03"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E0D20146C9E0C6F"
+				item: { count: 1, id: "pamhc2crops:tomatilloseeditem" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			id: "451101100D4E402D"
+			rewards: [{
+				id: "170EE3088243939F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0954B07FC2DCF3D4"
+				item: { count: 1, id: "pamhc2crops:tomatoseeditem" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			id: "1793288F92FF3AB2"
+			rewards: [{
+				id: "053BE6D30520FE9E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "44509A67CB33AEC0"
+				item: { count: 1, id: "pamhc2crops:turnipseeditem" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			id: "210EA2C5FD8A4E72"
+			rewards: [{
+				id: "115586A358D53C38"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2885A06C2C91C0AD"
+				item: { count: 1, id: "pamhc2crops:waterchestnutseeditem" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			id: "792976A2FE28D047"
+			rewards: [{
+				id: "77A6A272F04B140C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "762E3F14159CEBA9"
+				item: { count: 1, id: "pamhc2crops:whitemushroomseeditem" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			id: "3F098E7B01672D1F"
+			rewards: [{
+				id: "6E06B4AE2E25683A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7274856C887FC03C"
+				item: { count: 1, id: "pamhc2crops:wintersquashseeditem" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 8.5d
+		}
+		{
+			id: "6B17DE0579B058B9"
+			rewards: [{
+				id: "264EFCEF9C3F95C6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3DF91FF3401BF48F"
+				item: { count: 1, id: "pamhc2crops:zucchiniseeditem" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 8.5d
+		}
+		{
+			id: "657B534206EDB6F2"
+			rewards: [{
+				id: "29C11F6BA6BE52E2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "56C17EACE855AC36"
+				item: { count: 1, id: "pamhc2crops:alfalfaseeditem" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 8.5d
+		}
+		{
+			id: "7B0AE4BE6DC306A2"
+			rewards: [{
+				id: "7B2F1B101EAAA938"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "170D89F37E67B174"
+				item: { count: 1, id: "pamhc2crops:aloeseeditem" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 8.5d
+		}
+		{
+			id: "4A4195904A3389A8"
+			rewards: [{
+				id: "25407AB1BAFE70F7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1288B5B106EC75BB"
+				item: { count: 1, id: "pamhc2crops:barrelcactusseeditem" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 8.5d
+		}
+		{
+			id: "3B99DDE1881C2506"
+			rewards: [{
+				id: "491E018FF428D3C7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A276F93C1B6AA41"
+				item: { count: 1, id: "pamhc2crops:canolaseeditem" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.5d
+		}
+		{
+			id: "4AD46A001295C470"
+			rewards: [{
+				id: "2AADDE2BCCBA61DC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "739A775CCFF00C68"
+				item: { count: 1, id: "pamhc2crops:cattailseeditem" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			id: "0DE7C9A2D37DC65C"
+			rewards: [{
+				id: "6A094D9DF538B3C0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4A8615603618586A"
+				item: { count: 1, id: "pamhc2crops:chiaseeditem" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			id: "17B4D10FF2F1832D"
+			rewards: [{
+				id: "63953913029D20E4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "684EF2F3FDDBF49D"
+				item: { count: 1, id: "pamhc2crops:cloudberryseeditem" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			id: "5F20C9D33AA2A90C"
+			rewards: [{
+				id: "376B34A432567806"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5B969FBDBC52BFF0"
+				item: { count: 1, id: "pamhc2crops:lotusseeditem" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			id: "5BBDD061C5F22C97"
+			rewards: [{
+				id: "2E23A98783247DE0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C191EAD5B3723E5"
+				item: { count: 1, id: "pamhc2crops:nettlesseeditem" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			id: "6FC30D80E4D8A8FB"
+			rewards: [{
+				id: "0EB64B99FD0115BE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0DB0BC8A24DBDC0A"
+				item: { count: 1, id: "pamhc2crops:nopalesseeditem" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			id: "6B5412DC5A138089"
+			rewards: [{
+				id: "22423963FC773B04"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01AC4C1F7006EC17"
+				item: { count: 1, id: "pamhc2crops:sorghumseeditem" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			id: "6E94AE3F516B449D"
+			rewards: [{
+				id: "6764238E3A6E432F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6F0B827DB1649788"
+				item: { count: 1, id: "pamhc2crops:truffleseeditem" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			id: "1928820809908794"
+			rewards: [{
+				id: "466C56044A87A796"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "68659DC21D81BC47"
+				item: { count: 1, id: "pamhc2crops:wolfberryseeditem" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			id: "017197FF81CDE1F9"
+			rewards: [{
+				id: "3F7E2236C85A6897"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D7ABF0E3169BFB7"
+				item: { count: 1, id: "pamhc2crops:yuccaseeditem" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "06135D6B6E874F65"
+			rewards: [{
+				id: "088430ADEFB12864"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2E84A3A43C4BBD62"
+				item: { count: 1, id: "pamhc2crops:bokchoyseeditem" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			id: "40DC4D536480DFBB"
+			rewards: [{
+				id: "40DC57404055DB88"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A5BBD6336D5954C"
+				item: { count: 1, id: "pamhc2crops:calabashseeditem" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			id: "330AAB2BB21138AA"
+			rewards: [{
+				id: "293190B02FD17BD5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "572E7167BB3FA357"
+				item: { count: 1, id: "pamhc2crops:guaranaseeditem" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			id: "1960811A4280A1D7"
+			rewards: [{
+				id: "207A959A57959241"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "36229FC102DE58C0"
+				item: { count: 1, id: "pamhc2crops:papyrusseeditem" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			id: "6145253B39E03ACF"
+			rewards: [{
+				id: "098748C3A8A82261"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1AF824EC344A9A18"
+				item: { count: 1, id: "pamhc2crops:sunchokeseeditem" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			id: "2EA0AD009A2B96D6"
+			rewards: [{
+				id: "447E68E74746E339"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52558A98FD9FD2BE"
+				item: { count: 1, id: "minecraft:wheat_seeds" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			id: "599FD31995114C19"
+			rewards: [{
+				id: "13AB585C81653DC6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "568315A84AA775B7"
+				item: { count: 1, id: "minecraft:pumpkin_seeds" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			id: "3EA7ED0416494D86"
+			rewards: [{
+				id: "7CC1977E37D4318D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "710D6DDBA6E315CC"
+				item: { count: 1, id: "minecraft:melon_seeds" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			id: "628B82115F85FBD2"
+			rewards: [{
+				id: "7A79802D4F7F2638"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5071D410B7E96518"
+				item: { count: 1, id: "minecraft:beetroot_seeds" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "4D1444F2F5CC066D"
+			rewards: [{
+				id: "0C20F4BF633528E8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "16FE003CE0782152"
+				item: { count: 1, id: "minecraft:torchflower_seeds" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 9.5d
+		}
+		{
+			id: "25A5C76085A7CD69"
+			rewards: [{
+				id: "024B7B20996842D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "49A19CD8539B0726"
+				item: { count: 1, id: "silentgear:flax_seeds" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 9.5d
+		}
+		{
+			id: "0D3E61179009E101"
+			rewards: [{
+				id: "5B6CB074810A0E76"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7EC547EB52AC3486"
+				item: { count: 1, id: "silentgear:fluffy_seeds" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 9.5d
+		}
+		{
+			id: "70560D698C45AA6F"
+			rewards: [{
+				id: "0FA7285147717D78"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "74BEEED633834DD5"
+				item: { count: 1, id: "pamhc2crops:mustardseedsitem" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 9.5d
+		}
+		{
+			id: "3EEA729BB9FE43C7"
+			rewards: [{
+				id: "357FEFF56411D537"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5E7F8E10F30D7BEA"
+				item: { count: 1, id: "pamhc2crops:sesameseedsitem" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.5d
+		}
+		{
+			id: "207100A15E9B15F0"
+			rewards: [{
+				id: "75A6593FC53EAB34"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "785FDCF0ECFDF7C1"
+				item: { count: 1, id: "pamhc2foodcore:sunflowerseedsitem" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.5d
+		}
+		{
+			id: "05D93D1F79457BC7"
+			rewards: [{
+				id: "2AC5B8FF2B36DD97"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A69BDAA80191135"
+				item: { count: 1, id: "ars_nouveau:magebloom_crop" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			id: "3800128C1C0DFF39"
+			rewards: [{
+				id: "5DF3ED141790A6D1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "64B9700C8DA19DDC"
+				item: { count: 1, id: "biomeswevegone:pale_pumpkin_seeds" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			id: "6A8FE5289919443A"
+			rewards: [{
+				id: "779977CBBDA4EDC2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/plant_seed"
+				criterion: ""
+				id: "4AC831A622B5A33E"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1672EA87449E3B54"]
+			hide_dependency_lines: false
+			id: "3CC2E6990F23E79E"
+			tasks: [{
+				id: "4EE192D068A97D51"
+				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3CC2E6990F23E79E"]
+			hide_dependency_lines: false
+			id: "31FC94AD9BD7804E"
+			tasks: [{
+				id: "62873CF3DB4B66FF"
+				item: { count: 1, id: "mysticalagriculture:inferium_seeds" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["31FC94AD9BD7804E"]
+			hide_dependency_lines: false
+			id: "47487AA4BB6B2355"
+			rewards: [{
+				id: "1CD6A3A4A20D9010"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prosperity_seed_base"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "60DB1259F40429C2"
+					item: { count: 1, id: "mysticalagriculture:infusion_altar" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "26B90C8E432FB5DB"
+					item: { count: 8, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1672EA87449E3B54"]
+			hide_dependency_lines: false
+			id: "1887D6983424EDFA"
+			rewards: [
+				{
+					count: 6
+					id: "24172CFE149634A8"
+					item: {
+						count: 1
+						id: "pamhc2foodextended:mcpamitem"
+					}
+					type: "item"
+				}
+				{
+					id: "646A80326B9B2E8D"
+					item: {
+						components: {
+							"sophisticatedstorage:wood_type": "oak"
+						}
+						count: 1
+						id: "sophisticatedstorage:diamond_chest"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6A4D09AEC29E6AE8"
+					item: { count: 1, id: "pamhc2foodcore:juiceritem" }
+					type: "item"
+				}
+				{
+					id: "74C4475DF8805F80"
+					item: { count: 1, id: "pamhc2foodcore:bakewareitem" }
+					type: "item"
+				}
+				{
+					id: "047438729DAD697B"
+					item: { count: 1, id: "pamhc2foodcore:cuttingboarditem" }
+					type: "item"
+				}
+				{
+					id: "3A4BB1E531FD5604"
+					item: { count: 1, id: "pamhc2foodcore:grinderitem" }
+					type: "item"
+				}
+				{
+					id: "1DC0E9E1EE7EEC9A"
+					item: { count: 1, id: "pamhc2foodcore:mixingbowlitem" }
+					type: "item"
+				}
+				{
+					id: "3E2C4C6AE291FDA0"
+					item: { count: 1, id: "pamhc2foodcore:potitem" }
+					type: "item"
+				}
+				{
+					id: "7A19A4EAB3DC7CF0"
+					item: { count: 1, id: "pamhc2foodcore:rolleritem" }
+					type: "item"
+				}
+				{
+					id: "4CE9D6AABD5904D0"
+					item: { count: 1, id: "pamhc2foodcore:saucepanitem" }
+					type: "item"
+				}
+				{
+					id: "1A21EB9F2935C77F"
+					item: { count: 1, id: "pamhc2foodcore:skilletitem" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 4.0d
+		}
+	]
+}

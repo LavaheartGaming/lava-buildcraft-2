@@ -1,0 +1,22 @@
+{
+    "entity": "lava:azura_guardian",
+    "name": {
+        "translate": "entity.lava.azura_guardian",
+        "color": "#9E2015"
+    },
+    "display": {},
+    "sim_cost": 256000,
+    "input": {
+        "item": "minecraft:dragon_head"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.lava.azura_guardian",
+    "fabricator_drops": [
+        {
+            "id": "lava:corruptite",
+            "count": 1
+        }
+    ]
+}

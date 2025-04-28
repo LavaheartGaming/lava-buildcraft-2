@@ -1,0 +1,1976 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "combat_1"
+	group: "482DD8A241D1335B"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "lava:cosmic_sword"
+	}
+	id: "39A582E0A7E5BE6A"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:zombie"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "24D05A5BAD3F2BBF"
+			rewards: [
+				{
+					count: 5
+					id: "006C756BF44E186C"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					type: "item"
+				}
+				{
+					id: "739CAD8719849ED7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "53F9D782618770A6"
+				type: "kill"
+				value: 10L
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["24D05A5BAD3F2BBF"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:zombie"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "412BCCD73E9962AB"
+			rewards: [
+				{
+					id: "67C3700F762A65AD"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "52C3F176DE274CC5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "7FC43EDAA5D6B2D5"
+				type: "kill"
+				value: 25L
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["412BCCD73E9962AB"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:zombie"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "77D18B68448AED68"
+			rewards: [{
+				id: "48D37D7A582F6A5A"
+				item: {
+					count: 1
+					id: "minecraft:zombie_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "6E5F70DD0478D3C6"
+				type: "kill"
+				value: 50L
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77D18B68448AED68"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:zombie"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "22208967CE84AE73"
+			rewards: [{
+				count: 4
+				id: "7BCB4058AA3FBAF3"
+				item: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:zombie"
+					}
+					count: 1
+					id: "hostilenetworks:prediction"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "1F73F1950C530251"
+				type: "kill"
+				value: 100L
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:spider"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "60BD72E27B0D11B0"
+			rewards: [{
+				count: 5
+				id: "26A0560ECB997C82"
+				item: {
+					count: 1
+					id: "minecraft:string"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "542DB9BCE726BD3D"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60BD72E27B0D11B0"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:spider"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "15DBE7EB07727253"
+			rewards: [
+				{
+					count: 10
+					id: "71B4509CBD62B30D"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "799D08AAD824025A"
+					item: {
+						count: 1
+						id: "minecraft:spider_eye"
+					}
+					type: "item"
+				}
+				{
+					id: "4D3D0E214F26AE0E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "73DDB614949B48CD"
+				type: "kill"
+				value: 25L
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F44B9044BB80ADF"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:spider"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "0CD8F320D78C1E19"
+			rewards: [
+				{
+					count: 5
+					id: "05D64C1527BD4828"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:spider"
+						}
+						count: 1
+						id: "hostilenetworks:prediction"
+					}
+					type: "item"
+				}
+				{
+					id: "2F6AFCB239CFE0ED"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "4FE17FEC2905C4D0"
+				type: "kill"
+				value: 100L
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["15DBE7EB07727253"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:spider"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "6F44B9044BB80ADF"
+			rewards: [{
+				id: "1692179B900AE470"
+				item: {
+					count: 1
+					id: "eternal_starlight:nightfall_spider_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "244C291B00460A94"
+				type: "kill"
+				value: 50L
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:skeleton"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "13755511288E93CA"
+			rewards: [{
+				count: 5
+				id: "1973A3FF598D6DFE"
+				item: {
+					count: 1
+					id: "minecraft:bone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "00896D6E06D32FD4"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13755511288E93CA"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:skeleton"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "4F81A70D4AE12905"
+			rewards: [
+				{
+					count: 10
+					id: "4E441B9F8C720F59"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+				{
+					id: "108FDE2B8F163747"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "38EEBA903C6EFD03"
+				type: "kill"
+				value: 25L
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F81A70D4AE12905"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:skeleton"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "50A747A9A9EAA6F0"
+			rewards: [{
+				id: "17D703E9E229EB55"
+				item: {
+					count: 1
+					id: "minecraft:skeleton_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "63892BFD4F4F6959"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50A747A9A9EAA6F0"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:skeleton"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "683108BE75C12ADF"
+			rewards: [
+				{
+					id: "35F5AB7FB570CF98"
+					item: {
+						count: 1
+						id: "handcrafted:skeleton_trophy"
+					}
+					type: "item"
+				}
+				{
+					id: "6A179F9F1B251946"
+					item: {
+						count: 1
+						id: "minecraft:skeleton_skull"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "6D8AE027FAEF5C9F"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			id: "77A19299031201E0"
+			invisible: true
+			rewards: [
+				{
+					id: "11BB8B8A4E6FE2EC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4BA9CD2FD35AFB25"
+					item: {
+						count: 1
+						id: "minecraft:golden_axe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:player"
+				id: "41EC68AA7AFEBA37"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["77A19299031201E0"]
+			id: "471EE4DDC89B58D7"
+			rewards: [
+				{
+					id: "6E5E88B6530C3E75"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2ED8FF1FFD8546B4"
+					item: {
+						count: 1
+						id: "minecraft:diamond_axe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:player"
+				id: "6E59EBC307226BFD"
+				type: "kill"
+				value: 5L
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["471EE4DDC89B58D7"]
+			id: "5E4AABA47E33EC79"
+			rewards: [
+				{
+					id: "2F834459D6F51108"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "133C0C87A0FEEB71"
+					item: {
+						count: 1
+						id: "eternal_starlight:thermal_springstone_axe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:player"
+				id: "7D98EF1A70AD8978"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5E4AABA47E33EC79"]
+			id: "376F6CE615B00E18"
+			rewards: [
+				{
+					id: "2F9E3053941ABDEA"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "6A11F3215179998E"
+					item: {
+						components: {
+							"minecraft:tool": {
+								rules: [
+									{
+										blocks: "#silentgear:incorrect_for_azure_electrum_tools"
+										correct_for_drops: 0b
+									}
+									{
+										blocks: "#minecraft:mineable/axe"
+										correct_for_drops: 1b
+										speed: 29.0f
+									}
+								]
+							}
+							"silentgear:construction": {
+								broken_count: 0
+								example: 0b
+								parts: [
+									{
+										item: {
+											components: {
+												"silentgear:material_list": [{
+													item: {
+														count: 1
+														id: "silentgear:azure_electrum_ingot"
+													}
+													material: "silentgear:azure_electrum"
+												}]
+											}
+											count: 1
+											id: "silentgear:axe_head"
+										}
+										part: "silentgear:axe_head"
+									}
+									{
+										item: {
+											components: {
+												"silentgear:material_list": [{
+													item: {
+														count: 1
+														id: "minecraft:oak_planks"
+													}
+													material: "silentgear:wood"
+												}]
+											}
+											count: 1
+											id: "silentgear:rod"
+										}
+										part: "silentgear:rod"
+									}
+								]
+								repairedCount: 0
+							}
+							"silentgear:model_index": 3
+							"silentgear:model_key": "axe:axe_head{azure_electrum},rod{wood},"
+							"silentgear:properties": {
+								"silentgear:armor": 19.0f
+								"silentgear:armor_durability": 61.0f
+								"silentgear:armor_toughness": 8.0f
+								"silentgear:attack_damage": 12.000001f
+								"silentgear:attack_reach": 6.0f
+								"silentgear:attack_speed": 1.0f
+								"silentgear:block_reach": 0.0f
+								"silentgear:charging_value": 1.5f
+								"silentgear:draw_speed": 0.0f
+								"silentgear:durability": 1259.0f
+								"silentgear:enchantment_value": 37.0f
+								"silentgear:harvest_speed": 29.0f
+								"silentgear:harvest_tier": {
+									incorrect_blocks_for_tool: "silentgear:incorrect_for_azure_electrum_tools"
+									level_hint: "4"
+									name: "azure_electrum"
+								}
+								"silentgear:knockback_resistance": 0.0f
+								"silentgear:magic_armor": 19.0f
+								"silentgear:magic_damage": 11.0f
+								"silentgear:projectile_accuracy": 1.5f
+								"silentgear:projectile_speed": 2.0f
+								"silentgear:ranged_damage": 3.0f
+								"silentgear:rarity": 109.0f
+								"silentgear:repair_efficiency": 1.0f
+								"silentgear:repair_value": 0.5f
+								"silentgear:traits": [
+									{
+										conditions: [ ]
+										level: 3
+										trait: "silentgear:malleable"
+									}
+									{
+										conditions: [{
+											gear_type: "silentgear:tool"
+											type: "silentgear:gear_type"
+										}]
+										level: 3
+										trait: "silentgear:accelerate"
+									}
+									{
+										conditions: [ ]
+										level: 2
+										trait: "silentgear:flexible"
+									}
+								]
+							}
+						}
+						count: 1
+						id: "silentgear:axe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:player"
+				id: "2AC73D0692B8FFEF"
+				type: "kill"
+				value: 25L
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["376F6CE615B00E18"]
+			id: "7ADF4625F71CC784"
+			rewards: [
+				{
+					id: "4F2D5386070FC982"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3C328B18B1B8F37F"
+					item: {
+						count: 1
+						id: "justdirethings:eclipsealloy_axe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:player"
+				id: "1A6BD5482E7756F0"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7ADF4625F71CC784"]
+			id: "38F64B063D684445"
+			rewards: [{
+				id: "0F8F696D0D40B779"
+				item: {
+					count: 1
+					id: "mysticalagriculture:awakened_supremium_axe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:player"
+				id: "0BC34697BFD5A280"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["38F64B063D684445"]
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "41932BEF44FB9081"
+			invisible: true
+			rewards: [
+				{
+					id: "7C17CCC80115FD54"
+					item: {
+						count: 1
+						id: "mekanismtools:refined_obsidian_shield"
+					}
+					type: "item"
+				}
+				{
+					id: "4A2457C3BD3D727B"
+					item: {
+						count: 1
+						id: "justdirethings:eclipsealloy_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "0BEBEE3C593B74B1"
+					item: {
+						count: 1
+						id: "justdirethings:eclipsealloy_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "1DE056BBE305DB4E"
+					item: {
+						count: 1
+						id: "justdirethings:eclipsealloy_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "514F178A3FA819F5"
+					item: {
+						count: 1
+						id: "justdirethings:eclipsealloy_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "404AD87FC1C88C76"
+					item: {
+						count: 1
+						id: "justdirethings:eclipsealloy_sword"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:player"
+				id: "0DEE4119D8C2C1D2"
+				type: "kill"
+				value: 250L
+			}]
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["26219986C7437C92"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:wither"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "481D8B01D4F0CF23"
+			rewards: [
+				{
+					id: "72BCF116DD812A51"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1727BE03264744E7"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "18458DE39B5A45FE"
+				type: "kill"
+				value: 5L
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["481D8B01D4F0CF23"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:wither"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "51461B4668BBBF86"
+			rewards: [
+				{
+					count: 5
+					id: "252EEFA12A28D24C"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:wither"
+						}
+						count: 1
+						id: "hostilenetworks:prediction"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "56BF270F84AA44CA"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:wither_skeleton"
+						}
+						count: 1
+						id: "hostilenetworks:prediction"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "489022E43C7314D2"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["51461B4668BBBF86"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:wither"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "1EB9578821A85D67"
+			rewards: [
+				{
+					id: "6983C741FCB7B011"
+					item: {
+						count: 1
+						id: "reliquary:witherless_rose"
+					}
+					type: "item"
+				}
+				{
+					id: "2B0E5A1BFCFB2D20"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "5A1B055415001C3A"
+				type: "kill"
+				value: 25L
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1EB9578821A85D67"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:wither"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "2C0D0D8A49A45002"
+			rewards: [
+				{
+					count: 10
+					id: "7B40E315FB80F58F"
+					item: {
+						count: 1
+						id: "minecraft:wither_rose"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2B9B15304EA4FB05"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:wither"
+						}
+						count: 1
+						id: "hostilenetworks:prediction"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "4A48FF3E096E24A7"
+				type: "kill"
+				value: 50L
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2C0D0D8A49A45002"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:wither"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "3B6E4C32DE0F14C0"
+			rewards: [
+				{
+					count: 2
+					id: "356E04EED76A7910"
+					item: {
+						components: {
+							"relics:data": {
+								abilities: {
+									abilities: {
+										passive: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: { }
+										}
+										withered: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												chance: {
+													initialValue: 0.34987d
+												}
+												time: {
+													initialValue: 2.04866d
+												}
+											}
+										}
+									}
+								}
+								leveling: {
+									experience: 0
+									level: 0
+									luck: 0
+									points: 0
+								}
+							}
+						}
+						count: 1
+						id: "artifacts:withered_bracelet"
+					}
+					type: "item"
+				}
+				{
+					count: 100
+					id: "3A640E3C4211C837"
+					item: {
+						count: 1
+						id: "mysticalagriculture:witherproof_glass"
+					}
+					type: "item"
+				}
+				{
+					id: "587E947A326BDB55"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "6F52EC2DD01A0415"
+				type: "kill"
+				value: 100L
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["581B8485032C0075"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:wither_skeleton"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "2D8A363A13653E67"
+			rewards: [{
+				count: 5
+				id: "0B57AAE355B47081"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "6051646500DEEE1A"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D8A363A13653E67"]
+			id: "067C1A992E1E4B70"
+			rewards: [{
+				id: "5F42D906278A94EB"
+				item: {
+					count: 1
+					id: "minecraft:wither_skeleton_skull"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:wither_skeleton"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "6B8F098B28821969"
+				type: "kill"
+				value: 25L
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["067C1A992E1E4B70"]
+			id: "27E0DA1E6AB3B2EB"
+			rewards: [{
+				count: 3
+				id: "44070AC13FF9E132"
+				item: {
+					count: 1
+					id: "minecraft:wither_skeleton_skull"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:wither_skeleton"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "4C7BEE1705D96988"
+				type: "kill"
+				value: 50L
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27E0DA1E6AB3B2EB"]
+			id: "336F4F6A48C1EDEF"
+			rewards: [
+				{
+					count: 12
+					id: "7207B8301C34A5A2"
+					item: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2CF232EF0D14AD9A"
+					item: {
+						count: 1
+						id: "minecraft:wither_rose"
+					}
+					type: "item"
+				}
+				{
+					id: "3360604BE978B7A3"
+					item: {
+						count: 1
+						id: "handcrafted:wither_skeleton_trophy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:wither_skeleton"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "5C58E20EC9C47362"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4B6DCA5B48BBF837"]
+			id: "50B2390399ADFECD"
+			rewards: [
+				{
+					id: "7D2D33F6EBB9DFD7"
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "2D140065B5C14285"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:warden"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "1107532DF92841A5"
+				type: "kill"
+				value: 5L
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["50B2390399ADFECD"]
+			id: "5D2FBF5893ABD84A"
+			rewards: [{
+				id: "5052E225B96FDF94"
+				item: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:warden"
+					}
+					count: 1
+					id: "hostilenetworks:prediction"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:warden"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "068E915099E958FA"
+				type: "kill"
+				value: 10L
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5D2FBF5893ABD84A"]
+			id: "5E9C3CCFE1091584"
+			rewards: [{
+				count: 2
+				id: "1C6D36080EF5F534"
+				item: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:warden"
+					}
+					count: 1
+					id: "hostilenetworks:prediction"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:warden"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "1CE2B8445E87B1A4"
+				type: "kill"
+				value: 25L
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5E9C3CCFE1091584"]
+			id: "4141369B76DF691C"
+			rewards: [{
+				count: 5
+				id: "25D602237C46D0DF"
+				item: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:warden"
+					}
+					count: 1
+					id: "hostilenetworks:prediction"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:warden"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "668534EAD2E0C09C"
+				type: "kill"
+				value: 50L
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4141369B76DF691C"]
+			id: "6C269D40C8A23195"
+			rewards: [
+				{
+					id: "7F5DC67D5B730BE9"
+					item: {
+						count: 1
+						id: "deeperdarker:warden_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+				{
+					id: "46E0A42D7F0035D2"
+					item: {
+						count: 1
+						id: "minecraft:warden_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "5213FA9A485B2B0A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:warden"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "3FDF998EAD3E1A80"
+				type: "kill"
+				value: 100L
+			}]
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["581B8485032C0075"]
+			id: "6C56373B05B0D3D8"
+			rewards: [{
+				id: "6CB06A9D8DC3B544"
+				item: {
+					count: 1
+					id: "minecraft:ghast_tear"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ghast"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:ghast"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "48D0A2E156C9B24F"
+				type: "kill"
+				value: 10L
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C56373B05B0D3D8"]
+			id: "3F4CC7701E74B66E"
+			rewards: [{
+				id: "41CDA2263C11A216"
+				item: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:ghast"
+					}
+					count: 1
+					id: "hostilenetworks:prediction"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ghast"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:ghast"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "6DEF5EC5D777C785"
+				type: "kill"
+				value: 25L
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3F4CC7701E74B66E"]
+			id: "1D8893BBD8F522A8"
+			rewards: [{
+				count: 3
+				id: "69A1816ACAB5B391"
+				item: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:ghast"
+					}
+					count: 1
+					id: "hostilenetworks:prediction"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ghast"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:ghast"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "3E8C53EA963A04C4"
+				type: "kill"
+				value: 50L
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D8893BBD8F522A8"]
+			id: "32092F66D567AE8F"
+			rewards: [
+				{
+					count: 6
+					id: "4B1D842F79C0A661"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:ghast"
+						}
+						count: 1
+						id: "hostilenetworks:prediction"
+					}
+					type: "item"
+				}
+				{
+					id: "25334417B8A65E77"
+					item: {
+						count: 1
+						id: "minecraft:ghast_spawn_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:ghast"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "11E3DDD28325FDC6"
+				type: "kill"
+				value: 100L
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4267B10D9D51F4A8"]
+			id: "4A25C7CEB694DDFE"
+			rewards: [
+				{
+					id: "727877C4BF957B27"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:ender_dragon"
+						}
+						count: 1
+						id: "hostilenetworks:prediction"
+					}
+					type: "item"
+				}
+				{
+					id: "38E034A26E5E722F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:ender_dragon"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "012441A01BFBCF2D"
+				type: "kill"
+				value: 5L
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A25C7CEB694DDFE"]
+			id: "5FA06A5B300C5145"
+			rewards: [
+				{
+					id: "1A06687D1F5FE962"
+					item: {
+						count: 1
+						id: "functionalstorage:ender_drawer"
+					}
+					type: "item"
+				}
+				{
+					id: "14764E89165CE47A"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:ender_dragon"
+						}
+						count: 1
+						id: "hostilenetworks:prediction"
+					}
+					type: "item"
+				}
+				{
+					id: "528FEB40ABEF9AD2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:ender_dragon"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "10B171E4787A347E"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FA06A5B300C5145"]
+			id: "667742460F9B81CB"
+			rewards: [
+				{
+					count: 3
+					id: "43C3120B70C4B5A6"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:ender_dragon"
+						}
+						count: 1
+						id: "hostilenetworks:prediction"
+					}
+					type: "item"
+				}
+				{
+					id: "01222CC47B5CB53C"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:dragon_muffler"
+					}
+					type: "item"
+				}
+				{
+					id: "1DC1443802069158"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:ender_dragon"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "6D5FF7804898FF75"
+				type: "kill"
+				value: 25L
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["667742460F9B81CB"]
+			id: "7A61BFEFACC754B5"
+			rewards: [
+				{
+					count: 5
+					id: "362E08E3689D337A"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:ender_dragon"
+						}
+						count: 1
+						id: "hostilenetworks:prediction"
+					}
+					type: "item"
+				}
+				{
+					id: "6FA715517C24EE69"
+					item: {
+						count: 1
+						id: "apothic_enchanting:occult_ender_lead"
+					}
+					type: "item"
+				}
+				{
+					id: "460F36680FA4D74D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:ender_dragon"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "03714CEFCC818A01"
+				type: "kill"
+				value: 50L
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7A61BFEFACC754B5"]
+			id: "15910DA1738C51A2"
+			rewards: [
+				{
+					count: 10
+					id: "36489F508DC7118E"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:ender_dragon"
+						}
+						count: 1
+						id: "hostilenetworks:prediction"
+					}
+					type: "item"
+				}
+				{
+					id: "004F4662E8C7F36E"
+					item: {
+						count: 1
+						id: "mysticalagriculture:dragon_egg_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "1D362067FE2E1569"
+					item: {
+						count: 1
+						id: "mysticalagradditions:dragon_egg_crux"
+					}
+					type: "item"
+				}
+				{
+					id: "492AE38EF1DCC3D5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:ender_dragon"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "24B58A87D3695092"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["60445635EE28E7D8"]
+			id: "73700ED9703B673B"
+			rewards: [{
+				id: "1E2D6CB7F0844483"
+				item: {
+					count: 1
+					id: "lava:ombrum_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "lava:assassin"
+				id: "4B5710AF52E0C6D6"
+				type: "kill"
+				value: 5L
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["73700ED9703B673B"]
+			id: "74246D9D80B742E9"
+			rewards: [{
+				count: 2
+				id: "4573E6B8004410CF"
+				item: {
+					count: 1
+					id: "lava:ombrum_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "lava:assassin"
+				id: "0C28C27604B0C5F1"
+				type: "kill"
+				value: 10L
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74246D9D80B742E9"]
+			id: "5C5249851C4851B6"
+			rewards: [{
+				id: "65CE3E1A4E4AB7C0"
+				item: {
+					count: 1
+					id: "lava:ombrum_hammer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "lava:assassin"
+				id: "38D3B8D92BFF1DD0"
+				type: "kill"
+				value: 25L
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5C5249851C4851B6"]
+			id: "61210BE1644D6F5D"
+			rewards: [{
+				id: "795337A2BB0E7E6F"
+				item: {
+					count: 1
+					id: "lava:ombrum_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "lava:assassin"
+				id: "3FEEE134AAAAA6DE"
+				type: "kill"
+				value: 50L
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["61210BE1644D6F5D"]
+			id: "1F3EB4C2759D9F5E"
+			rewards: [
+				{
+					id: "5929CE7346925D9A"
+					item: {
+						count: 1
+						id: "lava:ombrum_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "69F2E05DA52587D7"
+					item: {
+						count: 1
+						id: "lava:ombrum_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "789818405D92BC4F"
+					item: {
+						count: 1
+						id: "lava:ombrum_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "4C402A2AAC133E6D"
+					item: {
+						count: 1
+						id: "lava:ombrum_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "lava:assassin"
+				id: "24DAF57A10036DB6"
+				type: "kill"
+				value: 100L
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["040E9FD8EB50D2AC"]
+			id: "255715D0844AD587"
+			rewards: [{
+				id: "57C77BD4AD07CDB4"
+				item: {
+					count: 1
+					id: "lava:azura_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "lava:azura_guardian"
+				id: "60AEADCFE61419CD"
+				type: "kill"
+				value: 5L
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["255715D0844AD587"]
+			id: "624C349773D1FC01"
+			rewards: [{
+				count: 3
+				id: "1E96867514226934"
+				item: {
+					count: 1
+					id: "lava:azura_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "lava:azura_guardian"
+				id: "2CF9501B13EC4781"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["624C349773D1FC01"]
+			id: "45AD40C4988D4F14"
+			rewards: [{
+				count: 2
+				id: "4FBC8CCFBEB3D157"
+				item: {
+					count: 1
+					id: "lava:azura_emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "lava:azura_guardian"
+				id: "1D033EB05464B827"
+				type: "kill"
+				value: 25L
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["45AD40C4988D4F14"]
+			id: "147C250AFFE056DC"
+			rewards: [
+				{
+					id: "2E49DFC855F60057"
+					item: {
+						count: 1
+						id: "lava:azura_plate"
+					}
+					type: "item"
+				}
+				{
+					id: "03BD42273C89245E"
+					item: {
+						count: 1
+						id: "lava:azura_tip"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "lava:azura_guardian"
+				id: "4733F22645475B4B"
+				type: "kill"
+				value: 50L
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["147C250AFFE056DC"]
+			id: "4658714F54338AD1"
+			rewards: [{
+				count: 5
+				id: "4EF7734E7B6EC882"
+				item: {
+					count: 1
+					id: "lava:lucky_block_5"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "lava:azura_guardian"
+				id: "54A6519E220DD6D3"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			id: "5C34F22ED270691F"
+			rewards: [{
+				id: "5166BE83EC4E625B"
+				item: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:enderman"
+					}
+					count: 1
+					id: "hostilenetworks:prediction"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:enderman"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "55D72B8C6FC1E237"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C34F22ED270691F"]
+			id: "22CBBA4CE96B0367"
+			rewards: [{
+				count: 2
+				id: "0129392BF3D5F5F0"
+				item: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:enderman"
+					}
+					count: 1
+					id: "hostilenetworks:prediction"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:enderman"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "51A3324B03A31B25"
+				type: "kill"
+				value: 25L
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22CBBA4CE96B0367"]
+			id: "5CABF44B1BD90011"
+			rewards: [{
+				count: 5
+				id: "4115A882452B23E9"
+				item: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:enderman"
+					}
+					count: 1
+					id: "hostilenetworks:prediction"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:enderman"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "4EDE2EE37CFB284C"
+				type: "kill"
+				value: 50L
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5CABF44B1BD90011"]
+			id: "0E9F7130A424DBBF"
+			rewards: [
+				{
+					id: "20A23AB1CFB37A35"
+					item: {
+						count: 1
+						id: "minecraft:enderman_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "49B1CB8A17695A1C"
+					item: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:enderman"
+						}
+						count: 1
+						id: "hostilenetworks:prediction"
+					}
+					type: "item"
+				}
+				{
+					id: "3E8BECFCE4B0CD05"
+					item: {
+						count: 1
+						id: "enderio:enderman_head"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:enderman"
+					}
+					id: "hostilenetworks:data_model"
+				}
+				id: "29DA979C3F9F98EC"
+				type: "kill"
+				value: 100L
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+	]
+}

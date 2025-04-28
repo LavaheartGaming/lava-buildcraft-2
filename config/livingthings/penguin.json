@@ -1,0 +1,26 @@
+{
+	"health": 10.0,
+	"movementSpeed": 0.25,
+	"maxSpawnedInChunk": 6,
+	"talkInterval": 180,
+	"spawnBiomes": [
+		{
+			"weight": 12,
+			"minGroupSize": 3,
+			"maxGroupSize": 6,
+			"biomes": [
+				"minecraft:snowy_plains",
+				"minecraft:snowy_slopes",
+				"minecraft:snowy_beach"
+			]
+		},
+		{
+			"weight": 15,
+			"minGroupSize": 3,
+			"maxGroupSize": 6,
+			"biomes": [
+				"minecraft:snowy_taiga"
+			]
+		}
+	]
+}

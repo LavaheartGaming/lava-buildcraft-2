@@ -1,0 +1,9 @@
+<recipetype:extendedcrafting:table>.addShaped("be67eb1b-b409-433e-8b7c-db249d554507", 0, <item:moremekanismprocessing:draconium_ingot>, [
+	[<item:minecraft:dragon_egg>, <item:mekanism:pellet_antimatter>, <item:compressedblocks:c0_netherite_block>, <item:compressedblocks:c0_netherite_block>, <item:compressedblocks:c0_netherite_block>, <item:mekanism:pellet_antimatter>, <item:minecraft:dragon_egg>], 
+	[<item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>, <item:compressedblocks:c0_netherite_block>, <item:compressedblocks:c0_netherite_block>, <item:compressedblocks:c0_netherite_block>, <item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>], 
+	[<item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>, <item:minecraft:dragon_egg>, <item:minecraft:dragon_egg>, <item:minecraft:dragon_egg>, <item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>], 
+	[<item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>, <item:minecraft:dragon_egg>, <item:mysticalagradditions:insanium_ingot>, <item:minecraft:dragon_egg>, <item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>], 
+	[<item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>, <item:minecraft:dragon_egg>, <item:minecraft:dragon_egg>, <item:minecraft:dragon_egg>, <item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>], 
+	[<item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>, <item:compressedblocks:c0_netherite_block>, <item:compressedblocks:c0_netherite_block>, <item:compressedblocks:c0_netherite_block>, <item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>], 
+	[<item:minecraft:dragon_egg>, <item:mekanism:pellet_antimatter>, <item:compressedblocks:c0_netherite_block>, <item:compressedblocks:c0_netherite_block>, <item:compressedblocks:c0_netherite_block>, <item:mekanism:pellet_antimatter>, <item:minecraft:dragon_egg>]
+]);

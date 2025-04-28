@@ -1,0 +1,14 @@
+#1D9 regions_unexplored:blackwood_taiga
+#694 biomeswevegone:cika_woods
+#4CA minecraft:dripstone_caves
+#6D4 biomesoplenty:field
+#370 biomeswevegone:frosted_coniferous_forest
+#58B biomeswevegone:frosted_taiga
+#01C regions_unexplored:frozen_pine_taiga
+#67B biomesoplenty:grassland
+#5C2 regions_unexplored:icy_heights
+#482 biomesoplenty:overgrown_greens
+#5FF minecraft:river
+#599 biomeswevegone:shattered_glacier
+#4E5 minecraft:snowy_plains
+#536 biomeswevegone:temperate_grove

@@ -1,0 +1,365 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch3_ascention_to_being_a_demigod"
+	group: "097460243B4AA538"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "lava:azura_sword_activated"
+	}
+	id: "35EFF74EC578BA5C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["60445635EE28E7D8"]
+			id: "00053A6101C77763"
+			rewards: [{
+				id: "093576E064B7B538"
+				item: {
+					count: 1
+					id: "lava:lucky_block_4"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BAEEFC418748173"
+				item: { count: 1, id: "lava:lucky_block_4" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00053A6101C77763"]
+			id: "28F00089471ABB39"
+			rewards: [{
+				count: 3
+				id: "3E89676EEB04EB78"
+				item: {
+					count: 1
+					id: "lava:lucky_block_4"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "43A6A9477AE2A3DC"
+				item: { count: 1, id: "lava:ombrum_block" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00053A6101C77763"]
+			id: "634011587E45DD55"
+			tasks: [{
+				id: "0895CC3200DBB7DF"
+				item: { count: 1, id: "lava:ombrum_armor_helmet" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["00053A6101C77763"]
+			id: "25B9FC69797A5A5D"
+			tasks: [{
+				id: "33CE54DA5EBF1216"
+				item: { count: 1, id: "lava:ombrum_armor_chestplate" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["00053A6101C77763"]
+			id: "60FF06273A3CFBC5"
+			tasks: [{
+				id: "0FA92044D1F6DB11"
+				item: { count: 1, id: "lava:ombrum_armor_leggings" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00053A6101C77763"]
+			id: "2F4834B1A3DA035F"
+			tasks: [{
+				id: "4E641BCAD8D72BB5"
+				item: { count: 1, id: "lava:ombrum_armor_boots" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00053A6101C77763"]
+			id: "26CCA2676D7EADF3"
+			tasks: [{
+				id: "562FAF8A281AC2C7"
+				item: { count: 1, id: "lava:ombrum_axe" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["00053A6101C77763"]
+			id: "38872F339102AF5C"
+			tasks: [{
+				id: "3C7F6DA42E429FAC"
+				item: { count: 1, id: "lava:ombrum_hammer" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["28F00089471ABB39"]
+			id: "040E9FD8EB50D2AC"
+			rewards: [{
+				id: "6914FB23832170A2"
+				item: {
+					count: 1
+					id: "lava:azura_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "lava:azura_guardian"
+				id: "236A1FF7709F97A1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["040E9FD8EB50D2AC"]
+			id: "559D8B3B5E21AC29"
+			rewards: [{
+				id: "2B6EEB844F6E7B6B"
+				item: {
+					count: 1
+					id: "lava:lucky_block_5"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62DC37165C4BAA82"
+				item: { count: 1, id: "lava:lucky_block_5" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["040E9FD8EB50D2AC"]
+			id: "277396DAD264D8E8"
+			tasks: [{
+				id: "1F85589CB0A7DE4F"
+				item: { count: 1, id: "lava:azura_emerald" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["040E9FD8EB50D2AC"]
+			id: "0E27A777DA6BE3F9"
+			tasks: [{
+				id: "2FD81F4545715ADA"
+				item: { count: 1, id: "lava:azura_plate" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["040E9FD8EB50D2AC"]
+			id: "63853EB7717FAA96"
+			tasks: [{
+				id: "4588FC55F272E577"
+				item: { count: 1, id: "lava:azura_tip" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["559D8B3B5E21AC29"]
+			id: "61D36C5B6D4242C2"
+			rewards: [{
+				id: "2DCB1E436D844E0C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "0FA022EAB6D0DF11"
+				item: { count: 1, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["559D8B3B5E21AC29"]
+			id: "0AE306BD513EE63A"
+			rewards: [{
+				id: "5E4870A6AB587DF5"
+				item: {
+					count: 1
+					id: "lava:lucky_block_5"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D525D9CD317DD36"
+				item: { count: 1, id: "lava:godly" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["559D8B3B5E21AC29"]
+			id: "47FFF03F996F0F1E"
+			rewards: [{
+				id: "3939367D06C52E2A"
+				item: {
+					count: 1
+					id: "lava:azura_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F50426B00914E29"
+				item: { count: 1, id: "lava:azura_card" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["559D8B3B5E21AC29"]
+			id: "71147321C430E675"
+			rewards: [{
+				id: "6E1DF69A5F204A32"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B0CBAADF484A17B"
+				item: { count: 1, id: "lava:emerald_card" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0AE306BD513EE63A"]
+			id: "2EFDFE6506D63AF8"
+			tasks: [{
+				id: "27DEC48EC59C23E4"
+				item: { count: 1, id: "lava:godly_armor_helmet" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0AE306BD513EE63A"]
+			id: "2A9306B75106FD90"
+			tasks: [{
+				id: "607CF25CC9DA1C40"
+				item: { count: 1, id: "lava:godly_armor_chestplate" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0AE306BD513EE63A"]
+			id: "29C9A4F8CE500641"
+			tasks: [{
+				id: "0EBA2FE9278A488B"
+				item: { count: 1, id: "lava:godly_armor_leggings" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0AE306BD513EE63A"]
+			id: "676D317B493CED2D"
+			tasks: [{
+				id: "04798C7CD6318273"
+				item: { count: 1, id: "lava:godly_armor_boots" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0AE306BD513EE63A"]
+			id: "42C65C2B5B671593"
+			tasks: [{
+				id: "297BEE95107BBE7D"
+				item: { count: 1, id: "lava:godly_axe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["559D8B3B5E21AC29"]
+			id: "40AC97C9735801ED"
+			rewards: [
+				{
+					id: "173F48B6CD6EFF2F"
+					item: {
+						count: 1
+						id: "lava:azura_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "115A0E669811A7C7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "446B0C8948AAAA6D"
+				item: { count: 1, id: "lava:azura_sword_unactivated" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["40AC97C9735801ED"]
+			id: "0B1CF03D13D76C96"
+			rewards: [{
+				id: "4F792DCB79D418DC"
+				item: {
+					count: 1
+					id: "lava:azura_tip"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D23A3FFFE06BE81"
+				item: { count: 1, id: "lava:azura_sword_activated" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.5d
+		}
+	]
+}

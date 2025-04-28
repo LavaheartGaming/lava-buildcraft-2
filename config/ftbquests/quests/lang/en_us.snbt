@@ -1,0 +1,161 @@
+{
+	chapter.0D5981902D94EE01.title: "Ch1 [magic]: the gathering"
+	chapter.23896B2F5FBC8AC9.title: "CH3 [farming] master farmer"
+	chapter.282DE262DEFC6C99.title: "the final stretch"
+	chapter.2CC6D406CD3A2936.title: "Ch2: delving into lava's mod"
+	chapter.35EFF74EC578BA5C.title: "Ch3: ascention to demigod"
+	chapter.39A582E0A7E5BE6A.title: "combat"
+	chapter.39E8D74C364AC153.title: "Ch2 [technology] advanced proccessing"
+	chapter.50D9953ADABF1EC0.title: "Ch3 [technology]: engineer"
+	chapter.6642BFB1D995C300.title: "Ch1 [farming]: reap and sow"
+	chapter.6C23DE799D9E524C.title: "Ch2 [magic]: advanced magic"
+	chapter.6EF9CB87D0BEB449.title: "Ch1: getting started"
+	chapter.7608C1EC275A68BB.title: "Ch1 [technology]: power generation and basic storage"
+	chapter.78E1183FCAE4D375.title: "CH2 [farming]: backbone of society"
+	chapter_group.0018F6994B00DCA1.title: "tome 4: birth of a god"
+	chapter_group.0168F7E7756B10A6.title: "tome 2: into the thick of it all"
+	chapter_group.097460243B4AA538.title: "tome 3: a path for immortality"
+	chapter_group.482DD8A241D1335B.title: "tome 1 early game"
+	quest.00053A6101C77763.quest_desc: ["ah yes the epic lucky block, you can get a lot of cool stuff in here "]
+	quest.0123F4D53688B832.title: "back to the drawer wall"
+	quest.02B066656B216B81.quest_subtitle: "you spent all this time making the rainbow furnace ? ok blow it up !"
+	quest.039D14B8DDB0E877.title: "steel jetpack"
+	quest.06008EFBE331EA27.title: "inscribing"
+	quest.07382FF335EADCD9.quest_subtitle: "the best available ingot before delving into lava's mod"
+	quest.07382FF335EADCD9.title: "tip top"
+	quest.0F2A08FE241428E5.quest_subtitle: "unlocks part of the magic chapiter"
+	quest.139117037B61EC52.quest_subtitle: "enjoy immortality"
+	quest.139117037B61EC52.title: "the true end"
+	quest.14091FB5A5889481.quest_subtitle: "best budding cerus quartz you can make"
+	quest.14D2D18358550A58.quest_desc: ["ah yes the uncommon lucky block, you will open that one a lot, especially since you need it to upgrade into a rare to get your first corruptite"]
+	quest.1672EA87449E3B54.quest_desc: ["Having spice of life installed you should try to vary your diet to gain max health"]
+	quest.1672EA87449E3B54.quest_subtitle: "maybe you should consider varying your food sources"
+	quest.17A9B8A3CA1E7121.quest_desc: ["the 5th best metal "]
+	quest.1887D6983424EDFA.quest_subtitle: "unlocks half of chapiter 2"
+	quest.1887D6983424EDFA.title: "pam's tools"
+	quest.1C39D748DA5D0FD2.quest_subtitle: "unlocks the farming chpiter 1"
+	quest.1C39D748DA5D0FD2.title: "Let it grow"
+	quest.1C91075A042213D5.quest_desc: ["1 more upgrade left"]
+	quest.1C91075A042213D5.quest_subtitle: "the second step towards infinity"
+	quest.1CC7C667DAC874A2.quest_desc: ["craft a crafting table"]
+	quest.1CC7C667DAC874A2.quest_subtitle: "gotta start somewhere right ?"
+	quest.1CC7C667DAC874A2.title: "ol reliable"
+	quest.24544553C3D36455.quest_desc: ["you did it ! you got the most powerful weapon in the game"]
+	quest.2556D4531B48F97A.title: "charged up"
+	quest.28F00089471ABB39.quest_desc: [
+		"this block can be used to spawn the azura guardian, but i am afraid you will need rainbowstone  for the summoning,"
+		""
+		"the summoning is as folows: rainbowstone, ombrum block, dragon head"
+		""
+		"this boss is extremely hard, make sure that you have great enchants and a powerful ranged weapon/spell"
+	]
+	quest.2E94860409C2CA85.title: "crafting storage"
+	quest.2F295D7A77652DF8.title: "creative jetpack"
+	quest.30DC0445C1EDEE5F.quest_subtitle: "use these for extra damage and range. Nifty !"
+	quest.30DC0445C1EDEE5F.title: "jewelry !"
+	quest.3404EF6A71654028.title: "heating things up"
+	quest.3477FE574CFCC1FC.title: "the start of a journey"
+	quest.351774128AE3D978.quest_subtitle: "getting ready for the nether"
+	quest.351774128AE3D978.title: "black glass"
+	quest.35370CA63E6B4122.title: "a place to rest"
+	quest.38FAEA661927A87D.title: "gourmet meat"
+	quest.3E4775431326B343.title: "emerald jetpack"
+	quest.3FB5B3CA2AAC6629.quest_subtitle: "use a hammer to dig in a 3x3 formation"
+	quest.40AC97C9735801ED.quest_desc: ["the first step towards infinity"]
+	quest.42296AB75088D174.title: "infinite durability"
+	quest.428620D6B221A4BC.quest_subtitle: "impressive ! do it more !"
+	quest.428620D6B221A4BC.title: "charged infinity"
+	quest.442571B042DEA10B.quest_subtitle: "this is the path of the infinity shard"
+	quest.444182758B322E24.title: "fluix formation"
+	quest.463717F0F1AA2C7C.quest_subtitle: "probably should make an armor with that"
+	quest.47487AA4BB6B2355.quest_subtitle: "unlocks half of chapiter 2"
+	quest.47FFF03F996F0F1E.quest_desc: ["use /bank add coins x (x being the number you want to add into your bank account)"]
+	quest.49718CA444AA0057.title: "sorceror attire"
+	quest.4A40A03DC0C39B2C.title: "sophisticated storage"
+	quest.4C9684B540567772.quest_desc: ["crimson iron but much better"]
+	quest.4C9684B540567772.title: "harder, better, faster, stronger"
+	quest.4D33FEFC69D0D421.title: "getting ready"
+	quest.4E91D29BEDCB7793.quest_subtitle: "use this to trade with players"
+	quest.4FE49A810B769C02.title: "basic foods"
+	quest.513DA621A314D377.title: "The metal better than diamond"
+	quest.519275AB03DCED82.title: "stone jetpack"
+	quest.520AD0271CF1ACAA.title: "auto farming"
+	quest.539CFFE2A7F66986.quest_desc: ["this is not an ordinary fish, this is used to tint some blocks from lava's mod into their rainbow variant, very useful to summon the azura guardian."]
+	quest.541147390FE76FD9.quest_subtitle: "on the house"
+	quest.541147390FE76FD9.title: "Digital storage"
+	quest.54C2C14401EB0D93.quest_subtitle: "unlocks the storage chapiter"
+	quest.559D8B3B5E21AC29.quest_desc: [
+		"ah yes my favorite lucky block ! "
+		"you can get godly gems, credit cards and even bedrock from it "
+	]
+	quest.581B8485032C0075.title: "the nether"
+	quest.581D033631383067.quest_desc: [
+		"One of the first things we do in mekanism is the famous melon ethylene energy generator"
+		"this questline will help you set that up "
+	]
+	quest.581D033631383067.quest_subtitle: "you will need an automatic farm for that questline"
+	quest.58251CB697BFD04A.quest_desc: ["recent scientific studies have confirmed the presence of microplastics in human brain tissue. A 2025 study published in Nature Medicine analyzed brain samples from 47 deceased individuals and found that microplastic concentrations in the brain were significantly higher—up to 30 times—than those in the liver or kidneys. The predominant type of plastic identified was polyethylene, commonly used in packaging materials. Notably, individuals diagnosed with dementia had up to ten times more microplastics in their brain tissue compared to those without the condition. Furthermore, the study observed a 50% increase in brain microplastic levels between 2016 and 2024, suggesting a rising trend in accumulation over time. While the exact health implications remain under investigation, researchers are concerned that microplastics may contribute to inflammation, cellular damage, and neurological disorders."]
+	quest.58251CB697BFD04A.quest_subtitle: "don't eat that"
+	quest.5B6D104751112B61.quest_subtitle: "silk touch needed"
+	quest.5C4B5B51A0A3F756.quest_desc: ["the first ingredient for great gear"]
+	quest.60445635EE28E7D8.quest_desc: [
+		"congratulations on defeating the assassin, if the ombrum drops aren't useful to you,"
+		"smelt these items in exchange for ombrum."
+	]
+	quest.62BAFE95F286AD51.title: "you got the power"
+	quest.649B242881A9D6FF.quest_desc: [
+		"you get grains of infinity by igniting bedrock "
+		""
+		"tired of going to bedrock level for them ? do not fret because you will eventually get bedrock"
+	]
+	quest.66E203B99CE6FDA9.quest_desc: ["great ! now that you have your first corruptite you can corrupt some blocks, to make more corruptite, simply corrupt a lapis lasuli ore block "]
+	quest.69C01798C7CAE9BC.title: "platinum jetpack"
+	quest.6D48F595AF078B38.quest_desc: ["sadly there is no &1ba&fgu&4ette &fmod "]
+	quest.6D48F595AF078B38.title: "Bread ! I love bread !"
+	quest.7078EBB0EF250EA9.quest_subtitle: "good luck charging that thing"
+	quest.7078EBB0EF250EA9.title: "infinity shard"
+	quest.7172E64AE0971E39.quest_subtitle: "fuel efficient and easy to make"
+	quest.744E930B4449DA83.quest_subtitle: "put all of those hard meals into the pneumaticraft pressure chamber"
+	quest.744E930B4449DA83.title: "culinary abomination"
+	quest.74C80669F4E3C858.quest_subtitle: "you can multiply your generators by 8 and 64"
+	quest.74EBAFA85F2DFC2B.quest_desc: [
+		"ok this is a very important block as it allows you to summon the assassin, make you you have the best gear possible to fight him"
+		""
+		"since i still don't know how to import images here:"
+		""
+		"to summon the assassin you must place an obsidian, a corruptite block and a wither skeleton skull on top of each other"
+	]
+	quest.75A90E9E34C86689.quest_desc: [
+		"yes you read that right there are lucky blocks in this modpack, this one in particular can give you diamonds, there are no negative outcomes from breaking these blocks "
+		""
+		"&4 every lucky block except legendary has a 1% chance to upgrade itself to the next rarity"
+	]
+	quest.75A90E9E34C86689.quest_subtitle: "feeling lucky ?"
+	quest.778AE2FF6B7D9D75.quest_subtitle: "needed to connect your AE network"
+	quest.77A19299031201E0.title: "gasp"
+	quest.7AAB323A6A2E8772.quest_subtitle: "don't you hate it when you run out of those right before the portal ? No ? just me ? ok"
+	quest.7ADF4625F71CC784.title: "warlord"
+	quest.7B70965BC3FF1E05.quest_subtitle: "the best solution for starter renewable energy"
+	quest.7E2CF32952892962.quest_subtitle: "autofeed ? Yes please !"
+	quest.7F6F5A3BD97C6EE1.title: "creative essence"
+	task.0684A2FA559AE847.title: "Any #minecraft:logs"
+	task.0BC34697BFD5A280.title: "decimator"
+	task.146B71DEB43361A2.title: "Any #c:strings"
+	task.154DB9D966E9F647.title: "skill tree ?"
+	task.1689842B00872432.title: "Any #storagedrawers:drawers"
+	task.1BC63BCFD896F0E1.title: "Any #c:player_workstations/crafting_tables"
+	task.217D81E7704C7CB0.title: "the end-game"
+	task.296DAB73B21C260F.title: "Any #c:seeds"
+	task.2AC73D0692B8FFEF.title: "warmonger"
+	task.2D3CC850FD64585F.title: "Any #minecraft:hoes"
+	task.3EBB0F4CE5BD7CC7.title: "multiply generators"
+	task.4B34E2C3DD8F22F8.title: "food variety"
+	task.5489CA47183814DF.title: "ascend to godhood"
+	task.67184E576232D011.title: "Any #c:ingots/platinum"
+	task.68ECE75E16C8335A.title: "be human again"
+	task.6AE965C11EADC11F.title: "Any #c:juices"
+	task.6E59EBC307226BFD.title: "pentakill"
+	task.70963682D2165A80.title: "Any #c:icecream"
+	task.762542DCE5EB77E5.title: "Any #c:ingots/osmium"
+	task.7D98EF1A70AD8978.title: "not very friendly"
+}

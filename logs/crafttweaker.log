@@ -1,0 +1,71 @@
+[01:06:41.626][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.21.1 production client modded with platform NeoForge
+[01:06:41.709][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[01:06:41.797][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:neoforge
+[01:06:41.805][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:common
+[01:06:41.904][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:compatibility
+[01:06:41.912][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin mekanism:crt_plugin
+[01:06:45.955][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support, provided through the CraftTweaker compatibility plugin:
+[01:06:45.958][INFO][CraftTweaker]: - 'aquaculture' version '2.7.14'
+[01:06:45.958][INFO][CraftTweaker]: - 'crafttweaker' version '21.0.27', supporting mods vanilla
+[01:06:45.958][INFO][CraftTweaker]: - 'extendedcrafting' version '7.0.4'
+[01:06:45.958][INFO][CraftTweaker]: - 'mekanism' version '10.7.13'
+[01:06:45.958][INFO][CraftTweaker]: - 'mysticalagriculture' version '8.0.14'
+[01:06:45.958][INFO][CraftTweaker]: - 'pneumaticcraft' version '8.2.12'
+[01:06:54.847][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'mekanismcontent'
+[01:06:55.161][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[01:06:55.842][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, vanilla/api/network/NetworkContext, vanilla/api/network/NetworkReceiver, crafttweaker, expansions]
+[01:06:55.998][INFO][CraftTweaker-ZenCode]: Execution for loader 'mekanismcontent' completed successfully
+[01:06:55.998][INFO][Mekanism]: Registering 0 custom chemicals.
+[01:06:59.982][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[01:07:00.005][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[01:07:00.006][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[01:07:00.014][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[01:08:21.148][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[01:08:21.166][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[01:08:21.169][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[01:08:21.176][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[01:08:25.392][INFO][CraftTweaker]: CraftTweaker reload starting!
+[01:08:25.412][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[01:08:25.426][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[01:08:25.501][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, vanilla/api/network/NetworkContext, vanilla/api/network/NetworkReceiver, crafttweaker, expansions]
+[01:08:25.502][INFO][CraftTweaker-ZenCode]: Loading file 'CreativeME.zs' with priority 0
+[01:08:25.505][INFO][CraftTweaker-ZenCode]: Loading file 'cosmic_sword.zs' with priority 0
+[01:08:25.505][INFO][CraftTweaker-ZenCode]: Loading file 'creative_essence.zs' with priority 0
+[01:08:25.505][INFO][CraftTweaker-ZenCode]: Loading file 'creative_wand.zs' with priority 0
+[01:08:25.505][INFO][CraftTweaker-ZenCode]: Loading file 'diamond_wand.zs' with priority 0
+[01:08:25.505][INFO][CraftTweaker-ZenCode]: Loading file 'draconium_ingot.zs' with priority 0
+[01:08:25.506][INFO][CraftTweaker-ZenCode]: Loading file 'infinity_shard.zs' with priority 0
+[01:08:25.506][INFO][CraftTweaker-ZenCode]: Loading file 'iron_wand.zs' with priority 0
+[01:08:25.506][INFO][CraftTweaker-ZenCode]: Loading file 'netherite_wand.zs' with priority 0
+[01:08:25.506][INFO][CraftTweaker-ZenCode]: Loading file 'stone_wand.zs' with priority 0
+[01:08:25.506][INFO][CraftTweaker-ZenCode]: Loading file 'ultimate_ingot.zs' with priority 0
+[01:08:25.556][INFO][CraftTweaker]: Adding 'extendedcrafting:table' recipe, with name: 'crafttweaker:8c830ca1-1c18-433a-a02f-31fc91495382' that outputs: '<item:ae2:creative_storage_cell>'
+[01:08:25.557][INFO][CraftTweaker]: Adding 'extendedcrafting:table' recipe, with name: 'crafttweaker:f09df7f7-6e73-42fb-8265-b1d4610d6b36' that outputs: '<item:lava:cosmic_sword>'
+[01:08:25.560][INFO][CraftTweaker]: Adding 'extendedcrafting:table' recipe, with name: 'crafttweaker:f9745a24-388d-43bd-abdd-2111723caeae' that outputs: '<item:mysticalagradditions:creative_essence>'
+[01:08:25.560][INFO][CraftTweaker]: Adding 'extendedcrafting:table' recipe, with name: 'crafttweaker:ef1a7a63-0fd4-4f11-93dd-227f4f87b467' that outputs: '<item:wands:creative_wand>'
+[01:08:25.561][INFO][CraftTweaker]: Adding 'extendedcrafting:table' recipe, with name: 'crafttweaker:66203c0d-d2ff-4d7f-acdb-ae2ad2f3f35b' that outputs: '<item:wands:diamond_wand>'
+[01:08:25.562][INFO][CraftTweaker]: Adding 'extendedcrafting:table' recipe, with name: 'crafttweaker:be67eb1b-b409-433e-8b7c-db249d554507' that outputs: '<item:moremekanismprocessing:draconium_ingot>'
+[01:08:25.563][INFO][CraftTweaker]: Adding 'extendedcrafting:combination' recipe, with name: 'crafttweaker:test' that outputs: '<item:lava:infinity_shard>'
+[01:08:25.564][INFO][CraftTweaker]: Adding 'extendedcrafting:table' recipe, with name: 'crafttweaker:9be4cef0-b645-4dc9-9259-a41cd50e25f8' that outputs: '<item:wands:iron_wand>'
+[01:08:25.565][INFO][CraftTweaker]: Adding 'extendedcrafting:table' recipe, with name: 'crafttweaker:6c58bdf1-ad3b-4336-adda-361763924e85' that outputs: '<item:wands:netherite_wand>'
+[01:08:25.566][INFO][CraftTweaker]: Adding 'extendedcrafting:table' recipe, with name: 'crafttweaker:2aca39b0-0b2b-45a5-8118-27426cf70ec7' that outputs: '<item:wands:stone_wand>'
+[01:08:25.580][INFO][CraftTweaker]: Adding 'extendedcrafting:table' recipe, with name: 'crafttweaker:e3e920fa-8d76-4dbe-ad40-9b8a2d6407a5' that outputs: '<item:extendedcrafting:the_ultimate_ingot>'
+[01:08:25.580][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[01:08:25.582][INFO][CraftTweaker]: CraftTweaker reload complete!
+[01:08:25.583][INFO][CraftTweaker]: This reload was made possible by Zuniroa and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[01:10:20.227][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[01:10:20.227][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[01:10:20.265][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[01:10:20.459][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, vanilla/api/network/NetworkContext, vanilla/api/network/NetworkReceiver, crafttweaker, expansions]
+[01:10:20.459][INFO][CraftTweaker-ZenCode]: Loading file 'CreativeME.zs' with priority 0
+[01:10:20.459][INFO][CraftTweaker-ZenCode]: Loading file 'cosmic_sword.zs' with priority 0
+[01:10:20.460][INFO][CraftTweaker-ZenCode]: Loading file 'creative_essence.zs' with priority 0
+[01:10:20.460][INFO][CraftTweaker-ZenCode]: Loading file 'creative_wand.zs' with priority 0
+[01:10:20.460][INFO][CraftTweaker-ZenCode]: Loading file 'diamond_wand.zs' with priority 0
+[01:10:20.461][INFO][CraftTweaker-ZenCode]: Loading file 'draconium_ingot.zs' with priority 0
+[01:10:20.461][INFO][CraftTweaker-ZenCode]: Loading file 'infinity_shard.zs' with priority 0
+[01:10:20.462][INFO][CraftTweaker-ZenCode]: Loading file 'iron_wand.zs' with priority 0
+[01:10:20.462][INFO][CraftTweaker-ZenCode]: Loading file 'netherite_wand.zs' with priority 0
+[01:10:20.462][INFO][CraftTweaker-ZenCode]: Loading file 'stone_wand.zs' with priority 0
+[01:10:20.462][INFO][CraftTweaker-ZenCode]: Loading file 'ultimate_ingot.zs' with priority 0
+[01:10:20.517][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully

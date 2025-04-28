@@ -1,0 +1,7 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:oak_fence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:spruce_trapdoor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:bamboo_pressure_plate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:oak_slab"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

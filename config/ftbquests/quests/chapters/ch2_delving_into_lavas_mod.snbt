@@ -1,0 +1,164 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch2_delving_into_lavas_mod"
+	group: "0168F7E7756B10A6"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "lava:ombrum_ingot"
+	}
+	id: "2CC6D406CD3A2936"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0F5F75B3C6C09998"]
+			id: "75A90E9E34C86689"
+			rewards: [{
+				id: "562F9419FBCE3137"
+				item: {
+					count: 1
+					id: "lava:lucky_block_1"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72BA65E52142FEDA"
+				item: { count: 1, id: "lava:lucky_block_1" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75A90E9E34C86689"]
+			id: "14D2D18358550A58"
+			rewards: [{
+				id: "5E9700CDCBD8ED70"
+				item: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									luck: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											chance: {
+												initialValue: 0.15548d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					count: 1
+					id: "artifacts:lucky_scarf"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13575FF655DE13A5"
+				item: { count: 1, id: "lava:lucky_block_2" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14D2D18358550A58"]
+			id: "66E203B99CE6FDA9"
+			rewards: [{
+				id: "661AEE3D4C8CF9E5"
+				item: {
+					count: 1
+					id: "lava:lucky_block_3"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "024FBE7DCECF6DE1"
+				item: { count: 1, id: "lava:corruptite" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66E203B99CE6FDA9"]
+			id: "74EBAFA85F2DFC2B"
+			rewards: [{
+				id: "5449ECEF65EA6BF7"
+				item: {
+					count: 1
+					id: "lava:corrupted_nether_star"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "27B7B644C15E662E"
+				item: { count: 1, id: "lava:corruptite_block" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74EBAFA85F2DFC2B"]
+			id: "60445635EE28E7D8"
+			rewards: [{
+				id: "18C742A30B35C3BB"
+				item: {
+					count: 1
+					id: "lava:corruptite_ore"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "lava:assassin"
+				id: "24519FC0919D79E3"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["60445635EE28E7D8"]
+			id: "539CFFE2A7F66986"
+			rewards: [{
+				id: "26827B29F32B7A3F"
+				item: {
+					count: 1
+					id: "lava:rainbowfish"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "557694FD75680EF4"
+				item: { count: 1, id: "lava:rainbowfish" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+	]
+}

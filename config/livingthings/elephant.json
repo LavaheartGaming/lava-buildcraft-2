@@ -1,0 +1,19 @@
+{
+	"canAttack": true,
+	"health": 60.0,
+	"movementSpeed": 0.25,
+	"attackDamage": 7.0,
+	"maxSpawnedInChunk": 5,
+	"spawnBiomes": [
+		{
+			"weight": 15,
+			"minGroupSize": 3,
+			"maxGroupSize": 5,
+			"biomes": [
+				"minecraft:savanna",
+				"minecraft:savanna_plateau",
+				"minecraft:windswept_savanna"
+			]
+		}
+	]
+}

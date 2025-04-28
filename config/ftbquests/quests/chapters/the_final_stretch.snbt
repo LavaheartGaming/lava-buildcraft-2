@@ -1,0 +1,535 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_final_stretch"
+	group: "0018F6994B00DCA1"
+	hide_quest_until_deps_complete: true
+	id: "282DE262DEFC6C99"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7F6F5A3BD97C6EE1"]
+			id: "70A67FE82A7325CE"
+			tasks: [{
+				id: "65EADA74E2DCB9AB"
+				item: { count: 1, id: "mysticalagradditions:creative_essence" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["70A67FE82A7325CE"]
+			id: "7288E664C76DEF9B"
+			tasks: [{
+				id: "79BAF0B43F94E3FA"
+				item: { count: 1, id: "extendedcrafting:the_ultimate_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["050EB1B4AD7168C5"]
+			id: "7F6F5A3BD97C6EE1"
+			tasks: [{
+				id: "50227BFEA1A437E6"
+				item: { count: 1, id: "extendedcrafting:ultimate_singularity" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7F6F5A3BD97C6EE1"
+				"3E4775431326B343"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ironjetpacks:jetpack_id": "ironjetpacks:creative"
+					"minecraft:rarity": "epic"
+				}
+				id: "ironjetpacks:jetpack"
+			}
+			id: "2F295D7A77652DF8"
+			rewards: [{
+				id: "6F2F8FD34F42AD8A"
+				item: {
+					components: {
+						"ironjetpacks:jetpack_id": "ironjetpacks:creative"
+						"minecraft:rarity": "epic"
+					}
+					count: 1
+					id: "ironjetpacks:jetpack"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					id: "07D712061D44F321"
+					item: { components: { "ironjetpacks:jetpack_id": "ironjetpacks:emerald" }, count: 1, id: "ironjetpacks:jetpack" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 9L
+					id: "61613B0DA0914953"
+					item: { count: 9, id: "mysticalagradditions:creative_essence" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "5638C0EBD6A4C83B"
+					item: { count: 4, id: "extendedcrafting:the_ultimate_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "16CEF065075AC6B2"
+					item: { count: 4, id: "extendedcrafting:ultimate_singularity" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"70A67FE82A7325CE"
+				"6EABA1F5B8590124"
+			]
+			id: "1B43C55860AA7765"
+			tasks: [{
+				id: "4D3761BE3EFFC8B1"
+				item: { count: 1, id: "ars_nouveau:creative_spell_book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0FDBD33C3B022808"]
+			hide_dependency_lines: true
+			id: "62BAFE95F286AD51"
+			rewards: [
+				{
+					id: "08C0E50C5F3F51F8"
+					item: {
+						count: 1
+						id: "mekanism:pellet_antimatter"
+					}
+					type: "item"
+				}
+				{
+					id: "60C6360E37FA1BD1"
+					item: {
+						components: {
+							"mekanism:fluids": {
+								fluid_tanks: [{
+									amount: 2147483647
+									id: "minecraft:lava"
+								}]
+							}
+						}
+						count: 1
+						id: "mekanism:creative_fluid_tank"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7ABD99F6B84E9933"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1000000000000L
+			}]
+			x: 2.5d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"7078EBB0EF250EA9"
+				"62BAFE95F286AD51"
+			]
+			id: "428620D6B221A4BC"
+			min_required_dependencies: 1
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				id: "15C65F4E4740DA89"
+				item: { count: 1, id: "lava:infinity_shard" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["428620D6B221A4BC"]
+			id: "139117037B61EC52"
+			rewards: [{
+				id: "3496358DF7C81BC0"
+				type: "xp_levels"
+				xp_levels: 99999999
+			}]
+			tasks: [
+				{
+					id: "392F0193228590E6"
+					item: { count: 1, id: "lava:infinity_helmet" }
+					type: "item"
+				}
+				{
+					id: "1C7655D1EF4D9BF6"
+					item: { count: 1, id: "lava:infinity_chestplate" }
+					type: "item"
+				}
+				{
+					id: "5C11700C0320E895"
+					item: { count: 1, id: "lava:infinity_leggings" }
+					type: "item"
+				}
+				{
+					id: "6568816ED6FA58F8"
+					item: { count: 1, id: "lava:infinity_boots" }
+					type: "item"
+				}
+				{
+					id: "4F424EA99CF515A3"
+					item: { count: 1, id: "lava:infinity_pickaxe" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -18.5d
+		}
+		{
+			dependencies: [
+				"7288E664C76DEF9B"
+				"24EE0EDA77EF3B8B"
+				"1B43C55860AA7765"
+				"2F295D7A77652DF8"
+				"02B066656B216B81"
+				"52FD94ECAC1479D6"
+				"744E930B4449DA83"
+				"41B5130489D563E8"
+				"772C6CF1141FC53B"
+				"347CFBC805BC6FD4"
+				"7A0DDB4808007F37"
+				"0717ACEAA56B3367"
+				"1D7A72176FCD1B7A"
+				"0E4C873CFA44B612"
+				"6C3D2B7CB444A435"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			id: "7078EBB0EF250EA9"
+			min_required_dependencies: 7
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "0D4217C01A754D35"
+				item: { count: 1, id: "lava:inert_infinity_shard" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["70A67FE82A7325CE"]
+			id: "24EE0EDA77EF3B8B"
+			tasks: [{
+				id: "4388BD11BA84EE94"
+				item: { count: 1, id: "ae2:creative_storage_cell" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6A9D67BCC942482B"]
+			id: "52FD94ECAC1479D6"
+			rewards: [{
+				id: "67A344B664487051"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2EA4C86B6C4A412F"
+				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"aqua\",\"text\":\"R\"},{\"color\":\"light_purple\",\"text\":\"a\"},{\"color\":\"blue\",\"text\":\"i\"},{\"color\":\"green\",\"text\":\"n\"},{\"color\":\"aqua\",\"text\":\"b\"},{\"color\":\"blue\",\"text\":\"o\"},{\"color\":\"blue\",\"text\":\"w\"},{\"color\":\"red\",\"text\":\" \"},{\"color\":\"blue\",\"text\":\"F\"},{\"color\":\"yellow\",\"text\":\"u\"},{\"color\":\"blue\",\"text\":\"r\"},{\"color\":\"red\",\"text\":\"n\"},{\"color\":\"green\",\"text\":\"a\"},{\"color\":\"yellow\",\"text\":\"c\"},{\"color\":\"light_purple\",\"text\":\"e\"}],\"text\":\"\"}" }, count: 1, id: "ironfurnaces:million_furnace" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["52FD94ECAC1479D6"]
+			id: "02B066656B216B81"
+			rewards: [{
+				id: "66160FB460E3C5CB"
+				item: {
+					count: 1
+					id: "powah:energy_cell_nitro"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A513DD95AB09CF0"
+				item: { count: 1, id: "ironfurnaces:rainbow_coal" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"07E6851E2D062B3D"
+				"19BE1F2F331DAA64"
+				"26E625C74EF540C2"
+				"25223013F900F94F"
+				"7FDBF4D63700147C"
+				"7E792F29477D43FF"
+				"2935278E64DB9FD1"
+				"766B43ED2975BAA2"
+				"37D9A2E9CDDCD3E6"
+			]
+			id: "744E930B4449DA83"
+			rewards: [{
+				id: "49F3699A4F526A38"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "21CC20163824E6F5"
+				item: { count: 1, id: "generatorgalore:culinary_generator_64x" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["559D8B3B5E21AC29"]
+			id: "41B5130489D563E8"
+			rewards: [{
+				id: "4831CFC9ED58BD12"
+				item: {
+					components: {
+						"ftbquests:missing_item": "irons_spellbooks:legendary_ink"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BCE504F9B3C2144"
+				item: { count: 1, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["4493E3F43A44466B"]
+			id: "772C6CF1141FC53B"
+			rewards: [{
+				id: "722D638B01C43077"
+				item: {
+					count: 1
+					id: "mysticalagriculture:awakened_supremium_growth_accelerator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AE70C7350B3B172"
+				item: { count: 1, id: "mysticalagriculture:awakened_supremium_growth_accelerator" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["669F0F958023359B"]
+			id: "347CFBC805BC6FD4"
+			rewards: [
+				{
+					id: "1D99D48F5B53B43D"
+					item: {
+						count: 1
+						id: "minecraft:conduit"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "39213F2BE0B047BE"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "615A7F72773B3B12"
+				item: { count: 1, id: "generatorgalore:netherstar_generator_64x" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5FE41FBF00826644"]
+			id: "7A0DDB4808007F37"
+			rewards: [{
+				id: "50ABCA6671372C5C"
+				item: {
+					count: 1
+					id: "solarflux:sp_6"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "033ACE531EA9A937"
+				item: { count: 1, id: "enderio:vibrant_photovoltaic_module" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["7F6F5A3BD97C6EE1"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			id: "0717ACEAA56B3367"
+			rewards: [{
+				id: "47D0A40639A67F35"
+				item: {
+					count: 1
+					id: "functionalstorage:max_storage_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DC1DE6AFE6FF928"
+				item: { count: 1, id: "functionalstorage:max_storage_upgrade" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["626C3B8435F0D665"]
+			id: "1D7A72176FCD1B7A"
+			rewards: [{
+				id: "6A0BE236751B049C"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"jlme:critical_strike": 5
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04902A3FEF5227A4"
+				item: { count: 1, id: "apothic_enchanting:ender_library" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0B1CF03D13D76C96"]
+			id: "1C91075A042213D5"
+			rewards: [{
+				count: 3
+				id: "09CDB0519592D349"
+				item: {
+					count: 1
+					id: "extendedcrafting:ultimate_singularity"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78A463EEA6FD58B6"
+				item: { count: 1, id: "lava:cosmic_sword" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -16.5d
+		}
+		{
+			dependencies: [
+				"1C91075A042213D5"
+				"428620D6B221A4BC"
+			]
+			id: "24544553C3D36455"
+			rewards: [{
+				id: "7EB1284CCFD6C3CB"
+				item: {
+					count: 1
+					id: "lava:inert_infinity_shard"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EC16CA5FE24C40B"
+				item: { count: 1, id: "lava:infinity_sword" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -18.5d
+		}
+		{
+			dependencies: [
+				"7F6F5A3BD97C6EE1"
+				"7CC411122A9E9CF3"
+			]
+			hide_dependency_lines: true
+			id: "0E4C873CFA44B612"
+			rewards: [{
+				id: "33C507B6B12A407F"
+				item: {
+					components: {
+						"extendedcrafting:singularity_id": "extendedcrafting:lapis_lazuli"
+					}
+					count: 1
+					id: "extendedcrafting:singularity"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FFF2CC2F575AD27"
+				item: { count: 1, id: "wands:creative_wand" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -16.0d
+		}
+		{
+			id: "6C3D2B7CB444A435"
+			tasks: [{
+				id: "020AE95FBFE805EF"
+				item: { count: 1, id: "create:creative_blaze_cake" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+	]
+}

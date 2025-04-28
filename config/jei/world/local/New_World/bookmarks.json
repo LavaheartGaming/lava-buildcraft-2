@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"recipe":"xycraft_machines:shaped/collector","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"mekanism:formulaic_assemblicator","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+]

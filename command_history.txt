@@ -1,0 +1,34 @@
+/reload
+/fixlava
+/bank add coins 1
+/bank check coins
+/give @s minecraft:bedrock
+/reload
+/give @s minecraft:dragon_head
+/reload
+/give @s extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:lapis_lasuli"]
+/give @s extendedcrafting:singularity[extendedcrafting:singularity_id="extendedcrafting:lapis_lazuli"]
+/difficulty peaceful
+/reload
+/tps
+/reload
+/neoforge tps
+/puffish_skills points add Lavaheart2003 puffish_skills:magic 500
+/puffish_skills points add moustiques08 puffish_skills:magic 500
+/gamemode creative moustiques08
+/reload
+/op moustiques08
+/reload
+/give @s mysticalagradditions:insanium_essence
+/reload
+/ct issues
+/ct conflicts
+/reload
+/give @s artifacts:everlasting_beef
+/give @s biomeswevegone:aspen_crafting_table
+/reload
+/kubejs hand
+/reload
+/summon lava:assassin
+/summon lava:azura_guardian
+/summon minecraft:ender_dragon

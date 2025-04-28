@@ -1,0 +1,13 @@
+[01:06:44] [INIT] KubeJS 2101.7.1-build.181; MC 2101 NeoForge
+[01:06:44] [INIT] Loaded plugins:
+[01:06:44] [INIT] - dev.latvian.mods.kubejs.BuiltinKubeJSPlugin
+[01:06:44] [INIT] - dev.latvian.mods.kubejs.client.BuiltinKubeJSClientPlugin
+[01:06:44] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[01:06:44] [INIT] - com.sunekaer.sdrp.neoforge.kubejs.SDRPKubeJSIntegration
+[01:06:44] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
+[01:06:44] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[01:06:44] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[01:06:44] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[01:06:45] [INFO] Loaded script startup_scripts:main.js in 0.111 s
+[01:06:46] [INFO] Loaded script startup_scripts:Potionsmaster/potionsmaster.js in 0.049 s
+[01:06:46] [INFO] Loaded 2/2 KubeJS startup scripts in 1.96 s with 0 errors and 0 warnings
