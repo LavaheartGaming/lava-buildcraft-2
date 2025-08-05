@@ -1,0 +1,25 @@
+{
+	"canAttack": true,
+	"health": 22.0,
+	"movementSpeed": 1.05,
+	"attackDamage": 6.0,
+	"maxSpawnedInChunk": 3,
+	"spawnBiomes": [
+		{
+			"weight": 13,
+			"minGroupSize": 2,
+			"maxGroupSize": 3,
+			"biomes": [
+				"minecraft:ocean",
+				"minecraft:deep_ocean",
+				"minecraft:frozen_ocean",
+				"minecraft:deep_frozen_ocean",
+				"minecraft:cold_ocean",
+				"minecraft:deep_cold_ocean",
+				"minecraft:warm_ocean",
+				"minecraft:lukewarm_ocean",
+				"minecraft:deep_lukewarm_ocean"
+			]
+		}
+	]
+}

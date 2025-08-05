@@ -1,0 +1,3 @@
+<recipetype:extendedcrafting:table>.addShapeless("f9745a24-388d-43bd-abdd-2111723caeae", 0, <item:mysticalagradditions:creative_essence>, [
+	<item:mysticalagriculture:awakened_supremium_essence>, <item:mysticalagriculture:awakened_supremium_essence>, <item:extendedcrafting:ultimate_singularity>, <item:mysticalagriculture:awakened_supremium_essence>, <item:mysticalagriculture:awakened_supremium_essence>
+]);

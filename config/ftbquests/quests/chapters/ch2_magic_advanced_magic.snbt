@@ -1,0 +1,317 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch2_magic_advanced_magic"
+	group: "0168F7E7756B10A6"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "apothic_enchanting:library"
+	}
+	id: "6C23DE799D9E524C"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"09BC825597155B5D"
+				"4267B10D9D51F4A8"
+			]
+			id: "7D6D29772AEEF43B"
+			rewards: [{
+				id: "33C94038646CE884"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "49D61FB786ECB43B"
+				item: { count: 1, id: "apothic_enchanting:endshelf" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D6D29772AEEF43B"]
+			id: "44884C1A93013A5E"
+			rewards: [{
+				id: "43FFA3DF52A2BBFB"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "1A8BF600296AE78A"
+				item: { count: 1, id: "apothic_enchanting:pearl_endshelf" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44884C1A93013A5E"]
+			id: "73347A6EFBEDB2FE"
+			rewards: [{
+				id: "1A0F45CF848FB787"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2A9A0E24D5931EF8"
+				item: { count: 1, id: "apothic_enchanting:draconic_endshelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5C76E49AFB0A19F4"
+				"63B9F45E1E190193"
+			]
+			id: "2E2AF23409E7C435"
+			rewards: [{
+				count: 4
+				id: "53C4E0466172338D"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_gem"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "056B671F3B96051F"
+				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2E2AF23409E7C435"]
+			id: "351B090F5252D2F8"
+			rewards: [{
+				id: "69DBF5F204888B45"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_gem"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "534DE78A10333F77"
+				item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["351B090F5252D2F8"]
+			id: "171CE75C90EBEFE3"
+			rewards: [{
+				count: 2
+				id: "7744FF67921543B1"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "235F1E9F06C4DE86"
+				item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["171CE75C90EBEFE3"]
+			id: "6EABA1F5B8590124"
+			tasks: [{
+				id: "1953CC79A992BEDE"
+				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5BFAE005E6730A42"]
+			id: "626C3B8435F0D665"
+			rewards: [
+				{
+					count: 10
+					id: "41F9768AFCA21289"
+					item: {
+						count: 1
+						id: "apothic_enchanting:other_tome"
+					}
+					type: "item"
+				}
+				{
+					count: 30
+					id: "419D34DFCC7E7BE6"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27B3076FCD18B1C9"
+				item: { count: 1, id: "apothic_enchanting:library" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E148226F74F275F"]
+			id: "17965A48CB882500"
+			rewards: [{
+				id: "06F440FAE4DB00EB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1CD050465169CDB4"
+				item: { count: 1, id: "apothic_enchanting:echoing_sculkshelf" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["380A2CCAE23A182B"]
+			id: "65EAB55EA589AD34"
+			rewards: [
+				{
+					count: 12
+					id: "370622265EF4BF60"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5D325C98573CE81C"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					id: "1AAC77FC17A240C6"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			tasks: [{
+				id: "5E6873D3E036EF66"
+				item: { count: 1, id: "apothic_enchanting:treasure_shelf" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["28E3743CB7580285"]
+			id: "578C76AB617F809D"
+			rewards: [{
+				id: "59ACBCD2DE189E23"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6C51F5463E844568"
+				item: { count: 1, id: "apothic_enchanting:soul_touched_sculkshelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5BFAE005E6730A42"]
+			id: "7B9B951D81F0CDA3"
+			rewards: [{
+				id: "43A4537F9C196CC8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "648326B0DBCD6A71"
+				item: { count: 1, id: "apothic_enchanting:sightshelf" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B9B951D81F0CDA3"]
+			id: "53F28471FA0E20B2"
+			rewards: [{
+				id: "215BEDB546834246"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "268249B7BC13160B"
+				item: { count: 1, id: "apothic_enchanting:sightshelf_t2" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["09BC825597155B5D"]
+			id: "26DB0C88A89A0D3D"
+			rewards: [{
+				count: 5
+				id: "3F4D9C50B338B9D6"
+				item: {
+					count: 1
+					id: "minecraft:book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A0821B1664B3DB1"
+				item: { count: 1, id: "apothic_enchanting:geode_shelf" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5169C002DA3BFC4E"]
+			id: "2FCF41E296D84F42"
+			rewards: [
+				{
+					count: 5
+					id: "5CCA6C3DBA6B6916"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					id: "61AAC72FFE9B1EBF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "780D4D7142E80C54"
+				item: { count: 1, id: "apothic_enchanting:filtering_shelf" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+	]
+}

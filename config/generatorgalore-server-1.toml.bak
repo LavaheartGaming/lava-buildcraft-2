@@ -1,0 +1,5 @@
+[General]
+	#Generator tickrateaka aka how often should the generators tick. Default is once every 5 ticks. Increase if you're having performance issues
+	# Default: 5
+	# Range: 1 ~ 64
+	tickRate = 5

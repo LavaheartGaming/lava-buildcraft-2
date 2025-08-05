@@ -1,0 +1,28 @@
+{
+	"canAttack": true,
+	"health": 180.0,
+	"movementSpeed": 0.26,
+	"attackDamage": 10.0,
+	"weaponDropChance": 15.0,
+	"spawning": {
+		"spawnWeight": 15,
+		"minSpawnCount": 1,
+		"maxSpawnCount": 2
+	},
+	"weaponNames": {
+		"swordNames": [
+			"Edge of Suffering",
+			"Dragon\u0027s Curse",
+			"The Soul Harvester",
+			"Bloodseeker",
+			"Soul Reaper",
+			"Doomblade"
+		],
+		"axeNames": [
+			"Demonic Soul Collector",
+			"The Reaper\u0027s Scythe",
+			"The Soul Reaper",
+			"The Soul Collector"
+		]
+	}
+}

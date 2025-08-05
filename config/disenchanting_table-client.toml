@@ -1,0 +1,6 @@
+# setting this to "false" will stop particles from rendering around the disenchanting table
+render_ender_particles = true
+# setting this to "false" will cause the "Insufficient Experience" text to not display
+experience_indicator = true
+# setting this to " false" will stop input/output items from displaying on the block
+render_table_item = true

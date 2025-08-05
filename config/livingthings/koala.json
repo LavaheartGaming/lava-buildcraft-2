@@ -1,0 +1,32 @@
+{
+	"health": 10.0,
+	"movementSpeed": 0.17,
+	"maxSpawnedInChunk": 5,
+	"spawnBiomes": [
+		{
+			"weight": 50,
+			"minGroupSize": 3,
+			"maxGroupSize": 8,
+			"biomes": [
+				"minecraft:jungle",
+				"minecraft:sparse_jungle"
+			]
+		},
+		{
+			"weight": 25,
+			"minGroupSize": 3,
+			"maxGroupSize": 8,
+			"biomes": [
+				"minecraft:bamboo_jungle"
+			]
+		},
+		{
+			"weight": 10,
+			"minGroupSize": 3,
+			"maxGroupSize": 8,
+			"biomes": [
+				"minecraft:savanna_plateau"
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"health": 8.0,
+	"movementSpeed": 0.25,
+	"maxSpawnedInChunk": 5,
+	"talkInterval": 200,
+	"spawnBiomes": [
+		{
+			"weight": 15,
+			"minGroupSize": 3,
+			"maxGroupSize": 5,
+			"biomes": [
+				"minecraft:savanna",
+				"minecraft:savanna_plateau",
+				"minecraft:windswept_savanna"
+			]
+		},
+		{
+			"weight": 50,
+			"minGroupSize": 4,
+			"maxGroupSize": 7,
+			"biomes": [
+				"minecraft:jungle",
+				"minecraft:windswept_savanna",
+				"minecraft:sparse_jungle"
+			]
+		},
+		{
+			"weight": 25,
+			"minGroupSize": 4,
+			"maxGroupSize": 7,
+			"biomes": [
+				"minecraft:bamboo_jungle"
+			]
+		}
+	]
+}

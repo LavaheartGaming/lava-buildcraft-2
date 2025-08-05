@@ -1,0 +1,11 @@
+{
+    "name": "Essence",
+    "colors": [
+      "98168C",
+      "888137E"
+    ],
+    "ingredient": {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    "inUltimateSingularity": true
+  }

@@ -1,0 +1,58 @@
+{
+	id: "4CB40DF295515FFE"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 6
+			id: "36EBC3448D410D11"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+		}
+		{ id: "10F12035691D62CC", item: { count: 1, id: "minecraft:redstone_block" } }
+		{ id: "2C6E45CD5DF57A14", item: { count: 1, id: "minecraft:iron_hoe" } }
+		{ id: "3B1E9381D8C0432A", item: { count: 1, id: "mysticalagriculture:tertium_essence" } }
+		{
+			count: 5
+			id: "6A98D152527773FD"
+			item: {
+				count: 1
+				id: "lava:lucky_block_1"
+			}
+			weight: 0.8f
+		}
+		{
+			id: "0A17D5D869E782CB"
+			type: "xp"
+			xp: 100
+		}
+		{
+			count: 2
+			id: "513E749533297C27"
+			item: {
+				count: 1
+				id: "pamhc2foodcore:chickennoodlesoupitem"
+			}
+		}
+		{ id: "47915CD7DECDE402", item: { count: 1, id: "minecraft:lapis_block" } }
+		{
+			id: "737A18E7FFF4D0DE"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 0.4f
+		}
+		{ id: "73552160CB7DC500", item: { count: 1, id: "tombstone:bag_of_seeds" } }
+		{
+			id: "11EF3CDF3E83E459"
+			item: {
+				count: 1
+				id: "modern_industrialization:bronze_machine_casing"
+			}
+			weight: 0.8f
+		}
+	]
+}

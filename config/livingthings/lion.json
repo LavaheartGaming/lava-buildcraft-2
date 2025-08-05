@@ -1,0 +1,28 @@
+{
+	"canAttack": true,
+	"health": 20.0,
+	"movementSpeed": 0.33,
+	"attackDamage": 5.0,
+	"maxSpawnedInChunk": 4,
+	"allowAllMeatAsFood": true,
+	"spawnBiomes": [
+		{
+			"weight": 12,
+			"minGroupSize": 2,
+			"maxGroupSize": 4,
+			"biomes": [
+				"minecraft:savanna",
+				"minecraft:savanna_plateau",
+				"minecraft:windswept_savanna"
+			]
+		}
+	],
+	"genderWeights": {
+		"maleWeight": 50,
+		"femaleWeight": 50
+	},
+	"colorWeights": {
+		"color1Weight": 99,
+		"colorWhiteWeight": 1
+	}
+}
