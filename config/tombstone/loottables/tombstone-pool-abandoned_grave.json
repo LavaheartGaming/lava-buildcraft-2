@@ -1,7 +1,7 @@
 {
   "rolls": {
-    "min": 5.0,
-    "max": 10.0,
+    "min": 3.0,
+    "max": 5.0,
     "type": "minecraft:uniform"
   },
   "bonus_rolls": 0.0,
@@ -73,7 +73,7 @@
         }
       ],
       "name": "minecraft:book",
-      "weight": 0,
+      "weight": 100,
       "type": "minecraft:item"
     },
     {
@@ -86,7 +86,7 @@
         }
       ],
       "name": "minecraft:book",
-      "weight": 0,
+      "weight": 100,
       "type": "minecraft:item"
     },
     {
@@ -99,7 +99,7 @@
         }
       ],
       "name": "minecraft:book",
-      "weight": 0,
+      "weight": 400,
       "type": "minecraft:item"
     },
     {

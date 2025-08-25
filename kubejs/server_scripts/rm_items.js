@@ -35,7 +35,8 @@ ServerEvents.recipes(event => {
       'modern_industrialization:quantum_helmet',
       'modern_industrialization:quantum_sword',
       'modern_industrialization:replicator',
-      'twilightforest:uncrafting_table'
+      'twilightforest:uncrafting_table',
+      'extendedcrafting:compressor'
     ];
 
     itemsToRemove.forEach(item => {

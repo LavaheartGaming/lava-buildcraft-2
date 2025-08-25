@@ -45,7 +45,6 @@
 			}
 			weight: 0.4f
 		}
-		{ id: "73552160CB7DC500", item: { count: 1, id: "tombstone:bag_of_seeds" } }
 		{
 			id: "11EF3CDF3E83E459"
 			item: {
@@ -55,4 +54,5 @@
 			weight: 0.8f
 		}
 	]
+	use_title: true
 }

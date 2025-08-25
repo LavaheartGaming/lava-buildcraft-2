@@ -10,7 +10,7 @@ resetAutoFirePitchEnabled = true
 #Adjusts the knockback force applied to entities hit by gunfire, with higher values causing greater knockback distance.
 # Default: 1.0
 # Range: 0.1 ~ 2.0
-knockback = 1.0
+knockback = 2.0
 #Enables particle effects
 particleEffectsEnabled = true
 #Sets the likelihood of an 'Arms Dealer' house appearing in new villages, with higher values increasing frequency and lower values making it rarer.

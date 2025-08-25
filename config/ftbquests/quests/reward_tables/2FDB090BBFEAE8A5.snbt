@@ -1,0 +1,57 @@
+{
+	id: "2FDB090BBFEAE8A5"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ id: "631E399E09E49BB5", item: { count: 1, id: "lava:lucky_block_5" } }
+		{
+			count: 3
+			id: "4DCBB9D439BB84BE"
+			item: {
+				count: 1
+				id: "lava:lucky_block_5"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 5
+			id: "13F4818D3B551ACF"
+			item: {
+				count: 1
+				id: "lava:lucky_block_5"
+			}
+			weight: 0.1f
+		}
+		{ id: "65AE1486BA431BD4", item: { count: 1, id: "mysticalagriculture:awakened_supremium_block" } }
+		{ id: "2A520F44396B5FA4", item: { count: 1, id: "mysticalagriculture:awakened_supremium_watering_can" } }
+		{ id: "5F54F4A0104CF88A", item: { count: 1, id: "justdirethings:clickert2" } }
+		{ id: "76A8C09F2837BBB4", item: { components: { "mekanism:energy": { energy_containers: [L;64000000L] } }, count: 1, id: "mekanism:elite_energy_cube" } }
+		{
+			count: 4
+			id: "5DBE093C678757FB"
+			item: {
+				count: 1
+				id: "fluxnetworks:flux_plug"
+			}
+		}
+		{
+			count: 8
+			id: "40FCA2D16D42E5A7"
+			item: {
+				count: 1
+				id: "fluxnetworks:flux_point"
+			}
+		}
+		{
+			id: "34433DC3FE1611FD"
+			item: {
+				count: 1
+				id: "artifacts:mimic_spawn_egg"
+			}
+			weight: 0.5f
+		}
+		{ id: "523BFBD908DF6B1A", item: { count: 1, id: "cataclysm:blazing_grips" } }
+		{ id: "54656DEF7DBE8036", item: { count: 1, id: "solarflux:sp_8" } }
+	]
+	use_title: true
+}

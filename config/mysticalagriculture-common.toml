@@ -38,6 +38,8 @@
 	awakenedSupremiumSetBonus = true
 	#Should Supremium & Awakened Supremium Armor be unbreakable?
 	unbreakableSupremiumArmor = false
+	#Should resource crops need to be planted on their effective Farmland to grow?
+	requiresEffectiveFarmland = false
 
 #World generation options.
 [World]

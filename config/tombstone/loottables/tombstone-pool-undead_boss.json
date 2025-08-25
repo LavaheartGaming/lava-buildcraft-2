@@ -29,6 +29,16 @@
           "function": "tombstone:check_enabled"
         }
       ],
+      "name": "tombstone:ritual_flute",
+      "weight": 20,
+      "type": "minecraft:item"
+    },
+    {
+      "functions": [
+        {
+          "function": "tombstone:check_enabled"
+        }
+      ],
       "name": "tombstone:gemstone_of_familiar",
       "weight": 20,
       "type": "minecraft:item"
@@ -40,7 +50,7 @@
         }
       ],
       "name": "tombstone:receptacle_of_soul",
-      "weight": 50,
+      "weight": 100,
       "type": "minecraft:item"
     },
     {
@@ -76,22 +86,12 @@
           "function": "tombstone:delayed_nbt_loot"
         }
       ],
-      "name": "tombstone:voodoo_poppet",
-      "weight": 100,
-      "type": "minecraft:item"
-    },
-    {
-      "functions": [
-        {
-          "function": "tombstone:delayed_nbt_loot"
-        }
-      ],
       "name": "tombstone:receptacle_of_familiar",
       "weight": 100,
       "type": "minecraft:item"
     },
     {
-      "weight": 460,
+      "weight": 2550,
       "type": "minecraft:empty"
     }
   ]

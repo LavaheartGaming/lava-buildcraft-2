@@ -10,11 +10,11 @@
         }
       ],
       "name": "tombstone:grave_dust",
-      "weight": 10,
+      "weight": 5,
       "type": "minecraft:item"
     },
     {
-      "weight": 90,
+      "weight": 95,
       "type": "minecraft:empty"
     }
   ]

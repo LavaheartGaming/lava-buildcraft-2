@@ -1,0 +1,48 @@
+{
+	id: "37EF9B3EC4F05A9E"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ id: "1545EA371F45442E", item: { count: 1, id: "powah:crystal_niotic" } }
+		{
+			count: 4
+			id: "09FE04D5B78DBE06"
+			item: {
+				count: 1
+				id: "draconicevolution:draconium_ingot"
+			}
+		}
+		{ id: "1EF700DB8FD5B4E4", item: { count: 1, id: "mekanism:teleporter" } }
+		{ id: "6719613BAC6C765E", item: { count: 1, id: "sophisticatedstorage:basic_to_netherite_tier_upgrade" } }
+		{
+			id: "2183435AB0F4349E"
+			item: {
+				count: 1
+				id: "functionalstorage:netherite_upgrade"
+			}
+			weight: 0.7f
+		}
+		{ id: "44694E63790FF185", item: { count: 1, id: "lava:lucky_block_4" } }
+		{
+			count: 3
+			id: "26E1C62680C2B0A6"
+			item: {
+				count: 1
+				id: "lava:lucky_block_4"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "4B9BD9A05AB60CFB"
+			item: {
+				count: 1
+				id: "lava:lucky_block_5"
+			}
+			weight: 0.1f
+		}
+		{ id: "5B7019833B80EEC0", item: { count: 1, id: "mekanism:elite_energy_cube" } }
+		{ id: "24EEDF33166AC8F4", item: { count: 1, id: "solarflux:sp_5" } }
+		{ id: "7C13103CDF230CD7", item: { count: 1, id: "fluxnetworks:flux_plug" } }
+	]
+	use_title: true
+}

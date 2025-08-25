@@ -49,7 +49,7 @@
 
 ["Arrow Piercing"]
 	#Percentage of damage that ignores reductions per level
-	Percentage = 0.25
+	Percentage = 0.1
 
 [Vulnerability]
 	#Percentage of damage increased per level
@@ -57,9 +57,9 @@
 
 ["Double Edge"]
 	#Percentage of damage dealt increased
-	"Damage Bonus" = 0.25
+	"Damage Bonus" = 0.5
 	#Percentage of damage dealt to itself
-	"Self Damage" = 0.5
+	"Self Damage" = 0.1
 
 ["Magic Piercing"]
 	#Initial percentage of damage that ignores enchantments

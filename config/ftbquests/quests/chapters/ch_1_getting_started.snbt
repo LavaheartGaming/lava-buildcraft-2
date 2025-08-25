@@ -139,8 +139,11 @@
 			rewards: [{
 				id: "6DADEE1F72006C24"
 				item: {
+					components: {
+						"ftbquests:missing_item": "tombstone:bag_of_seeds"
+					}
 					count: 1
-					id: "tombstone:bag_of_seeds"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]

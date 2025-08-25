@@ -1,0 +1,32 @@
+[logs]
+	#If true, all missing optional properties and their default values will be logged when parsing custom machines jsons.
+	log_missing_optional = false
+	#When parsing custom machines json files, some properties can be read with 2 serializers. Set this to true to log when the first serializer throw an error, even if the second succeed.
+	log_first_either_error = false
+	#Configure what logs will be printed in the custommachinery.log file. Only logs with level higher or equal than selected will be printed. FATAL > ERROR > WARN > INFO > DEBUG > ALL
+	#Allowed Values: FATAL, ERROR, WARN, INFO, DEBUG, ALL
+	debug_level = "INFO"
+	#Displays a warning if there are files in legacy data folders, such as 'machines' instead of 'machine'
+	log_legacy_folder_files = true
+
+[rendering]
+	#The time in milliseconds the block requirement working box will be rendered around the machines when clicking on the icon in the jei recipe.
+	# Default: 10000
+	# Range: > 1
+	box_render_time = 10000
+	#The time in milliseconds the structure requirement structure will render in world when clicking on the icon in the jei recipe.
+	# Default: 10000
+	# Range: > 1
+	structure_render_time = 10000
+	#The time in milliseconds each blocks will be shown when using a block tag in a structure.
+	# Default: 1000
+	# Range: > 1
+	block_tag_cycle_time = 1000
+	#The time in milliseconds the ghost item will be shown in a slot when a tag or more than 1 item is specified.
+	# Default: 1000
+	# Range: > 1
+	item_slot_cycle_time = 1000
+
+[misc]
+	#A list of folder names where CM will load models json. These folders must be under the 'assets/namespace/models' folder.
+	model_folders = ["machine", "machines"]

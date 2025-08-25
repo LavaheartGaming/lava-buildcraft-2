@@ -16,6 +16,16 @@
     {
       "functions": [
         {
+          "function": "tombstone:check_enabled"
+        }
+      ],
+      "name": "tombstone:ritual_flute",
+      "weight": 10,
+      "type": "minecraft:item"
+    },
+    {
+      "functions": [
+        {
           "rl": "minecraft:decorated_pot_sherds",
           "function": "tombstone:random_in_tag"
         }
@@ -121,7 +131,7 @@
       "type": "minecraft:item"
     },
     {
-      "weight": 675,
+      "weight": 3350,
       "type": "minecraft:empty"
     }
   ],

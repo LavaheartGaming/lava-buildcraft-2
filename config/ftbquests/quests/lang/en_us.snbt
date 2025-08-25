@@ -23,8 +23,8 @@
 	quest.07382FF335EADCD9.quest_subtitle: "the best available ingot before delving into lava's mod"
 	quest.07382FF335EADCD9.title: "tip top"
 	quest.0F2A08FE241428E5.quest_subtitle: "unlocks part of the magic chapiter"
-	quest.139117037B61EC52.quest_subtitle: "enjoy immortality"
-	quest.139117037B61EC52.title: "the true end"
+	quest.139117037B61EC52.quest_subtitle: "you are now busted"
+	quest.139117037B61EC52.title: "best armor ?"
 	quest.14091FB5A5889481.quest_subtitle: "best budding cerus quartz you can make"
 	quest.14D2D18358550A58.quest_desc: ["ah yes the uncommon lucky block, you will open that one a lot, especially since you need it to upgrade into a rare to get your first corruptite"]
 	quest.1672EA87449E3B54.quest_desc: ["Having spice of life installed you should try to vary your diet to gain max health"]
@@ -136,7 +136,11 @@
 	quest.7B70965BC3FF1E05.quest_subtitle: "the best solution for starter renewable energy"
 	quest.7E2CF32952892962.quest_subtitle: "autofeed ? Yes please !"
 	quest.7F6F5A3BD97C6EE1.title: "ultimate singularity"
+	reward_table.2FDB090BBFEAE8A5.title: "legendary"
+	reward_table.37EF9B3EC4F05A9E.title: "epic"
+	reward_table.3A74926043F54875.title: "uncommon"
 	reward_table.4CB40DF295515FFE.title: "common"
+	reward_table.563276FAF9354029.title: "rare"
 	task.0684A2FA559AE847.title: "Any #minecraft:logs"
 	task.0BC34697BFD5A280.title: "decimator"
 	task.146B71DEB43361A2.title: "Any #c:strings"

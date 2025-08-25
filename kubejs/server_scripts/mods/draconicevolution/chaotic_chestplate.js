@@ -1,64 +1,64 @@
 ServerEvents.recipes(lava => {
-    lava.remove({output: 'draconicevolution:chaotic_chestpiece'})
+    lava.remove({output: 'draconicevolution:wyvern_chestpiece'})
     lava.custom(
  {
   "type": "draconicevolution:fusion_crafting",
   "catalyst": {
-    "item": "draconicevolution:draconic_chestpiece"
+    "item": "lava:infinity_chestplate"
   },
   "ingredients": [
     {
       "consume": true,
       "ingredient": {
-        "item": "lava:infinity_chestplate"
+        "item": "mekanism:mekasuit_bodyarmor"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:chaotic_core"
+        "item": "modern_industrialization:gravichestplate"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "tag": "c:ingots/draconium_awakened"
+        "item": "advanced_ae:quantum_chestplate"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "tag": "c:ingots/draconium_awakened"
+        "tag": "c:ingots/draconium"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "tag": "c:ingots/draconium_awakened"
+        "tag": "c:ingots/draconium"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "tag": "c:ingots/draconium_awakened"
+        "tag": "c:ingots/draconium"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "draconicevolution:chaotic_energy_core"
+        "item": "draconicevolution:wyvern_energy_core"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "tag": "c:ingots/draconium_awakened"
+        "tag": "c:ingots/draconium"
       }
     }
   ],
   "result": {
     "count": 1,
-    "id": "draconicevolution:chaotic_chestpiece"
+    "id": "draconicevolution:wyvern_chestpiece"
   },
   "techLevel": "chaotic",
   "totalEnergy": 800000000000000

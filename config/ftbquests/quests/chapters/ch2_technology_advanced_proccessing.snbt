@@ -147,6 +147,14 @@
 		{
 			dependencies: ["7A353604608048A2"]
 			id: "690B08A6DAD2644B"
+			rewards: [{
+				id: "783E6B9F936AF09B"
+				item: {
+					count: 1
+					id: "ae2:item_storage_cell_256k"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "13CBF081CC5D03ED"
 				item: { count: 1, id: "ae2:item_storage_cell_256k" }
@@ -162,13 +170,13 @@
 				id: "486F3162D36F9D79"
 				item: {
 					count: 1
-					id: "megacells:item_storage_cell_1m"
+					id: "megacells:cell_component_1m"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "17394003D893852C"
-				item: { count: 1, id: "megacells:item_storage_cell_1m" }
+				item: { count: 1, id: "megacells:cell_component_1m" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -311,6 +319,7 @@
 				"26B6E79196CEDC82"
 			]
 			id: "62C2E651F56F9BE0"
+			min_required_dependencies: 1
 			rewards: [{
 				id: "0183627CF4730A41"
 				item: {
@@ -328,11 +337,9 @@
 			y: -13.5d
 		}
 		{
-			dependencies: [
-				"62C2E651F56F9BE0"
-				"26B6E79196CEDC82"
-			]
+			dependencies: ["62C2E651F56F9BE0"]
 			id: "28D22211603E2015"
+			optional: true
 			rewards: [{
 				id: "550B3B7021EEF94C"
 				item: {
@@ -346,34 +353,19 @@
 				item: { count: 1, id: "mekanism:advanced_purifying_factory" }
 				type: "item"
 			}]
-			x: -21.0d
-			y: -15.0d
+			x: -19.5d
+			y: -13.5d
 		}
 		{
 			dependencies: [
-				"28D22211603E2015"
-				"26B6E79196CEDC82"
+				"7B4A5734F936F06E"
+				"62C2E651F56F9BE0"
 			]
-			id: "56D8D738C51F8217"
-			rewards: [{
-				id: "2CEB017A229BE540"
-				item: {
-					count: 1
-					id: "mekanism:advanced_control_circuit"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "49B71CABE303AED4"
-				item: { count: 1, id: "mekanism:advanced_smelting_factory" }
-				type: "item"
-			}]
-			x: -21.0d
-			y: -16.5d
-		}
-		{
-			dependencies: ["56D8D738C51F8217"]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
 			id: "018BD4709F5047FC"
+			min_required_dependencies: 1
 			rewards: [{
 				id: "3C331AD31B5C8443"
 				item: {
@@ -384,11 +376,11 @@
 			}]
 			tasks: [{
 				id: "780AD5CA08668A5B"
-				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				item: { count: 1, id: "mekanism:alloy_reinforced" }
 				type: "item"
 			}]
 			x: -21.0d
-			y: -18.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["13A9147F5965DCD7"]
@@ -451,25 +443,28 @@
 		{
 			dependencies: ["0A6A70C0C8454795"]
 			id: "6079992B60AE7D66"
-			rewards: [{
-				id: "5FB9218F0DA16AA8"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
+			rewards: [
 				{
-					id: "164B4376B527B1A4"
-					item: { count: 1, id: "enderio:dark_steel_ingot" }
-					type: "item"
+					id: "5FB9218F0DA16AA8"
+					type: "xp"
+					xp: 100
 				}
 				{
-					id: "27C40572CAD8D88B"
-					item: { count: 1, id: "enderio:soularium_ingot" }
+					id: "6D6A03BCECBC9B79"
+					item: {
+						count: 1
+						id: "enderio:soularium_ingot"
+					}
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: -2.5d
+			tasks: [{
+				id: "27C40572CAD8D88B"
+				item: { count: 1, id: "enderio:soularium_ingot" }
+				type: "item"
+			}]
+			x: -22.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6079992B60AE7D66"]
@@ -484,43 +479,34 @@
 				item: { count: 1, id: "enderio:slice_and_splice" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: -4.5d
+			x: -22.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["43729976CAA5517A"]
 			id: "02B31005846D4C96"
-			rewards: [{
-				id: "1E7021E9B22A90D0"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "1E7021E9B22A90D0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2D71D5399B4F8DCC"
+					item: {
+						count: 1
+						id: "enderio:empty_soul_vial"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "25AE1DAA9FEB2148"
 				item: { count: 1, id: "enderio:empty_soul_vial" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["02B31005846D4C96"]
-			id: "2D2374084FFE0473"
-			rewards: [{
-				id: "7FB4A524D7306D69"
-				item: {
-					count: 1
-					id: "enderio:xp_obelisk"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "593A4EA7E0A2547A"
-				item: { count: 1, id: "enderio:xp_vacuum" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: -8.5d
+			x: -22.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["63E2C63F29BCA903"]
@@ -617,8 +603,8 @@
 				item: { count: 1, id: "industrialforegoing:fluid_extractor" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: -2.5d
+			x: -13.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["07D9B8467F7E0E41"]
@@ -636,8 +622,8 @@
 				item: { count: 1, id: "industrialforegoing:dryrubber" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: -6.5d
+			x: -13.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7E52E5155EBE02AC"]
@@ -655,8 +641,8 @@
 				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: -4.5d
+			x: -13.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2745E4315B58B370"]
@@ -674,8 +660,8 @@
 				item: { count: 1, id: "industrialforegoing:plastic" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: -8.5d
+			x: -13.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["58251CB697BFD04A"]
@@ -694,8 +680,8 @@
 				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: -10.5d
+			x: -13.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["02203A4B855E8C31"]
@@ -718,8 +704,8 @@
 				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: -12.5d
+			x: -13.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["334FA73B15FB066D"]
@@ -738,8 +724,8 @@
 				item: { count: 1, id: "industrialforegoingsouls:soul_laser_base" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: -14.5d
+			x: -13.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["7ED72198DDA2ABBB"]
@@ -802,11 +788,22 @@
 		{
 			dependencies: ["4D01D9B0E3B06BE8"]
 			id: "1B32000232F2618A"
-			rewards: [{
-				id: "2A333CFC2A801413"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "2A333CFC2A801413"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "76A12817F41F4E74"
+					item: {
+						count: 1
+						id: "lava:lucky_block_1"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "645D81B684660A50"
 				item: { count: 1, id: "mekanism:basic_chemical_tank" }
@@ -821,6 +818,7 @@
 				"6F7371F65F59C144"
 			]
 			id: "54850E90B4C9B943"
+			min_required_dependencies: 1
 			rewards: [{
 				id: "019228CBFB3C15C2"
 				item: {
@@ -863,6 +861,7 @@
 		{
 			dependencies: ["7ED72198DDA2ABBB"]
 			id: "581D033631383067"
+			optional: true
 			rewards: [{
 				count: 8
 				id: "608EE2B897BEC9CF"
@@ -883,6 +882,7 @@
 		{
 			dependencies: ["581D033631383067"]
 			id: "43FAF436D9E3AEBC"
+			optional: true
 			rewards: [{
 				id: "38676CD2F7172FF2"
 				type: "xp_levels"
@@ -899,6 +899,7 @@
 		{
 			dependencies: ["43FAF436D9E3AEBC"]
 			id: "3E3D3423787179AC"
+			optional: true
 			rewards: [{
 				id: "7640CD9BBCCAC2E4"
 				item: {
@@ -918,6 +919,14 @@
 		{
 			dependencies: ["1C877C621972562E"]
 			id: "64A0708C7089D21D"
+			rewards: [{
+				id: "76A300669A0E8F51"
+				item: {
+					count: 1
+					id: "modern_industrialization:steel_machine_casing"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "243CA3508D0AAA35"
 				item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
@@ -929,6 +938,12 @@
 		{
 			dependencies: ["1E6E1F40231C77AB"]
 			id: "3A72DF3BC5E299BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F740BAC02C1F812"
+				table_id: 4212152493652920437L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0722240D8161359B"
 				item: { count: 1, id: "modern_industrialization:electric_macerator" }
@@ -940,6 +955,12 @@
 		{
 			dependencies: ["1E6E1F40231C77AB"]
 			id: "49A620B4045FE4C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DFD32EFA1B3A101"
+				table_id: 4212152493652920437L
+				type: "random"
+			}]
 			tasks: [{
 				id: "09E1469D17277266"
 				item: { count: 1, id: "modern_industrialization:electric_mixer" }
@@ -951,6 +972,12 @@
 		{
 			dependencies: ["1E6E1F40231C77AB"]
 			id: "73EB3C32339E09B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7850A6980F76C962"
+				table_id: 4212152493652920437L
+				type: "random"
+			}]
 			tasks: [{
 				id: "17773CA820E87158"
 				item: { count: 1, id: "modern_industrialization:assembler" }
@@ -962,6 +989,12 @@
 		{
 			dependencies: ["1E6E1F40231C77AB"]
 			id: "29E7525F436E1C1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37ADF27DDD870D04"
+				table_id: 4212152493652920437L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4EAFDE46879D133C"
 				item: { count: 1, id: "modern_industrialization:electric_cutting_machine" }
@@ -973,6 +1006,12 @@
 		{
 			dependencies: ["1E6E1F40231C77AB"]
 			id: "1D472BD41E28518E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A5C41AD496FDE54"
+				table_id: 4212152493652920437L
+				type: "random"
+			}]
 			tasks: [{
 				id: "63CD82C625C796B6"
 				item: { count: 1, id: "modern_industrialization:electric_compressor" }
@@ -984,6 +1023,14 @@
 		{
 			dependencies: ["70D8DA0284AC5197"]
 			id: "1E6E1F40231C77AB"
+			rewards: [{
+				id: "618D581D1F9CCD05"
+				item: {
+					count: 1
+					id: "modern_industrialization:basic_machine_hull"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "240F2A5D4197CBA7"
 				item: { count: 1, id: "modern_industrialization:basic_machine_hull" }
@@ -995,6 +1042,12 @@
 		{
 			dependencies: ["1E6E1F40231C77AB"]
 			id: "7DE46396BB7B3300"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57E1C1EEA9A8E7F1"
+				table_id: 4212152493652920437L
+				type: "random"
+			}]
 			tasks: [{
 				id: "437B72E3E40F4A49"
 				item: { count: 1, id: "modern_industrialization:lv_storage_unit" }
@@ -1025,6 +1078,12 @@
 		{
 			dependencies: ["433F65FCD3001104"]
 			id: "29820E05BBE61E5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14C5223D92E0DA49"
+				table_id: 4212152493652920437L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0B1E05A51E106387"
 				item: { count: 1, id: "modern_industrialization:centrifuge" }
@@ -1036,6 +1095,12 @@
 		{
 			dependencies: ["1E6E1F40231C77AB"]
 			id: "1E01C460908DBFD9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73EE07B71BDBFA05"
+				table_id: 4212152493652920437L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6FE1091CB096F97C"
 				item: { count: 1, id: "modern_industrialization:electric_wiremill" }
@@ -1061,6 +1126,12 @@
 		{
 			dependencies: ["1F9972D7DD9073A7"]
 			id: "30E47146F7AD460C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E3153112889FB17"
+				table_id: 4212152493652920437L
+				type: "random"
+			}]
 			tasks: [{
 				id: "50EA710928FC6FA4"
 				item: { count: 1, id: "modern_industrialization:electrolyzer" }
@@ -1093,6 +1164,12 @@
 		{
 			dependencies: ["1E6E1F40231C77AB"]
 			id: "1F9972D7DD9073A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2800412A20464350"
+				table_id: 4212152493652920437L
+				type: "random"
+			}]
 			tasks: [{
 				id: "38ABE1162BEBEA89"
 				item: { count: 1, id: "modern_industrialization:polarizer" }
@@ -1104,6 +1181,14 @@
 		{
 			dependencies: ["6C316018AD21A015"]
 			id: "285D4D5F69ABFC9F"
+			rewards: [{
+				id: "6BA67AC9F1E1A335"
+				item: {
+					count: 1
+					id: "modern_industrialization:turbo_machine_hull"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "68CA32F626BEBB1D"
 				item: { count: 1, id: "modern_industrialization:turbo_machine_hull" }
@@ -1116,8 +1201,18 @@
 			dependencies: [
 				"29ECBDC50936D2BE"
 				"018BD4709F5047FC"
+				"2FA54E78D4816862"
 			]
 			id: "6C316018AD21A015"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "345E21DB5B203ACE"
+				item: {
+					count: 1
+					id: "modern_industrialization:turbo_machine_casing"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "627299F14C5B1B6D"
 				item: { count: 1, id: "modern_industrialization:turbo_machine_casing" }
@@ -1129,6 +1224,12 @@
 		{
 			dependencies: ["26B6E79196CEDC82"]
 			id: "29ECBDC50936D2BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BF9224BBD5B1710"
+				table_id: 4212152493652920437L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6F0D3E2B75C1B695"
 				item: { count: 1, id: "modern_industrialization:vacuum_freezer" }
@@ -1140,6 +1241,12 @@
 		{
 			dependencies: ["26B6E79196CEDC82"]
 			id: "6F7371F65F59C144"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E7111D5A5E182C7"
+				table_id: 4212152493652920437L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6EDA9AB39A424F9D"
 				item: { count: 1, id: "modern_industrialization:chemical_reactor" }
@@ -1151,12 +1258,21 @@
 		{
 			dependencies: ["3E3D3423787179AC"]
 			id: "4556DBB452DB8BE8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "692447341F3100A1"
-				table_id: 5527057978228826110L
-				type: "random"
-			}]
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "692447341F3100A1"
+					table_id: 5527057978228826110L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FDBF7D9040A4D62"
+					table_id: 4212152493652920437L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6DD76E70E01E5F35"
 				item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
@@ -1164,6 +1280,149 @@
 			}]
 			x: -19.5d
 			y: -10.5d
+		}
+		{
+			dependencies: ["02203A4B855E8C31"]
+			id: "3DF24A5687B44E83"
+			rewards: [{
+				id: "5749DC6A8A877C52"
+				item: {
+					count: 1
+					id: "powah:dielectric_casing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C00D1C26832060C"
+				item: { count: 1, id: "powah:dielectric_paste" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["02B31005846D4C96"]
+			id: "1E4402E6761CB438"
+			rewards: [{
+				count: 2
+				id: "4F03DA764C5E31A6"
+				item: {
+					count: 1
+					id: "enderio:vibrant_alloy_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "002AD79442949797"
+				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
+				type: "item"
+			}]
+			x: -22.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1E4402E6761CB438"]
+			id: "1D0EC1034F0450A0"
+			rewards: [{
+				id: "5776C0E834F65A27"
+				item: {
+					count: 1
+					id: "enderio:vibrant_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B9F5A836D31BC91"
+				item: { count: 1, id: "enderio:vibrant_crystal" }
+				type: "item"
+			}]
+			x: -22.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["1D0EC1034F0450A0"]
+			id: "7B4A5734F936F06E"
+			rewards: [{
+				count: 6
+				id: "46664D92A56A873C"
+				item: {
+					count: 1
+					id: "enderio:empty_soul_vial"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46EA46DA1FA82195"
+				item: { count: 1, id: "enderio:soul_binder" }
+				type: "item"
+			}]
+			x: -22.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3DF24A5687B44E83"]
+			id: "13E5F0E8C2140209"
+			rewards: [{
+				count: 16
+				id: "752311F141F0BF5F"
+				item: {
+					count: 1
+					id: "powah:dielectric_paste"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1BCAFC72EEA82BEA"
+					item: { count: 1, id: "powah:energizing_rod_starter" }
+					type: "item"
+				}
+				{
+					id: "124E4AEAA2621B40"
+					item: { count: 1, id: "powah:energizing_orb" }
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["13E5F0E8C2140209"]
+			id: "26EBC0BBCC293BC5"
+			rewards: [{
+				id: "00CDC907CCC58EFE"
+				item: {
+					count: 1
+					id: "powah:crystal_blazing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "492F473DC13B397F"
+				item: { count: 1, id: "powah:crystal_blazing" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["26EBC0BBCC293BC5"]
+			id: "2FA54E78D4816862"
+			rewards: [{
+				id: "799BEF680831F8BA"
+				item: {
+					count: 1
+					id: "powah:crystal_niotic"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "79F58FBAB4979302"
+				item: { count: 1, id: "powah:crystal_niotic" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -15.0d
 		}
 	]
 }

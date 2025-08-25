@@ -1,0 +1,40 @@
+{
+	id: "563276FAF9354029"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ id: "3D41C3B73DAA9B02", item: { count: 1, id: "lava:lucky_block_3" } }
+		{
+			count: 3
+			id: "0E94820B4F266DF3"
+			item: {
+				count: 1
+				id: "lava:lucky_block_3"
+			}
+			weight: 0.3f
+		}
+		{ id: "7170E14564C0F48D", item: { count: 1, id: "pneumaticcraft:unassembled_pcb" } }
+		{ id: "74980A4F77C02BCF", item: { count: 1, id: "deeperdarker:reinforced_echo_shard" } }
+		{ id: "0C00E2D51786C0BC", item: { count: 1, id: "minecraft:netherite_ingot" } }
+		{
+			count: 4
+			id: "7A95DCC29B9DB82E"
+			item: {
+				count: 1
+				id: "create:brass_casing"
+			}
+		}
+		{ id: "5D9B83B5988DF694", item: { count: 1, id: "industrialforegoing:machine_frame_advanced" } }
+		{ id: "6F99A7F61D28C3FF", item: { count: 1, id: "ironfurnaces:diamond_furnace" } }
+		{ id: "2FBBE7BF41758740", item: { count: 1, id: "powah:dielectric_casing" } }
+		{
+			id: "2D57434DEF334EC0"
+			item: {
+				count: 1
+				id: "lava:lucky_block_4"
+			}
+			weight: 0.1f
+		}
+	]
+	use_title: true
+}

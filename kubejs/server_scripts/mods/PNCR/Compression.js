@@ -44,4 +44,22 @@ ServerEvents.recipes(lava => {
             {count: 64, item:'pneumaticcraft:compressed_iron_block'}
         ]
     )
+    lava.custom(
+            {
+                type: 'pneumaticcraft:pressure_chamber',
+                inputs: [
+                    {count: 25, item:'ae2:certus_quartz_dust'},
+                    {count: 16, tag:'c:dusts/aluminum'},
+                    {count: 16, item:'minecraft:clay_ball'},
+                    {count: 2, item:'pneumaticcraft:lubricant_bucket'},
+                    {count: 16, tag:'c:dusts/coal'}
+                ],
+                pressure: 2,
+                results: [
+                    {count: 64, id: 'powah:dielectric_paste'},
+                    {count: 64, id: 'powah:dielectric_paste'},
+                    {count: 2, id: 'minecraft:bucket'}
+                ]
+            }
+        ).id('lava:pressure/powah/dielectric_paste')
 })

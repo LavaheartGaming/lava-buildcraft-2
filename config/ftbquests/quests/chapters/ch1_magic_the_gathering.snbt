@@ -193,11 +193,19 @@
 		{
 			dependencies: ["72EF1D9A8C5075BA"]
 			id: "14091FB5A5889481"
-			rewards: [{
-				id: "710CDA50C09CC4D4"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "710CDA50C09CC4D4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43AA03F7E885CAFC"
+					table_id: 4212152493652920437L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "48DBF6721A1FDEA4"
 				item: { count: 1, id: "ae2:flawed_budding_quartz" }
@@ -695,15 +703,23 @@
 		{
 			dependencies: ["63EFBC33F7DA09B6"]
 			id: "0E5FA95510E80862"
-			rewards: [{
-				count: 10
-				id: "6575836688069FFA"
-				item: {
-					count: 1
-					id: "minecraft:coal"
+			rewards: [
+				{
+					count: 10
+					id: "6575836688069FFA"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "1A150D7F74EA4172"
+					table_id: 5527057978228826110L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "636CADD9A1CFA38F"
 				item: { count: 1, id: "generatorgalore:iron_generator" }
@@ -715,11 +731,19 @@
 		{
 			dependencies: ["0E5FA95510E80862"]
 			id: "7D1AE3F2514BA1B3"
-			rewards: [{
-				id: "5E8C1184BD736EED"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "5E8C1184BD736EED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "592DD6245BF7743F"
+					table_id: 5527057978228826110L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "27CF879D6C5E7C9D"
 				item: { count: 1, id: "generatorgalore:gold_generator" }
@@ -731,14 +755,22 @@
 		{
 			dependencies: ["7D1AE3F2514BA1B3"]
 			id: "785169587F03165A"
-			rewards: [{
-				id: "4C9E46DE1943BF89"
-				item: {
-					count: 1
-					id: "minecraft:diamond"
+			rewards: [
+				{
+					id: "4C9E46DE1943BF89"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "7DF799061FA62133"
+					table_id: 5527057978228826110L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "28F65E60D2C188E8"
 				item: { count: 1, id: "generatorgalore:diamond_generator" }
@@ -750,11 +782,19 @@
 		{
 			dependencies: ["785169587F03165A"]
 			id: "77CC6612395E964C"
-			rewards: [{
-				id: "7DC22D0F464FC2E3"
-				type: "xp"
-				xp: 150
-			}]
+			rewards: [
+				{
+					id: "7DC22D0F464FC2E3"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "293D3D314CA4C6D0"
+					table_id: 4212152493652920437L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "088AAE27465AEF44"
 				item: { count: 1, id: "generatorgalore:netherite_generator" }
@@ -918,11 +958,21 @@
 		{
 			dependencies: ["541147390FE76FD9"]
 			id: "581FC5753C749B80"
-			rewards: [{
-				id: "5C2F6A4D687C8039"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "5C2F6A4D687C8039"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5B533A5E5CDD648C"
+					item: {
+						count: 1
+						id: "ae2:cell_component_1k"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "48D5B7BBAF571A61"
 				item: { count: 1, id: "ae2:item_storage_cell_1k" }
@@ -934,6 +984,12 @@
 		{
 			dependencies: ["541147390FE76FD9"]
 			id: "2EF2952787F5C2E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30B4B5C36FC56BDA"
+				table_id: 5527057978228826110L
+				type: "random"
+			}]
 			tasks: [{
 				id: "532DAB257739B036"
 				item: { count: 1, id: "ae2:fluid_storage_cell_1k" }
@@ -1512,7 +1568,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["4501C862D34A9C67"]
+			dependencies: ["5CB8A5FD9B0D1138"]
 			id: "2B7034EC3ED2281B"
 			rewards: [{
 				id: "55886E48D4D186F4"

@@ -1,7 +1,7 @@
 {
   "rolls": {
-    "min": 8.0,
-    "max": 15.0,
+    "min": 5.0,
+    "max": 10.0,
     "type": "minecraft:uniform"
   },
   "bonus_rolls": 0.0,
@@ -66,29 +66,40 @@
     {
       "functions": [
         {
-          "only_vanilla": true,
-          "enchanted_chance": 50,
-          "random_enchantibility": 60,
           "type": "WEAPON",
+          "enchanted_chance": 50,
+          "random_enchantability": 60,
           "function": "tombstone:enchanted_equipment"
         }
       ],
       "name": "minecraft:book",
-      "weight": 100,
+      "weight": 0,
       "type": "minecraft:item"
     },
     {
       "functions": [
         {
-          "only_vanilla": false,
-          "enchanted_chance": 50,
-          "random_enchantibility": 60,
           "type": "TOOL",
+          "enchanted_chance": 50,
+          "random_enchantability": 60,
           "function": "tombstone:enchanted_equipment"
         }
       ],
       "name": "minecraft:book",
-      "weight": 100,
+      "weight": 0,
+      "type": "minecraft:item"
+    },
+    {
+      "functions": [
+        {
+          "type": "ARMOR",
+          "enchanted_chance": 50,
+          "random_enchantability": 60,
+          "function": "tombstone:enchanted_equipment"
+        }
+      ],
+      "name": "minecraft:book",
+      "weight": 0,
       "type": "minecraft:item"
     },
     {

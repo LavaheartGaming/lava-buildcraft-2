@@ -64,6 +64,9 @@
     "hud.status": true,
     "hud.contents": true
   },
+  "ftbquests": {
+    "barrier": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -74,6 +77,9 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "custommachinery": {
+    "machine_component_provider": true
   },
   "ae2": {
     "part_icon": true,
@@ -129,6 +135,9 @@
   "waystones": {
     "waystone": true
   },
+  "gravestone": {
+    "grave": true
+  },
   "cookingforblockheads": {
     "fridge": true,
     "oven": true,
@@ -150,10 +159,6 @@
     "block": true,
     "entity": true,
     "entity_variant": true
-  },
-  "tombstone": {
-    "decorative_graves": true,
-    "player_graves": true
   },
   "pneumaticcraft": {
     "pneumatic": true,
@@ -178,6 +183,7 @@
     "drawer": true
   },
   "xycraft": {
+    "energy_pipe_debug": true,
     "tank_component": true,
     "extractor_component": true
   },
@@ -195,6 +201,9 @@
   "twilightforest": {
     "chiseled_bookshelf_spawner": true,
     "quest_ram_wool": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,

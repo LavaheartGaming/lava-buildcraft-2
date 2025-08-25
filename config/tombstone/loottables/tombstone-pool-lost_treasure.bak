@@ -127,6 +127,9 @@
   ],
   "conditions": [
     {
+      "condition": "tombstone:check_player"
+    },
+    {
       "predicate": {
         "type_specific": {
           "in_open_water": true,

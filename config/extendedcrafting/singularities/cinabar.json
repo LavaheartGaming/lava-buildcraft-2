@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.cinnabar",
+  "colors": [
+    "e34234",
+    "8a0901"
+  ],
+  "ingredient": {
+    "item": "alltheores:cinnabar"
+  },
+  "inUltimateSingularity": true
+}

@@ -43,10 +43,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: [
-				"7F6F5A3BD97C6EE1"
-				"70A67FE82A7325CE"
-			]
+			dependencies: ["70A67FE82A7325CE"]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
 			icon: {
@@ -175,40 +172,13 @@
 		{
 			dependencies: ["428620D6B221A4BC"]
 			id: "139117037B61EC52"
-			rewards: [{
-				id: "3496358DF7C81BC0"
-				type: "xp_levels"
-				xp_levels: 99999999
+			tasks: [{
+				id: "1C7655D1EF4D9BF6"
+				item: { count: 1, id: "lava:infinity_chestplate" }
+				type: "item"
 			}]
-			tasks: [
-				{
-					id: "392F0193228590E6"
-					item: { count: 1, id: "lava:infinity_helmet" }
-					type: "item"
-				}
-				{
-					id: "1C7655D1EF4D9BF6"
-					item: { count: 1, id: "lava:infinity_chestplate" }
-					type: "item"
-				}
-				{
-					id: "5C11700C0320E895"
-					item: { count: 1, id: "lava:infinity_leggings" }
-					type: "item"
-				}
-				{
-					id: "6568816ED6FA58F8"
-					item: { count: 1, id: "lava:infinity_boots" }
-					type: "item"
-				}
-				{
-					id: "4F424EA99CF515A3"
-					item: { count: 1, id: "lava:infinity_pickaxe" }
-					type: "item"
-				}
-			]
-			x: -1.0d
-			y: -23.5d
+			x: 4.0d
+			y: -20.0d
 		}
 		{
 			dependencies: [
@@ -230,6 +200,7 @@
 				"2564C0B760DAE488"
 				"00C4705E47B054F9"
 				"196E61BF5C8C5D9F"
+				"3767A6D9D279F795"
 			]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
@@ -307,11 +278,19 @@
 				"37D9A2E9CDDCD3E6"
 			]
 			id: "744E930B4449DA83"
-			rewards: [{
-				id: "49F3699A4F526A38"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
+			rewards: [
+				{
+					id: "49F3699A4F526A38"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0128C81FDE93AE52"
+					table_id: 4030610885414247070L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "21CC20163824E6F5"
 				item: { count: 1, id: "generatorgalore:culinary_generator_64x" }
@@ -324,13 +303,10 @@
 			dependencies: ["559D8B3B5E21AC29"]
 			id: "41B5130489D563E8"
 			rewards: [{
-				id: "4831CFC9ED58BD12"
+				id: "4C7D847510E0AA6A"
 				item: {
-					components: {
-						"ftbquests:missing_item": "irons_spellbooks:legendary_ink"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "minecraft:bedrock"
 				}
 				type: "item"
 			}]
@@ -430,27 +406,35 @@
 				item: { count: 1, id: "functionalstorage:max_storage_upgrade" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["626C3B8435F0D665"]
 			id: "1D7A72176FCD1B7A"
-			rewards: [{
-				id: "6A0BE236751B049C"
-				item: {
-					components: {
-						"minecraft:stored_enchantments": {
-							levels: {
-								"jlme:critical_strike": 5
+			rewards: [
+				{
+					id: "6A0BE236751B049C"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"jlme:critical_strike": 5
+								}
 							}
 						}
+						count: 1
+						id: "minecraft:enchanted_book"
 					}
-					count: 1
-					id: "minecraft:enchanted_book"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "223AD3726798F0F3"
+					table_id: 3448359885751380133L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "04902A3FEF5227A4"
 				item: { count: 1, id: "apothic_enchanting:ender_library" }
@@ -476,8 +460,8 @@
 				item: { count: 1, id: "lava:cosmic_sword" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -20.0d
+			x: 4.0d
+			y: -16.5d
 		}
 		{
 			dependencies: [
@@ -498,13 +482,13 @@
 				item: { count: 1, id: "lava:infinity_sword" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -21.5d
+			x: 4.0d
+			y: -18.0d
 		}
 		{
 			dependencies: [
-				"7F6F5A3BD97C6EE1"
 				"7CC411122A9E9CF3"
+				"70A67FE82A7325CE"
 			]
 			hide_dependency_lines: false
 			id: "0E4C873CFA44B612"
@@ -524,7 +508,7 @@
 				item: { count: 1, id: "wands:creative_wand" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: -7.0d
 		}
 		{
@@ -541,6 +525,12 @@
 		{
 			dependencies: ["41B5130489D563E8"]
 			id: "489DACA7CFA76CA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "679FB4C70B2D85A3"
+				table_id: 3448359885751380133L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4079EC05A45B69B1"
 				item: { count: 1, id: "pneumaticcraft:creative_compressed_iron_block" }
@@ -674,6 +664,35 @@
 				type: "item"
 			}]
 			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["139117037B61EC52"]
+			id: "47E2724E5168946F"
+			tasks: [{
+				id: "420D7729152E32DE"
+				item: { components: { "draconicevolution:config_properties": [ ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; 1882659211, 403785566, -1704993436, -1732942910 ] }, count: 1, id: "draconicevolution:chaotic_chestpiece" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -21.5d
+		}
+		{
+			id: "3767A6D9D279F795"
+			rewards: [{
+				id: "26FD8261B2BAA620"
+				item: {
+					count: 1
+					id: "kubejs:compressed_compression_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37F82A79CD9044FB"
+				item: { count: 1, id: "kubejs:compressed_compression_block" }
+				type: "item"
+			}]
+			x: -7.0d
 			y: -7.0d
 		}
 	]
