@@ -172,6 +172,8 @@
 	test3 = 0.0
 	#unfunny
 	"I am very boring" = false
+	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
+	dynamic_assets_generation_mode = "CACHED"
 
 #Game tweaks
 [tweaks]

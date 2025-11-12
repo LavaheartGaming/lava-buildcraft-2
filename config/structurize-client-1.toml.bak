@@ -1,3 +1,6 @@
+#Blueprint related settings
+[blueprint]
+
 	#Affects all previews
 	[blueprint.renderer]
 		#If disabled show placeholders as normal blocks, if enabled render: any (light) -> nothing, fluid (blue) -> dimension default fluid, solid (brown) -> worldgen block, tag (transparent) -> content block. Fluid and solid only work in singleplayer/for LAN owner, else it's just best guess. Currently without auto-updating [Default: false]
@@ -15,7 +18,7 @@
 		# Range: -1.0 ~ 1.0
 		transparency = -1.0
 
-	#All configuration items related to the core gameplay
-	[blueprint.gameplay]
-		#Sneak+scroll on the hotbar switches scan tool slots [Default: true]
-		scan_tool_scrolling = true
+#All configuration items related to the core gameplay
+[gameplay]
+	#Sneak+scroll on the hotbar switches scan tool slots [Default: true]
+	scan_tool_scrolling = true

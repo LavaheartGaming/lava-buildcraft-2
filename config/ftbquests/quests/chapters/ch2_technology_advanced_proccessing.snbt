@@ -220,13 +220,13 @@
 				{
 					count: 2L
 					id: "49B7CB695D7B4A0A"
-					item: { count: 2, id: "ae2:molecular_assembler" }
+					item: { count: 1, id: "ae2:molecular_assembler" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "0C1CA7B8704409B2"
-					item: { count: 2, id: "ae2:cable_interface" }
+					item: { count: 1, id: "ae2:cable_interface" }
 					type: "item"
 				}
 			]

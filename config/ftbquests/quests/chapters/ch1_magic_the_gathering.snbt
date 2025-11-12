@@ -38,7 +38,7 @@
 			tasks: [{
 				count: 3L
 				id: "75CAC0F24E349651"
-				item: { count: 3, id: "ae2:charged_certus_quartz_crystal" }
+				item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -59,7 +59,7 @@
 			tasks: [{
 				count: 8L
 				id: "6848D241890C2F0C"
-				item: { count: 8, id: "ae2:fluix_crystal" }
+				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -1905,7 +1905,7 @@
 			tasks: [{
 				count: 16L
 				id: "54C970372ED9CF10"
-				item: { count: 16, id: "modern_industrialization:battery_alloy_dust" }
+				item: { count: 1, id: "modern_industrialization:battery_alloy_dust" }
 				type: "item"
 			}]
 			x: -7.0d

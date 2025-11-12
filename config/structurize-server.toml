@@ -2,7 +2,7 @@
 [gameplay]
 	#Should the default schematics be ignored (from the jar)? [Default: false]
 	ignoreSchematicsFromJar = false
-	#Should player-made schematics be allowed? [Default: true]
+	#Should player-made schematics be allowed? [Default: false]
 	allowPlayerSchematics = true
 	#Max world operations per tick (max blocks to place, remove, or replace). [Default: 1000, min: 0, max: 100000]
 	# Default: 1000

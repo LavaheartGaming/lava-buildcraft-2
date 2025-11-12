@@ -78,21 +78,21 @@
 					consume_items: true
 					count: 9L
 					id: "61613B0DA0914953"
-					item: { count: 9, id: "mysticalagradditions:creative_essence" }
+					item: { count: 1, id: "mysticalagradditions:creative_essence" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "5638C0EBD6A4C83B"
-					item: { count: 4, id: "extendedcrafting:the_ultimate_ingot" }
+					item: { count: 1, id: "extendedcrafting:the_ultimate_ingot" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "16CEF065075AC6B2"
-					item: { count: 4, id: "extendedcrafting:ultimate_singularity" }
+					item: { count: 1, id: "extendedcrafting:ultimate_singularity" }
 					type: "item"
 				}
 			]
@@ -669,9 +669,18 @@
 		{
 			dependencies: ["139117037B61EC52"]
 			id: "47E2724E5168946F"
+			rewards: [{
+				count: 2
+				id: "4DCDBFA77DFAA873"
+				item: {
+					count: 1
+					id: "lava:infinity_shard"
+				}
+				type: "item"
+			}]
 			tasks: [{
-				id: "420D7729152E32DE"
-				item: { components: { "draconicevolution:config_properties": [ ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; 1882659211, 403785566, -1704993436, -1732942910 ] }, count: 1, id: "draconicevolution:chaotic_chestpiece" }
+				id: "51ACEBFAFEC6D240"
+				item: { components: { "draconicevolution:config_properties": [ ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; 188768119, 1205421177, -1387054158, 1752074989 ] }, count: 1, id: "draconicevolution:wyvern_chestpiece" }
 				type: "item"
 			}]
 			x: 4.0d

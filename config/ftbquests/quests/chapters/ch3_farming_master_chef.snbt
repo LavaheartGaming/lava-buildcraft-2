@@ -261,7 +261,7 @@
 				{
 					count: 8L
 					id: "1DFC47A5897AC525"
-					item: { count: 8, id: "mysticalagriculture:awakening_pedestal" }
+					item: { count: 1, id: "mysticalagriculture:awakening_pedestal" }
 					type: "item"
 				}
 			]

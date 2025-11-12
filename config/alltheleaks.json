@@ -4,5 +4,11 @@
   "scoreboardDebug": false,
   "debugItemStackModifications": false,
   "version": 1,
-  "debugNativeImage": false
+  "debugNativeImage": false,
+  "disableSearchTree": false,
+  "logIntervalInMinutes": 10,
+  "showSummaryOnDebugScreen": true,
+  "memoryUsageWarningPercentage": 90,
+  "debugChunkLoading": false,
+  "debugThreadsStuck": false
 }

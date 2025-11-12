@@ -1836,7 +1836,7 @@
 				{
 					count: 8L
 					id: "26B90C8E432FB5DB"
-					item: { count: 8, id: "mysticalagriculture:infusion_pedestal" }
+					item: { count: 1, id: "mysticalagriculture:infusion_pedestal" }
 					type: "item"
 				}
 			]

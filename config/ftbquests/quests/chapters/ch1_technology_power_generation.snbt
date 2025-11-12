@@ -28,7 +28,7 @@
 			tasks: [{
 				count: 14L
 				id: "1C8E8B9538D0EE92"
-				item: { count: 14, id: "minecraft:bookshelf" }
+				item: { count: 1, id: "minecraft:bookshelf" }
 				type: "item"
 			}]
 			x: 0.0d

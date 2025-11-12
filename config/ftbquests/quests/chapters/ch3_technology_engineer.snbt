@@ -250,13 +250,13 @@
 				{
 					count: 32L
 					id: "71D10FE65B57205D"
-					item: { count: 32, id: "mekanismgenerators:fission_fuel_assembly" }
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "5D2C4D4E17FF4993"
-					item: { count: 64, id: "mekanismgenerators:fission_reactor_casing" }
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
 					type: "item"
 				}
 			]
@@ -278,7 +278,7 @@
 				{
 					count: 24L
 					id: "14E72D726067BA66"
-					item: { count: 24, id: "mekanismgenerators:fusion_reactor_frame" }
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_frame" }
 					type: "item"
 				}
 				{

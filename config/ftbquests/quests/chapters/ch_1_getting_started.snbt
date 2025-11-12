@@ -52,7 +52,7 @@
 			tasks: [{
 				count: 16L
 				id: "2BC3D5E5FE2D8C19"
-				item: { count: 16, id: "minecraft:cobblestone" }
+				item: { count: 1, id: "minecraft:cobblestone" }
 				type: "item"
 			}]
 			x: -7.5d
@@ -753,7 +753,7 @@
 			tasks: [{
 				count: 8L
 				id: "45334890A7DD3BB7"
-				item: { count: 8, id: "minecraft:copper_ingot" }
+				item: { count: 1, id: "minecraft:copper_ingot" }
 				type: "item"
 			}]
 			x: -7.5d

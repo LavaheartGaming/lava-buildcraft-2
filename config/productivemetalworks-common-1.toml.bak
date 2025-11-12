@@ -1,5 +1,5 @@
 #Max internal volume of the foundry multiblock
-# Default: 200
+# Default: 1024
 # Range: > 1
 foundryMaxVolume = 200
 #Max circumference of the foundry multiblock

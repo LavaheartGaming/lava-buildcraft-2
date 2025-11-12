@@ -2,6 +2,7 @@
   "enablePortalShader": true,
   "enableScreenShake": true,
   "aethersentMeteorDropRate": 5.0E-4,
+  "aethersentMeteorReplaceBlocks": false,
   "laserBeamBreakBlocks": true,
   "mobMaxTearyTicks": 200,
   "mobsConfig": {
@@ -65,7 +66,8 @@
       "armor": 2.0,
       "attackDamage": 2.0,
       "followRange": 32.0,
-      "canSpawn": true
+      "canSpawn": true,
+      "hiringCooldown": 0
     },
     "ent": {
       "maxHealth": 10.0,
@@ -170,6 +172,13 @@
       "followRange": 32.0,
       "canSpawn": true
     },
+    "permafrost": {
+      "maxHealth": 120.0,
+      "armor": 10.0,
+      "attackDamageScale": 1.0,
+      "followRange": 200.0,
+      "canSpawn": true
+    },
     "lunarMonstrosity": {
       "maxHealth": 200.0,
       "armor": 12.0,
@@ -189,13 +198,6 @@
       "armor": 0.0,
       "attackDamage": 3.0,
       "followRange": 64.0,
-      "canSpawn": true
-    },
-    "tangledHatred": {
-      "maxHealth": 60.0,
-      "armor": 5.0,
-      "attackDamageScale": 1.0,
-      "followRange": 100.0,
       "canSpawn": true
     }
   },

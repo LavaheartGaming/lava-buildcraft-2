@@ -133,72 +133,72 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:parrot": true
-			"minecraft:bee": true
-			"minecraft:skeleton": true
-			"aquaculture:arapaima": true
-			"livingthings:peacock": true
-			"livingthings:raccoon": true
+			"minecraft:pig": true
 			"minecraft:villager": true
-			"aquaculture:muskellunge": false
-			"livingthings:shark": true
-			"minecraft:pillager": true
-			"aquaculture:brown_trout": false
-			"aquaculture:perch": false
-			"minecraft:zombie": true
-			"aquaculture:tuna": false
-			"minecraft:witch": true
-			"aquaculture:arrau_turtle": false
-			"minecraft:squid": true
-			"ars_nouveau:drygmy": true
-			"minecraft:pufferfish": false
-			"minecraft:enderman": true
 			"minecraft:iron_golem": true
-			"minecraft:sheep": true
-			"minecraft:phantom": true
-			"minecraft:cow": true
-			"minecraft:trader_llama": true
-			"minecraft:cod": false
 			"aquaculture:red_grouper": false
-			"endermanoverhaul:end_enderman": true
-			"artifacts:mimic": true
-			"minecraft:slime": true
+			"minecraft:pufferfish": false
+			"aquaculture:arrau_turtle": false
+			"minecraft:parrot": true
+			"ars_nouveau:starbuncle": true
+			"aquaculture:synodontis": false
 			"minecraft:chicken": true
 			"livingthings:crab": true
 			"minecraft:drowned": true
-			"minecraft:pig": true
-			"minecraft:armadillo": true
-			"minecraft:wolf": true
-			"minecraft:ocelot": true
-			"minecraft:fox": true
-			"aquaculture:rainbow_trout": false
-			"aquaculture:carp": false
-			"livingthings:seahorse": true
-			"minecraft:horse": true
-			"minecraft:tropical_fish": false
-			"aquaculture:jellyfish": false
-			"aquaculture:atlantic_halibut": false
-			"aquaculture:bluegill": false
 			"minecraft:camel": true
-			"aquaculture:atlantic_herring": false
-			"ars_nouveau:starbuncle": true
-			"minecraft:creeper": true
-			"aquaculture:minnow": false
-			"minecraft:bat": true
-			"aquaculture:gar": false
-			"aquaculture:catfish": false
-			"endermanoverhaul:cave_enderman": true
-			"aquaculture:smallmouth_bass": false
-			"minecraft:zombie_villager": true
-			"minecraft:wandering_trader": true
-			"minecraft:axolotl": true
-			"minecraft:spider": true
-			"ars_nouveau:whirlisprig": true
-			"livingthings:snail": true
-			"aquaculture:synodontis": false
+			"aquaculture:jellyfish": false
+			"aquaculture:perch": false
+			"minecraft:squid": true
 			"minecraft:cat": true
-			"minecraft:glow_squid": true
+			"minecraft:horse": true
+			"aquaculture:brown_trout": false
+			"minecraft:zombie": true
+			"livingthings:raccoon": true
+			"aquaculture:gar": false
+			"livingthings:peacock": true
+			"aquaculture:smallmouth_bass": false
+			"minecraft:pillager": true
+			"minecraft:wolf": true
+			"aquaculture:tuna": false
+			"aquaculture:bluegill": false
+			"ars_nouveau:whirlisprig": true
+			"minecraft:fox": true
+			"minecraft:skeleton": true
+			"aquaculture:catfish": false
+			"aquaculture:carp": false
 			"livingthings:owl": true
+			"minecraft:trader_llama": true
+			"minecraft:spider": true
+			"livingthings:snail": true
+			"aquaculture:atlantic_halibut": false
+			"minecraft:ocelot": true
+			"minecraft:wandering_trader": true
+			"minecraft:glow_squid": true
+			"minecraft:zombie_villager": true
+			"endermanoverhaul:cave_enderman": true
+			"aquaculture:atlantic_herring": false
+			"minecraft:cow": true
+			"minecraft:axolotl": true
+			"minecraft:tropical_fish": false
+			"minecraft:bat": true
+			"endermanoverhaul:end_enderman": true
+			"minecraft:slime": true
+			"minecraft:armadillo": true
+			"livingthings:shark": true
+			"artifacts:mimic": true
+			"aquaculture:muskellunge": false
+			"minecraft:creeper": true
+			"minecraft:enderman": true
+			"aquaculture:minnow": false
+			"livingthings:seahorse": true
+			"minecraft:bee": true
+			"ars_nouveau:drygmy": true
+			"minecraft:witch": true
+			"minecraft:sheep": true
+			"minecraft:cod": false
+			"aquaculture:arapaima": true
+			"minecraft:phantom": true
+			"aquaculture:rainbow_trout": false
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
