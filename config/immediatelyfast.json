@@ -17,5 +17,7 @@
   "debug_only_and_not_recommended_disable_mod_conflict_handling": false,
   "debug_only_and_not_recommended_disable_hardware_conflict_handling": false,
   "debug_only_print_additional_error_information": false,
-  "debug_only_use_last_usage_for_batch_ordering": false
+  "debug_only_use_last_usage_for_batch_ordering": false,
+  "debug_only_detailed_memory_leak_detection": false,
+  "_modified_by_DraconicEvolutionRenderPatcher": "hud_batching can be set to false by Draconic Evolution Render Patcher, overriding the value in this file. Disable this behaviour in Draconic Evolution Render Patcher if undesired."
 }

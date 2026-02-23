@@ -9,13 +9,13 @@ ServerEvents.recipes(lava => {
     {
       "consume": true,
       "ingredient": {
-        "item": "extendedcrafting:ultimate_singularity"
+        "item": "avaritia:eternal_singularity"
       }
     },
     {
       "consume": true,
       "ingredient": {
-        "item": "extendedcrafting:ultimate_singularity"
+        "item": "avaritia:eternal_singularity"
       }
     }
   ],
@@ -23,7 +23,7 @@ ServerEvents.recipes(lava => {
     "count": 1,
     "id": "lava:infinity_shard"
   },
-  "techLevel": "chaotic",
+  "techLevel": "draconic",
   "totalEnergy": 80000000000000
 })  
 })

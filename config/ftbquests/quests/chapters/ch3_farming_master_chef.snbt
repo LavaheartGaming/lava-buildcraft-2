@@ -217,14 +217,22 @@
 		{
 			dependencies: ["1DB5F446D9C297D8"]
 			id: "5396CE9F130EB594"
-			rewards: [{
-				id: "0C6E99BE2A2FB924"
-				item: {
-					count: 1
-					id: "mysticalagriculture:awakened_supremium_essence"
+			rewards: [
+				{
+					id: "0C6E99BE2A2FB924"
+					item: {
+						count: 1
+						id: "mysticalagriculture:awakened_supremium_essence"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "272FEDD10C38413A"
+					table_id: 4030610885414247070L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "45805AA3B9027A8A"
 				item: { count: 1, id: "mysticalagriculture:awakened_supremium_essence" }
@@ -259,9 +267,15 @@
 					type: "item"
 				}
 				{
-					count: 8L
+					count: 4L
 					id: "1DFC47A5897AC525"
 					item: { count: 1, id: "mysticalagriculture:awakening_pedestal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7F7055F397415350"
+					item: { count: 1, id: "mysticalagriculture:essence_vessel" }
 					type: "item"
 				}
 			]
@@ -750,6 +764,25 @@
 			}]
 			x: 7.0d
 			y: -6.5d
+		}
+		{
+			dependencies: ["688DC050D68330A7"]
+			id: "5A2BFDA0119652D1"
+			rewards: [{
+				id: "0CC9AA4945798F6E"
+				item: {
+					count: 1
+					id: "compressedblocks:sextuple_crated_nether_star"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4287C0B2007C648C"
+				item: { count: 1, id: "compressedblocks:sextuple_crated_nether_star" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
 		}
 	]
 }

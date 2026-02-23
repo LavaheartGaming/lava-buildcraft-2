@@ -4,11 +4,11 @@
 	#Cooldown of the Basic Laser Turret
 	# Default: 50
 	# Range: > 0
-	basicLaserTurretCooldown = 40
+	basicLaserTurretCooldown = 10
 	#Damage of the Basic Laser Turret
 	# Default: 1.0
 	# Range: 0.0 ~ 3.4028234663852886E38
-	basicLaserTurretDamage = 5.0
+	basicLaserTurretDamage = 2.5
 	#Energy Capacity of the Basic Laser Turret
 	# Default: 10000
 	# Range: > 0
@@ -16,7 +16,7 @@
 	#Range of the Basic Laser Turret
 	# Default: 15.0
 	# Range: 0.0 ~ 1000.0
-	basicLaserTurretRange = 15.0
+	basicLaserTurretRange = 20.0
 	#Cooldown of the Advanced Laser Turret
 	# Default: 40
 	# Range: > 0
@@ -32,7 +32,7 @@
 	#Range of the Advanced Laser Turret
 	# Default: 20.0
 	# Range: 0.0 ~ 1000.0
-	advancedLaserTurretRange = 25.0
+	advancedLaserTurretRange = 30.0
 	#Cooldown of the Elite Laser Turret
 	# Default: 30
 	# Range: > 0
@@ -48,7 +48,7 @@
 	#Range of the Elite Laser Turret
 	# Default: 25.0
 	# Range: 0.0 ~ 1000.0
-	eliteLaserTurretRange = 30.0
+	eliteLaserTurretRange = 40.0
 	#Cooldown of the Ultimate Laser Turret
 	# Default: 35
 	# Range: > 0
@@ -64,4 +64,4 @@
 	#Range of the Ultimate Laser Turret
 	# Default: 30.0
 	# Range: 0.0 ~ 1000.0
-	ultimateLaserTurretRange = 70.0
+	ultimateLaserTurretRange = 80.0

@@ -67,6 +67,11 @@
   "ftbquests": {
     "barrier": true
   },
+  "avaritia": {
+    "extreme_smithing": true,
+    "crafting_table": true,
+    "compressor": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -77,9 +82,6 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
-  },
-  "custommachinery": {
-    "machine_component_provider": true
   },
   "ae2": {
     "part_icon": true,
@@ -199,6 +201,7 @@
     "infused_farmland": true
   },
   "twilightforest": {
+    "drying_rack": true,
     "chiseled_bookshelf_spawner": true,
     "quest_ram_wool": true
   },

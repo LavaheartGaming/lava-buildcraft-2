@@ -12,3 +12,6 @@
 	merge_dynamic_resource_packs = true
 	#Enables some debug renderers. Require the use of the /supp debug command to enable their data being sent
 	debug_renderers = false
+	#Show Item and Block tags on item tooltip
+	#Allowed Values: OFF, ON, ADVANCED_ONLY
+	tags_tooltips = "OFF"

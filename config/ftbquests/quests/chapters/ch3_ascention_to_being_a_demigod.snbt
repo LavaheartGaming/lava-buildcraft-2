@@ -53,6 +53,12 @@
 		{
 			dependencies: ["00053A6101C77763"]
 			id: "634011587E45DD55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5775E81D98739E4F"
+				table_id: 3448359885751380133L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0895CC3200DBB7DF"
 				item: { count: 1, id: "lava:ombrum_armor_helmet" }
@@ -64,6 +70,12 @@
 		{
 			dependencies: ["00053A6101C77763"]
 			id: "25B9FC69797A5A5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58C1AA7C4DF64540"
+				table_id: 3448359885751380133L
+				type: "random"
+			}]
 			tasks: [{
 				id: "33CE54DA5EBF1216"
 				item: { count: 1, id: "lava:ombrum_armor_chestplate" }
@@ -75,6 +87,12 @@
 		{
 			dependencies: ["00053A6101C77763"]
 			id: "60FF06273A3CFBC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D919A3797ED76DF"
+				table_id: 4030610885414247070L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0FA92044D1F6DB11"
 				item: { count: 1, id: "lava:ombrum_armor_leggings" }
@@ -86,6 +104,12 @@
 		{
 			dependencies: ["00053A6101C77763"]
 			id: "2F4834B1A3DA035F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BE6DB693ED7B488"
+				table_id: 4030610885414247070L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4E641BCAD8D72BB5"
 				item: { count: 1, id: "lava:ombrum_armor_boots" }
@@ -108,6 +132,12 @@
 		{
 			dependencies: ["00053A6101C77763"]
 			id: "38872F339102AF5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A38692BD137421F"
+				table_id: 4030610885414247070L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3C7F6DA42E429FAC"
 				item: { count: 1, id: "lava:ombrum_hammer" }
@@ -152,12 +182,20 @@
 				item: { count: 1, id: "lava:lucky_block_5" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["040E9FD8EB50D2AC"]
 			id: "277396DAD264D8E8"
+			rewards: [{
+				id: "4DA37FE5A723DC4D"
+				item: {
+					count: 1
+					id: "lava:azura_emerald"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F85589CB0A7DE4F"
 				item: { count: 1, id: "lava:azura_emerald" }
@@ -169,6 +207,14 @@
 		{
 			dependencies: ["040E9FD8EB50D2AC"]
 			id: "0E27A777DA6BE3F9"
+			rewards: [{
+				id: "7D8E059989C305D9"
+				item: {
+					count: 1
+					id: "lava:azura_plate"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2FD81F4545715ADA"
 				item: { count: 1, id: "lava:azura_plate" }
@@ -180,6 +226,14 @@
 		{
 			dependencies: ["040E9FD8EB50D2AC"]
 			id: "63853EB7717FAA96"
+			rewards: [{
+				id: "43602C44C08BB060"
+				item: {
+					count: 1
+					id: "lava:azura_tip"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4588FC55F272E577"
 				item: { count: 1, id: "lava:azura_tip" }
@@ -204,7 +258,7 @@
 				item: { count: 1, id: "lava:godly" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -2.0d
 		}
 		{
@@ -223,7 +277,7 @@
 				item: { count: 1, id: "lava:azura_card" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -0.5d
 		}
 		{
@@ -242,62 +296,92 @@
 				item: { count: 1, id: "lava:emerald_card" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["0AE306BD513EE63A"]
 			id: "2EFDFE6506D63AF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54B674F25777E3DF"
+				table_id: 3448359885751380133L
+				type: "random"
+			}]
 			tasks: [{
 				id: "27DEC48EC59C23E4"
 				item: { count: 1, id: "lava:godly_armor_helmet" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["0AE306BD513EE63A"]
 			id: "2A9306B75106FD90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "021D2B411EED67AD"
+				table_id: 3448359885751380133L
+				type: "random"
+			}]
 			tasks: [{
 				id: "607CF25CC9DA1C40"
 				item: { count: 1, id: "lava:godly_armor_chestplate" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["0AE306BD513EE63A"]
 			id: "29C9A4F8CE500641"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "140A79BE836AE8F1"
+				table_id: 3448359885751380133L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0EBA2FE9278A488B"
 				item: { count: 1, id: "lava:godly_armor_leggings" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0AE306BD513EE63A"]
 			id: "676D317B493CED2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C0B9DD5C395FE4B"
+				table_id: 3448359885751380133L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "04798C7CD6318273"
 				item: { count: 1, id: "lava:godly_armor_boots" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["0AE306BD513EE63A"]
 			id: "42C65C2B5B671593"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00F968EB761FBE31"
+				table_id: 3448359885751380133L
+				type: "random"
+			}]
 			tasks: [{
 				id: "297BEE95107BBE7D"
 				item: { count: 1, id: "lava:godly_axe" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 10.5d
 			y: -2.5d
 		}
 		{
@@ -323,27 +407,203 @@
 				item: { count: 1, id: "lava:azura_sword_unactivated" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.0d
+			x: 4.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["40AC97C9735801ED"]
 			id: "0B1CF03D13D76C96"
-			rewards: [{
-				id: "4F792DCB79D418DC"
-				item: {
-					count: 1
-					id: "lava:azura_tip"
+			rewards: [
+				{
+					id: "4F792DCB79D418DC"
+					item: {
+						count: 1
+						id: "lava:azura_tip"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "0E16D0BEA295CAF1"
+					table_id: 3448359885751380133L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "0D23A3FFFE06BE81"
 				item: { count: 1, id: "lava:azura_sword_activated" }
 				type: "item"
 			}]
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["559D8B3B5E21AC29"]
+			id: "7196B8D12ACFE005"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79DEC128ACBF8265"
+				table_id: 3448359885751380133L
+				type: "random"
+			}]
+			tasks: [{
+				id: "79D46B1EBAA79CEC"
+				item: { count: 1, id: "avaritia:blaze_sword" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["559D8B3B5E21AC29"]
+			id: "58174B641F750C6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65754687142B15D3"
+				table_id: 3448359885751380133L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A9B8D0596CCED6A"
+				item: { count: 1, id: "avaritia:blaze_hoe" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["559D8B3B5E21AC29"]
+			id: "0B3D819620EAAE08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DDAA171148E49EF"
+				table_id: 3448359885751380133L
+				type: "random"
+			}]
+			tasks: [{
+				id: "075348F684C68580"
+				item: { count: 1, id: "avaritia:blaze_pickaxe" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["559D8B3B5E21AC29"]
+			id: "34A042679E46F9BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64BE85ECB9CA3683"
+				table_id: 3448359885751380133L
+				type: "random"
+			}]
+			tasks: [{
+				id: "753770921CE81988"
+				item: { count: 1, id: "avaritia:blaze_bow" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["559D8B3B5E21AC29"]
+			id: "16D2E0540E70CFA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A31CE56ED94492C"
+				table_id: 3448359885751380133L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C94C934BEC550DB"
+				item: { count: 1, id: "avaritia:blaze_shovel" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["559D8B3B5E21AC29"]
+			id: "43BF9E3EFDC46BFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66A8B3230FA244E6"
+				table_id: 3448359885751380133L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1382EFD1E03330A4"
+				item: { count: 1, id: "avaritia:blaze_axe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["34A042679E46F9BF"]
+			id: "49A42B69F97648B0"
+			tasks: [{
+				id: "661847EA490F53DD"
+				item: { count: 1, id: "avaritia:crystal_bow" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["16D2E0540E70CFA2"]
+			id: "3E074A746F4965AB"
+			tasks: [{
+				id: "7EE43A49962C1DBF"
+				item: { count: 1, id: "avaritia:crystal_shovel" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["58174B641F750C6A"]
+			id: "133E326CA6ABB08D"
+			tasks: [{
+				id: "727567A67574EA16"
+				item: { count: 1, id: "avaritia:crystal_hoe" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7196B8D12ACFE005"]
+			id: "4A4D185AE8409380"
+			tasks: [{
+				id: "077DDCE3873F80D7"
+				item: { count: 1, id: "avaritia:crystal_sword" }
+				type: "item"
+			}]
 			x: 3.0d
-			y: -9.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0B3D819620EAAE08"]
+			id: "0B53C2DFD52F8A39"
+			tasks: [{
+				id: "2907AC6818DE2E2D"
+				item: { count: 1, id: "avaritia:crystal_pickaxe" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["43BF9E3EFDC46BFE"]
+			id: "099B8BC8EDBAA97E"
+			tasks: [{
+				id: "727CCDF1B4E8E344"
+				item: { count: 1, id: "avaritia:crystal_axe" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
 		}
 	]
 }

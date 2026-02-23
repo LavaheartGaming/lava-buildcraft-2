@@ -754,32 +754,18 @@
 				id: "hostilenetworks:data_model"
 			}
 			id: "51461B4668BBBF86"
-			rewards: [
-				{
-					count: 5
-					id: "252EEFA12A28D24C"
-					item: {
-						components: {
-							"hostilenetworks:data_model": "hostilenetworks:wither"
-						}
-						count: 1
-						id: "hostilenetworks:prediction"
+			rewards: [{
+				count: 5
+				id: "252EEFA12A28D24C"
+				item: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:wither"
 					}
-					type: "item"
+					count: 1
+					id: "hostilenetworks:prediction"
 				}
-				{
-					count: 5
-					id: "56BF270F84AA44CA"
-					item: {
-						components: {
-							"hostilenetworks:data_model": "hostilenetworks:wither_skeleton"
-						}
-						count: 1
-						id: "hostilenetworks:prediction"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:wither"
 				id: "489022E43C7314D2"

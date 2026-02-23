@@ -176,6 +176,11 @@
 		#default : ebe3db
 		color = ""
 
+	[ores.antimony]
+		#if empty, use default
+		#default : c5c5d6
+		color = ""
+
 	[ores.boron]
 		#if empty, use default
 		#default : 7c7c7c
@@ -189,4 +194,9 @@
 	[ores.thorium]
 		#if empty, use default
 		#default : 2e2e2e
+		color = ""
+
+	[ores.palladium]
+		#if empty, use default
+		#default : b4c9c9
 		color = ""

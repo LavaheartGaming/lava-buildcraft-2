@@ -20,8 +20,8 @@
   "c:ingots/electrum": "alltheores:electrum_ingot",
   "c:ingots/silver": "moremekanismprocessing:silver_ingot",
   "c:ingots/platinum": "moremekanismprocessing:platinum_ingot",
-  "c:ingots/graphite": "bigreactors:graphite_ingot",
-  "c:ingots/uranium": "bigreactors:yellorium_ingot",
+  "c:ingots/graphite": "null",
+  "c:ingots/uranium": "alltheores:uranium_ingot",
   "c:ingots/aluminum": "alltheores:aluminum_ingot",
   "c:ingots/brass": "create:brass_ingot",
   "c:rubbers": "null"

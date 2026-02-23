@@ -158,18 +158,6 @@
 	placeable_tooltips = true
 	#Enables custom Configured config screen
 	custom_configured_screen = true
-	#ignore this
-	# Default: 0.0
-	# Range: -10.0 ~ 10.0
-	test1 = 0.0
-	#ignore this
-	# Default: 0.0
-	# Range: -10.0 ~ 10.0
-	test2 = 0.0
-	#ignore this
-	# Default: 0.0
-	# Range: -10.0 ~ 10.0
-	test3 = 0.0
 	#unfunny
 	"I am very boring" = false
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
@@ -195,12 +183,12 @@
 	mob_head_shaders = true
 	#Sends your current chat when you die while typing
 	send_chat_on_death = true
-	#Makes enderman heads use vanilla texture. Enable for texture pack support
-	enderman_head_texture_pack_support = true
+	#Makes enderman and spider heads use vanilla texture. Enable for texture pack support
+	enderman_and_spider_head_texture_pack_support = true
+	#Show a slime overlay when you hit an entity with a slimeball
+	slime_effect_overlay = true
 
 	[tweaks.colored_maps]
-		#Show a slime overlay when you hit an entity with a slimeball
-		slime_effect_overlay = true
 		#Needs the server config with same name on. If on here it will ignore the server one and keep vanilla colors
 		tinted_blocks_on_maps = true
 		#Colors tall grass same color as grass

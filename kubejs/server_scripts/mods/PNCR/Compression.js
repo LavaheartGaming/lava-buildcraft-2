@@ -23,7 +23,7 @@ ServerEvents.recipes(lava => {
             {count: 1, item: 'pneumaticcraft:electrostatic_compressor'},
             {count: 64, item:'pneumaticcraft:advanced_pressure_tube'},
             {count: 1, item: 'pneumaticcraft:flux_compressor'},
-            {count: 1, item: 'extendedcrafting:the_ultimate_ingot'},
+            {count: 1, item: 'kubejs:ultimate_ingot'},
             {count: 1, item: 'pneumaticcraft:advanced_air_compressor'},
             {count: 64, item:'pneumaticcraft:advanced_pressure_tube'},
             {count: 1, item: 'pneumaticcraft:advanced_liquid_compressor'},
