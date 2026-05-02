@@ -1,0 +1,13 @@
+{
+  "name": "Antimony",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalextendedtier:7",
+  "ingredient": {
+    "item": "modern_industrialization:antimony_ingot"
+  },
+  "color": "4C4F4D",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

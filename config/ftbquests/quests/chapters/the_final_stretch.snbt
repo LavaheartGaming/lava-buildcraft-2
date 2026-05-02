@@ -4,6 +4,9 @@
 	filename: "the_final_stretch"
 	group: "0018F6994B00DCA1"
 	hide_quest_until_deps_complete: true
+	icon: {
+		id: "lava:infinity_shard"
+	}
 	id: "282DE262DEFC6C99"
 	order_index: 0
 	quest_links: [ ]
@@ -47,6 +50,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "7F6F5A3BD97C6EE1"
 			rewards: [
 				{
@@ -122,14 +126,14 @@
 					consume_items: true
 					count: 4L
 					id: "5638C0EBD6A4C83B"
-					item: { count: 1, id: "extendedcrafting:the_ultimate_ingot" }
+					item: { components: { "ftbquests:missing_item": "extendedcrafting:the_ultimate_ingot" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "16CEF065075AC6B2"
-					item: { count: 1, id: "extendedcrafting:ultimate_singularity" }
+					item: { components: { "ftbquests:missing_item": "extendedcrafting:ultimate_singularity" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -433,8 +437,11 @@
 			rewards: [{
 				id: "50ABCA6671372C5C"
 				item: {
+					components: {
+						"ftbquests:missing_item": "solarflux:sp_6"
+					}
 					count: 1
-					id: "solarflux:sp_6"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
@@ -487,8 +494,11 @@
 				count: 3
 				id: "09CDB0519592D349"
 				item: {
+					components: {
+						"ftbquests:missing_item": "extendedcrafting:ultimate_singularity"
+					}
 					count: 1
-					id: "extendedcrafting:ultimate_singularity"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]

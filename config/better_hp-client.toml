@@ -122,3 +122,17 @@ disableIronsManaBar = true
 enableIronsManaCompat = true
 #If enabled, BetterHP will hide Iron's default mana bar when compat is active.
 hideIronsManaOverlay = true
+#Moves the vanilla held-item name text (e.g., 'Splash Potion of Healing'). Negative = higher, Positive = lower.
+# Default: -10
+# Range: -40 ~ 40
+selectedItemNameOffsetY = -10
+#Only apply the selected item name offset when the player has armor > 0.
+moveSelectedItemNameOnlyWhenArmor = true
+#Scale of BetterHP HUD icons. 1.0 = normal size
+# Default: 1.0
+# Range: 0.5 ~ 4.0
+hudIconScale = 1.0
+#Scale of BetterHP HUD text. 1.0 = normal size
+# Default: 1.0
+# Range: 0.5 ~ 4.0
+hudTextScale = 1.0

@@ -28,3 +28,6 @@ dynamic-resource-pack-cache
 moonlight-global-datapacks
 user-prefs.json
 kiwipacks
+ponders_watched.json
+/.mixin.out
+/.sable

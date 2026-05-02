@@ -139,8 +139,11 @@
 			rewards: [{
 				id: "6EC08A90EF954392"
 				item: {
+					components: {
+						"ftbquests:missing_item": "endertanks:ender_bucket"
+					}
 					count: 1
-					id: "endertanks:ender_bucket"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
@@ -626,8 +629,11 @@
 				{
 					id: "21D875B4312B4068"
 					item: {
+						components: {
+							"ftbquests:missing_item": "deeperdarker:heart_of_the_deep"
+						}
 						count: 1
-						id: "deeperdarker:heart_of_the_deep"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -786,7 +792,7 @@
 				item: { count: 1, id: "silentgear:ring_blueprint" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: 5.0d
 		}
 		{
@@ -799,43 +805,6 @@
 			}]
 			x: -6.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["0F5F75B3C6C09998"]
-			id: "4E91D29BEDCB7793"
-			rewards: [{
-				id: "5E81483269220DE3"
-				item: {
-					count: 1
-					id: "minecraft:emerald"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "7EA368EC28D35D54"
-				item: { count: 1, id: "toms_trading_network:vending_machine" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["469F303EF92F7B4F"]
-			id: "5E039D516676BBB0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "58CDA5367A176379"
-				table_id: 4212152493652920437L
-				type: "random"
-			}]
-			tasks: [{
-				entity: "deeperdarker:stalker"
-				id: "26ECAEA41E026C34"
-				type: "kill"
-				value: 1L
-			}]
-			x: 13.5d
-			y: -0.5d
 		}
 	]
 }

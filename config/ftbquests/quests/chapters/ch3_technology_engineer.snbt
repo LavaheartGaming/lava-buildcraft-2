@@ -5,7 +5,7 @@
 	group: "097460243B4AA538"
 	hide_quest_until_deps_complete: true
 	icon: {
-		id: "extendedcrafting:compressor"
+		id: "avaritia:neutron_compressor"
 	}
 	id: "50D9953ADABF1EC0"
 	order_index: 1
@@ -364,6 +364,7 @@
 				"380B8CCE8A25D2A1"
 				"022BB520AC3322EB"
 			]
+			hide_dependent_lines: true
 			id: "2066C97D6465FC25"
 			rewards: [
 				{
@@ -439,7 +440,7 @@
 				item: { count: 1, id: "enderio:pulsating_photovoltaic_module" }
 				type: "item"
 			}]
-			x: -20.5d
+			x: -18.5d
 			y: -3.0d
 		}
 		{
@@ -468,7 +469,7 @@
 				item: { count: 1, id: "enderio:octadic_capacitor" }
 				type: "item"
 			}]
-			x: -20.5d
+			x: -18.5d
 			y: -5.0d
 		}
 		{
@@ -791,36 +792,6 @@
 				}
 			]
 			x: -16.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["290596E9FCD1B389"]
-			id: "2D80DA704D8BAFB6"
-			rewards: [{
-				id: "653FCE60C4187442"
-				item: {
-					count: 1
-					id: "solarflux:sp_de.wyvern"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "28D1F85738D7228C"
-				item: { count: 1, id: "solarflux:sp_de.wyvern" }
-				type: "item"
-			}]
-			x: -18.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["2D80DA704D8BAFB6"]
-			id: "7FD9E68FBAABB7FD"
-			tasks: [{
-				id: "6AE1C629C8337FF7"
-				item: { count: 1, id: "solarflux:sp_de.draconic" }
-				type: "item"
-			}]
-			x: -18.5d
 			y: -5.0d
 		}
 		{
@@ -1285,6 +1256,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "162CBEE334549E87"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1301,6 +1273,7 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "0E409BF4DD87AA47"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1317,6 +1290,7 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "63085E9E9C69107A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1333,6 +1307,7 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "08712F9856E05803"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1349,6 +1324,7 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "38ACA8E4DB98F8AE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1365,6 +1341,7 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "22D42F0642861968"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1381,6 +1358,7 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "697E0794D543222C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1397,6 +1375,7 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "4D1D9975B74980C0"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1413,6 +1392,7 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "4BBC54C25C838848"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1429,6 +1409,7 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "79EE070D3C1860B4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1445,6 +1426,7 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "10F9B1D97CE00B93"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1461,6 +1443,7 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "639820D36C721EC4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1477,6 +1460,7 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "336760866A608018"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1493,6 +1477,7 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "78A5F040E41C2FD7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1509,6 +1494,7 @@
 			y: 14.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "166568C9536C6BA9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1525,6 +1511,7 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "50FF164F214A9C1A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1541,6 +1528,7 @@
 			y: 15.0d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "3B045C35D6BA231F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1557,6 +1545,7 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "3DC91B1A37A94B81"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1573,6 +1562,7 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "0305CF25F4CFCD37"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1589,6 +1579,7 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "7B35A5811B0F6343"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1605,6 +1596,7 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "201855CD145A68BB"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1621,6 +1613,7 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "5C410C7414A99798"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1637,6 +1630,7 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "699ABC952DF3D799"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1653,6 +1647,7 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "71E8BC0C1134CEC9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1669,6 +1664,7 @@
 			y: 15.0d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "070E18F2A337D1E9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1685,6 +1681,7 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "184F0EF8E6205171"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1701,6 +1698,7 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "1920EF998FBDD6B5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1717,6 +1715,7 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "1C29FD05D5BA4CA0"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1733,6 +1732,7 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["2066C97D6465FC25"]
 			id: "182D9BF7715FF5A1"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1747,6 +1747,36 @@
 			}]
 			x: -41.0d
 			y: 16.5d
+		}
+		{
+			dependencies: ["4ECA64A8916FFB14"]
+			id: "2C4C2B3A9CC30D49"
+			rewards: [{
+				id: "0A36B3982AB99856"
+				item: {
+					count: 1
+					id: "mekanism:ultimate_control_circuit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ACF72A8EACCB870"
+				item: { components: { "draconicevolution:config_properties": [ ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; -894567067, -1979299850, -2061747250, -915699729 ] }, count: 1, id: "draconicevolution:wyvern_hoe" }
+				type: "item"
+			}]
+			x: -27.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["51F8D03D6FFBB93B"]
+			id: "5E62AE72B73A88F3"
+			tasks: [{
+				id: "01BCFBC8E28E4C01"
+				item: { count: 1, id: "evolvedmekanism:ultimate_solar_generator" }
+				type: "item"
+			}]
+			x: -23.5d
+			y: 1.0d
 		}
 	]
 }

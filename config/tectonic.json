@@ -1,4 +1,5 @@
 {
+  "__notice": "Tectonic has a config screen that explains every setting if you go to the in-game mod menu! You can also find config info here -> https://github.com/Apollounknowndev/tectonic/wiki/Config",
   "biomes": {
     "temperature_multiplier": 1.0,
     "temperature_offset": 0.0,
@@ -15,6 +16,7 @@
     "depth_cutoff_start": 0.1,
     "noodle_additive": -0.075,
     "noodle_enabled": true,
+    "ore_fix": false,
     "spaghetti_enabled": true
   },
   "continents": {
@@ -29,6 +31,7 @@
     "rolling_hills": true,
     "underground_rivers": true
   },
+  "experimental": {},
   "general": {
     "mod_enabled": true,
     "snow_start_offset": 128

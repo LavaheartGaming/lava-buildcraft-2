@@ -3,7 +3,14 @@
 	loot_size: 1
 	order_index: 4
 	rewards: [
-		{ id: "631E399E09E49BB5", item: { count: 1, id: "lava:lucky_block_5" } }
+		{
+			id: "631E399E09E49BB5"
+			item: {
+				count: 1
+				id: "lava:lucky_block_5"
+			}
+			weight: 2.0f
+		}
 		{
 			count: 3
 			id: "4DCBB9D439BB84BE"
@@ -27,22 +34,6 @@
 		{ id: "5F54F4A0104CF88A", item: { count: 1, id: "justdirethings:clickert2" } }
 		{ id: "76A8C09F2837BBB4", item: { components: { "mekanism:energy": { energy_containers: [L;64000000L] } }, count: 1, id: "mekanism:elite_energy_cube" } }
 		{
-			count: 4
-			id: "5DBE093C678757FB"
-			item: {
-				count: 1
-				id: "fluxnetworks:flux_plug"
-			}
-		}
-		{
-			count: 8
-			id: "40FCA2D16D42E5A7"
-			item: {
-				count: 1
-				id: "fluxnetworks:flux_point"
-			}
-		}
-		{
 			id: "34433DC3FE1611FD"
 			item: {
 				count: 1
@@ -50,8 +41,39 @@
 			}
 			weight: 0.5f
 		}
-		{ id: "523BFBD908DF6B1A", item: { count: 1, id: "cataclysm:blazing_grips" } }
-		{ id: "54656DEF7DBE8036", item: { count: 1, id: "solarflux:sp_8" } }
+		{
+			id: "54656DEF7DBE8036"
+			item: {
+				count: 1
+				id: "evolvedmekanism:multiversal_solar_generator"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "209DC788EAB391D8"
+			item: {
+				count: 1
+				id: "evolvedmekanism:overclocked_energy_cube"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "4F5668D291CD8F74"
+			item: {
+				count: 1
+				id: "evolvedmekanism:dense_energy_cube"
+			}
+			weight: 0.1f
+		}
+		{ id: "6B67B38EB9421EDC", item: { count: 1, id: "powah:thermo_generator_nitro" } }
+		{
+			count: 10
+			id: "39CE3D5CAE75C3CE"
+			item: {
+				count: 1
+				id: "starcatcher:legendary_bait"
+			}
+		}
 	]
 	use_title: true
 }

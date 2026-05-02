@@ -1,0 +1,23 @@
+#General Config. This config is synced from server to client.
+[general]
+
+	#Items Settings
+	[general.items]
+		#Defines the machine tier up to which the maximum tier installer should go
+		#Allowed Values: BASIC, ADVANCED, ELITE, ULTIMATE, CREATIVE, OVERCLOCKED, QUANTUM, DENSE, MULTIVERSAL
+		maxInstallerTier = "MULTIVERSAL"
+
+	#APT Settings
+	[general.apt]
+		#How much gas (in mB) can the input tank hold.
+		# Default: 5000
+		# Range: > 1
+		inputPerAntimatter = 5000
+		#Duration of a recipe (in ticks). Formula: defaultDuration * (gasInputAmount / 100)
+		# Default: 200
+		# Range: > 1
+		defaultDuration = 200
+		#Amount of energy (in Joules) which can be stored in the APT.
+		energyStorage = 10000000
+		#Energy needed (in Joules) per tick to process the recipe.
+		energyPerInput = 100000

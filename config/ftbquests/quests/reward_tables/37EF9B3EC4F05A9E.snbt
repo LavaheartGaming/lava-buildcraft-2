@@ -41,8 +41,16 @@
 			weight: 0.1f
 		}
 		{ id: "5B7019833B80EEC0", item: { count: 1, id: "mekanism:elite_energy_cube" } }
-		{ id: "24EEDF33166AC8F4", item: { count: 1, id: "solarflux:sp_5" } }
 		{ id: "7C13103CDF230CD7", item: { count: 1, id: "fluxnetworks:flux_plug" } }
+		{ id: "6A33AF168C0AB6C8", item: { count: 1, id: "evolvedmekanism:ultimate_solar_generator" } }
+		{
+			id: "6757C021E3DCFE81"
+			item: {
+				count: 1
+				id: "evolvedmekanism:quantum_solar_generator"
+			}
+			weight: 0.5f
+		}
 	]
 	use_title: true
 }

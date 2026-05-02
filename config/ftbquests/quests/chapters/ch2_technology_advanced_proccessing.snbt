@@ -383,44 +383,6 @@
 			y: -15.0d
 		}
 		{
-			dependencies: ["13A9147F5965DCD7"]
-			id: "5F86FD38FB5EB187"
-			rewards: [{
-				id: "43AD1F13D8D3BD49"
-				item: {
-					count: 1
-					id: "solarflux:sp_7"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2382E29D53097215"
-				item: { count: 1, id: "solarflux:sp_7" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["5F86FD38FB5EB187"]
-			id: "290596E9FCD1B389"
-			rewards: [{
-				id: "2BFE6A2CCADA2D8B"
-				item: {
-					count: 1
-					id: "solarflux:sp_8"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "336CD1CE91DF7B08"
-				item: { count: 1, id: "solarflux:sp_8" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.5d
-		}
-		{
 			dependencies: ["77CC6612395E964C"]
 			id: "3DEDACE691A60A6A"
 			rewards: [{
@@ -1566,6 +1528,87 @@
 			}]
 			x: -26.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["7ED72198DDA2ABBB"]
+			id: "565977B709D6DAAF"
+			rewards: [{
+				id: "1AF9E5B5253EA12A"
+				item: {
+					count: 1
+					id: "mekanismgenerators:solar_generator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "167EFCBE1F5145DB"
+				item: { count: 1, id: "mekanismgenerators:solar_generator" }
+				type: "item"
+			}]
+			x: -22.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["565977B709D6DAAF"]
+			id: "2BE995EB33FCD6AB"
+			rewards: [{
+				id: "02E8B43D5C24D01D"
+				item: {
+					count: 1
+					id: "mekanismgenerators:advanced_solar_generator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E2375815EE43C1E"
+				item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
+				type: "item"
+			}]
+			x: -25.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2BE995EB33FCD6AB"]
+			hide_dependent_lines: true
+			id: "261F8F380525E858"
+			rewards: [{
+				id: "20496ED529DEFCDA"
+				item: {
+					count: 1
+					id: "evolvedmekanism:advanced_solar_generator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "093B25D565795068"
+				item: { count: 1, id: "evolvedmekanism:advanced_solar_generator" }
+				type: "item"
+			}]
+			x: -25.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"261F8F380525E858"
+				"018BD4709F5047FC"
+			]
+			id: "2DAD4271060E5BD4"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "69F76461637D33A7"
+				item: {
+					count: 1
+					id: "evolvedmekanism:elite_solar_generator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C881687CAFA814F"
+				item: { count: 1, id: "evolvedmekanism:elite_solar_generator" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: -16.5d
 		}
 	]
 }

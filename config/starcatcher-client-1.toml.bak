@@ -1,6 +1,6 @@
-#//ALL THESE SETTINGS CAN ALSO BE ACCESSED
-#//THROUGH THE IN-GAME SETTING TAB INSIDE
-#//THE STARCATCHER'S GUIDE
+#ALL THESE SETTINGS CAN ALSO BE ACCESSED
+#THROUGH THE IN-GAME SETTING TAB INSIDE
+#THE STARCATCHER'S GUIDE
 # Default: 1.5
 # Range: 0.1 ~ 6.0
 minigame_scale = 1.5
@@ -14,3 +14,6 @@ sort = "ALPHABETICAL_DOWN"
 #Whether to use the vanilla partial ticks for minigame smoothing or a custom implementation from 1.20
 #Vanilla should look better for most people
 vanilla_partial_ticks = true
+enable_villager_sound = true
+enable_hit_sound = true
+enable_miss_sound = true

@@ -2,7 +2,7 @@
   "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
   "c:silicon": "enderio:silicon",
   "c:gems/apatite": "moremekanismprocessing:gem_apatite",
-  "c:dusts/saltpeter": "eternal_starlight:saltpeter_powder",
+  "c:dusts/saltpeter": "null",
   "c:ingots/steel": "mekanism:ingot_steel",
   "c:ingots/lead": "mekanism:ingot_lead",
   "c:ingots/iridium": "alltheores:iridium_ingot",

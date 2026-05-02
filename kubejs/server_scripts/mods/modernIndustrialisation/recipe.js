@@ -6,6 +6,11 @@ ServerEvents.recipes(lava => {
 
         const { assembler, macerator, compressor, cutting_machine, electrolyzer, chemical_reactor } = lava.recipes.modern_industrialization;
 
+      macerator(10, 200)
+        .itemIn('ae2:silicon')
+        .itemOut('modern_industrialization:silicon_dust')
+        .id('lava:mi/macerator/silicon_dust');
+
       chemical_reactor(1000, 12000)
         .itemIn('2x mysticalagradditions:creative_essence')
         .itemIn('lava:ombrum_block')
@@ -51,7 +56,24 @@ ServerEvents.recipes(lava => {
             C: 'modern_industrialization:advanced_machine_hull'
             }).id('lava:crafting/turbo_machine_casing');
 
-      
+      lava.shaped(
+            Item.of ('modern_industrialization:tungsten_ingot'), [
+            'AAA',
+            'A A',
+            'AAA'
+            ], {
+            A: 'mysticalagriculture:tungsten_essence'
+            }).id('lava:crafting/tungsten_ingot');
+
+      lava.shaped(
+            Item.of ('modern_industrialization:antimony_ingot'), [
+            'AAA',
+            'A A',
+            'AAA'
+            ], {
+            A: 'mysticalagriculture:antimony_essence'
+            }).id('lava:crafting/antimony_ingot');
+
       lava.replaceInput(
         { id: "modern_industrialization:electric_age/hull/highly_advanced_machine_hull_asbl" },
         "modern_industrialization:annealed_copper_cable",
@@ -69,7 +91,39 @@ ServerEvents.recipes(lava => {
         "#c:glass_panes",
         "advanced_ae:quantum_alloy"
       );
+
+lava.custom(
+  {
+  "type": "modern_industrialization:implosion_compressor",
+  "eu": 10,
+  "duration": 100,
+  "item_inputs": [
+    {
+      "tag": "c:dusts/diamond",
+      "amount": 32
+    },
+    {
+      "item": "mekanism:alloy_infused",
+      "amount": 32
+    },
+    {
+      "tag": "c:dusts/diamond",
+      "amount": 32
+    },
+    {
+      "item": "silentgear:starmetal_dust",
+      "amount": 6
+    }
+  ],
+  "item_outputs": {
+    "item": "mekanism:alloy_reinforced",
+    "amount": 32
+  }
+}
+)
+
 });
+
 
   
 

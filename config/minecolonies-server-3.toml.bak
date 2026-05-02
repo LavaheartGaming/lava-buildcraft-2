@@ -35,7 +35,7 @@
 	#How common diseases are. 1 = Very common, 100 = extremely rare. [Default: 5, min: 1, max: 100]
 	# Default: 5
 	# Range: 1 ~ 100
-	diseasemodifier = 5
+	diseasemodifier = 7
 	#If part of the colony is loaded by an owner/officer, should the colony be kept loaded? (Set how many chunks are loaded with the "Colony Chunk Loading Strictness" option.) [Default: true]
 	forceloadcolony = true
 	#Set how long chunks stay loaded after player leaves, does not persist through restarts. Default: 10min [Default: 10, min: 1, max: 1440]
@@ -84,6 +84,8 @@
 	canplayerusedeletecolonycommand = false
 	#Should players be allowed to use the /mc colony requestsystem-reset command? [Default: false]
 	canplayeruseresetcommand = false
+	#Should players be allowed to use the /mc citizens modify command? [Default: false]
+	canplayerusemodifycitizenscommand = false
 
 #All configuration related to colony claims
 [claims]
@@ -115,11 +117,11 @@
 	#minecolonies.config.barbarianhordedifficulty.comment [Default: 5, min: 0, max: 10]
 	# Default: 5
 	# Range: 0 ~ 10
-	barbarianhordedifficulty = 5
+	barbarianhordedifficulty = 10
 	#minecolonies.config.maxBarbarianSize.comment [Default: 80, min: 6, max: 400]
 	# Default: 80
 	# Range: 6 ~ 400
-	maxBarbarianSize = 80
+	maxBarbarianSize = 200
 	#minecolonies.config.dobarbariansbreakthroughwalls.comment [Default: true]
 	dobarbariansbreakthroughwalls = true
 	#The average number of nights between raids. [Default: 14, min: 1, max: 50]
@@ -129,7 +131,7 @@
 	#The minimum number of nights between raids. [Default: 10, min: 1, max: 30]
 	# Default: 10
 	# Range: 1 ~ 30
-	minimumnumberofnightsbetweenraids = 10
+	minimumnumberofnightsbetweenraids = 8
 	#Should mobs attack citizens? [Default: true]
 	mobattackcitizens = true
 	#minecolonies.config.shouldraiderbreakdoors.comment [Default: true]
@@ -137,11 +139,11 @@
 	#Attack damage multiplier for Guards. [Default: 1.0, min: 0.1, max: 15.0]
 	# Default: 1.0
 	# Range: 0.1 ~ 15.0
-	guardDamageMultiplier = 1.0
+	guardDamageMultiplier = 1.5
 	#Health multiplier for all Guards. [Default: 1.0, min: 0.1, max: 5.0]
 	# Default: 1.0
 	# Range: 0.1 ~ 5.0
-	guardhealthmult = 1.0
+	guardhealthmult = 1.3
 	#Turn on MineColonies PVP mode (colonies can be destroyed and griefed under certain conditions). [Default: false]
 	pvp_mode = false
 
@@ -155,8 +157,6 @@
 
 #All configuration related to mod compatibility
 [compatibility]
-	#Items requested by Tavern visitors.
-	configlistrecruitmentitems = ["minecraft:hay_block;3", "minecraft:book;2", "minecraft:enchanted_book;9", "minecraft:diamond;9", "minecraft:emerald;8", "minecraft:baked_potato;1", "minecraft:gold_ingot;2", "minecraft:redstone;2", "minecraft:lapis_lazuli;2", "minecraft:cake;11", "minecraft:sunflower;5", "minecraft:honeycomb;6", "minecraft:quartz;3"]
 	#When loading recipes, generate audit CSV files to help debug datapacks or extra mods. [Default: false]
 	auditcraftingtags = false
 	#Enable inventory debugging. [Default: false]

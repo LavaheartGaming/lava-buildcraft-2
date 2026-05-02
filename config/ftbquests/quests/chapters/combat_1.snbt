@@ -251,8 +251,11 @@
 			rewards: [{
 				id: "1692179B900AE470"
 				item: {
+					components: {
+						"ftbquests:missing_item": "eternal_starlight:nightfall_spider_spawn_egg"
+					}
 					count: 1
-					id: "eternal_starlight:nightfall_spider_spawn_egg"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
@@ -453,8 +456,11 @@
 				{
 					id: "133C0C87A0FEEB71"
 					item: {
+						components: {
+							"ftbquests:missing_item": "eternal_starlight:thermal_springstone_axe"
+						}
 						count: 1
-						id: "eternal_starlight:thermal_springstone_axe"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1200,8 +1206,11 @@
 				{
 					id: "7F5DC67D5B730BE9"
 					item: {
+						components: {
+							"ftbquests:missing_item": "deeperdarker:warden_upgrade_smithing_template"
+						}
 						count: 1
-						id: "deeperdarker:warden_upgrade_smithing_template"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}

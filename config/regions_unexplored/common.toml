@@ -1,0 +1,155 @@
+[features]
+	#Default: false
+	use_logs_for_branches = false
+
+[overworld_biome_toggles]
+	#Default: true
+	toggle_alpha_grove = true
+	#Default: true
+	toggle_arid_mountains = true
+	#Default: true
+	toggle_ashen_woodland = true
+	#Default: true
+	toggle_autumnal_maple_forest = true
+	#Default: true
+	toggle_bamboo_forest = true
+	#Default: true
+	toggle_baobab_savanna = true
+	#Default: true
+	toggle_barley_fields = true
+	#Default: true
+	toggle_bayou = true
+	#Default: true
+	toggle_blackwood_taiga = true
+	#Default: true
+	toggle_boreal_taiga = true
+	#Default: true
+	toggle_chalk_cliffs = true
+	#Default: true
+	toggle_clover_plains = true
+	#Default: true
+	toggle_cold_boreal_taiga = true
+	#Default: true
+	toggle_cold_deciduous_forest = true
+	#Default: true
+	toggle_cold_river = true
+	#Default: true
+	toggle_deciduous_forest = true
+	#Default: true
+	toggle_dry_bushland = true
+	#Default: true
+	toggle_eucalyptus_forest = true
+	#Default: true
+	toggle_fen = true
+	#Default: true
+	toggle_flower_fields = true
+	#Default: true
+	toggle_frozen_pine_taiga = true
+	#Default: true
+	toggle_frozen_tundra = true
+	#Default: true
+	toggle_fungal_fen = true
+	#Default: true
+	toggle_golden_boreal_taiga = true
+	#Default: true
+	toggle_grassland = true
+	#Default: true
+	toggle_grassy_beach = true
+	#Default: true
+	toggle_gravel_beach = true
+	#Default: true
+	toggle_highland_fields = true
+	#Default: true
+	toggle_hyacinth_deeps = true
+	#Default: true
+	toggle_icy_heights = true
+	#Default: true
+	toggle_joshua_desert = true
+	#Default: true
+	toggle_magnolia_woodland = true
+	#Default: true
+	toggle_maple_forest = true
+	#Default: true
+	toggle_marsh = true
+	#Default: true
+	toggle_mauve_hills = true
+	#Default: true
+	toggle_rocky_meadow = true
+	#Default: true
+	toggle_mountains = true
+	#Default: true
+	toggle_muddy_river = true
+	#Default: true
+	toggle_old_growth_bayou = true
+	#Default: true
+	toggle_orchard = true
+	#Default: true
+	toggle_outback = true
+	#Default: true
+	toggle_pine_slopes = true
+	#Default: true
+	toggle_pine_taiga = true
+	#Default: true
+	toggle_poppy_fields = true
+	#Default: true
+	toggle_prairie = true
+	#Default: true
+	toggle_pumpkin_fields = true
+	#Default: true
+	toggle_rainforest = true
+	#Default: true
+	toggle_rocky_reef = true
+	#Default: true
+	toggle_redwoods = true
+	#Default: true
+	toggle_saguaro_desert = true
+	#Default: true
+	toggle_shrubland = true
+	#Default: true
+	toggle_silver_birch_forest = true
+	#Default: true
+	toggle_sparse_rainforest = true
+	#Default: true
+	toggle_sparse_redwoods = true
+	#Default: true
+	toggle_spires = true
+	#Default: true
+	toggle_steppe = true
+	#Default: true
+	toggle_temperate_grove = true
+	#Default: true
+	toggle_towering_cliffs = true
+	#Default: true
+	toggle_tropical_river = true
+	#Default: true
+	toggle_tropics = true
+	#Default: true
+	toggle_willow_forest = true
+
+[overworld_cave_biome_toggles]
+	#Default: true
+	toggle_ancient_delta = true
+	#Default: true
+	toggle_bioshroom_caves = true
+	#Default: true
+	toggle_prismachasm = true
+	#Default: true
+	toggle_redstone_caves = true
+	#Default: true
+	toggle_scorching_caves = true
+
+[nether_biome_toggles]
+	#Default: true
+	toggle_blackstone_basin = true
+	#Default: true
+	toggle_glistering_meadow = true
+	#Default: true
+	toggle_infernal_holt = true
+	#Default: true
+	toggle_mycotoxic_undergrowth = true
+	#Default: true
+	toggle_redstone_abyss = true
+
+[worldgen_surface_rules]
+	#Default: true
+	toggle_custom_dirts = true

@@ -1,0 +1,9 @@
+#Award guide when joining the world/server once per player
+give_guide = true
+show_exclamation_mark_particle = false
+#Enables/disables the ability to bonemeal farmland for worms.
+enable_worms = true
+enable_minigame = true
+#Enables/disables fishes being restricted by seasons.
+#Useful if you want to play with a seasons mod but don't like the built-in restrictions.
+enable_seasons = true
