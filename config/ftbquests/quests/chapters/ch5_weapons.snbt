@@ -1,0 +1,149 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch5_weapons"
+	group: "723E49C2B2CAC8A2"
+	id: "72A9DCBF8B848419"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6D3C4D4175D261D7"
+			tasks: [{
+				id: "500A07E51D2F2E3C"
+				item: { count: 1, id: "ltxi:fabricator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7493F9822E890F68"
+			tasks: [{
+				id: "357830B984B03B77"
+				item: { count: 1, id: "ltxi:electrocentrifuge" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "5A7264CEC311EA3E"
+			tasks: [{
+				id: "4FE2318FCB8D5B3A"
+				item: { count: 1, id: "ltxi:assembler" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "4863CD0CEAC48989"
+			tasks: [{
+				id: "7354AADCBEA8641C"
+				item: { count: 1, id: "ltxi:chem_lab" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D3C4D4175D261D7"]
+			id: "3D26DB470ECADC9A"
+			tasks: [{
+				id: "0EF35915628A4581"
+				item: { components: { "ltxi:ammo": 7, "ltxi:equipment_upgrades": { "ltxi:default/heavy_pistol": 1 } }, count: 1, id: "ltxi:heavy_pistol" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6D3C4D4175D261D7"]
+			id: "4D028AEA55426352"
+			tasks: [{
+				id: "678716643DE41369"
+				item: { components: { "ltxi:ammo": 45, "ltxi:equipment_upgrades": { "ltxi:default/submachine_gun": 1 } }, count: 1, id: "ltxi:submachine_gun" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6D3C4D4175D261D7"]
+			id: "3C5C37A812FC4040"
+			tasks: [{
+				id: "2C45024A440FD4E6"
+				item: { components: { "ltxi:ammo": 5, "ltxi:equipment_upgrades": { "ltxi:default/shotgun": 1 } }, count: 1, id: "ltxi:shotgun" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6D3C4D4175D261D7"]
+			id: "3A066B6B9E92464F"
+			tasks: [{
+				id: "624F9A0848DCD830"
+				item: { components: { "ltxi:ammo": 5, "ltxi:equipment_upgrades": { "ltxi:default/linear_fusion_rifle": 1 } }, count: 1, id: "ltxi:linear_fusion_rifle" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6D3C4D4175D261D7"]
+			id: "6B9939E77BBC1E50"
+			tasks: [{
+				id: "77B4E628D7EB5E56"
+				item: { components: { "ltxi:ammo": 6, "ltxi:equipment_upgrades": { "ltxi:omni_grenade_core": 1 } }, count: 1, id: "ltxi:grenade_launcher" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D3C4D4175D261D7"]
+			id: "4A4F35ECC18D7959"
+			tasks: [{
+				id: "455A77AC65DFB785"
+				item: { components: { "ltxi:ammo": 2 }, count: 1, id: "ltxi:rocket_launcher" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D3C4D4175D261D7"]
+			id: "55C02BE94BEC551A"
+			tasks: [{
+				id: "1C88916F2F1D3D6D"
+				item: { components: { "ltxi:ammo": 10, "ltxi:equipment_upgrades": { "ltxi:default/glowstick_launcher": 1 } }, count: 1, id: "ltxi:glowstick_launcher" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "1AC1F8EA9D332F1D"
+			tasks: [{
+				id: "0BC164FDC5B20AD8"
+				item: { count: 1, id: "ltxi:auto_fabricator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1AC1F8EA9D332F1D"]
+			id: "397F74DF5FA4E99E"
+			tasks: [{
+				id: "4176262DC711E613"
+				item: { count: 1, id: "ltxi:empty_fabrication_blueprint" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+	]
+}
