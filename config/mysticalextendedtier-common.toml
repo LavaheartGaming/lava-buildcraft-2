@@ -1,0 +1,4 @@
+#The duration of each Essence Apples effects in seconds.
+# Default: 180
+# Range: > 1
+essenceAppleDuration = 180

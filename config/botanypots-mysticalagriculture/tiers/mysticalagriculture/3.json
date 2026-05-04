@@ -1,0 +1,11 @@
+{
+  "tier_tick_rate": {
+    "//": [
+      "The amount of ticks required for a crop in this tier to grow. 20 ticks is one   ",
+      "second.                                                                         "
+    ],
+    "//range": ">=0",
+    "//default": 1800,
+    "value": 1800
+  }
+}

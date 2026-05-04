@@ -84,6 +84,8 @@
 	canplayerusedeletecolonycommand = false
 	#Should players be allowed to use the /mc colony requestsystem-reset command? [Default: false]
 	canplayeruseresetcommand = false
+	#Should players be allowed to use the /mc citizens modify command? [Default: false]
+	canplayerusemodifycitizenscommand = false
 
 #All configuration related to colony claims
 [claims]
@@ -155,8 +157,6 @@
 
 #All configuration related to mod compatibility
 [compatibility]
-	#Items requested by Tavern visitors.
-	configlistrecruitmentitems = ["minecraft:hay_block;3", "minecraft:book;2", "minecraft:enchanted_book;9", "minecraft:diamond;9", "minecraft:emerald;8", "minecraft:baked_potato;1", "minecraft:gold_ingot;2", "minecraft:redstone;2", "minecraft:lapis_lazuli;2", "minecraft:cake;11", "minecraft:sunflower;5", "minecraft:honeycomb;6", "minecraft:quartz;3"]
 	#When loading recipes, generate audit CSV files to help debug datapacks or extra mods. [Default: false]
 	auditcraftingtags = false
 	#Enable inventory debugging. [Default: false]
@@ -183,3 +183,8 @@
 [requestSystem]
 	#Should the request system creatively resolve (if possible) when the player is required to resolve a request? This is a debugging tool and can take a very long time to resolve a request. [Default: false]
 	creativeresolve = false
+
+#minecolonies.config.debugging.comment
+[debugging]
+	#minecolonies.config.netherworkertakesdamage.comment [Default: true]
+	netherworkertakesdamage = true

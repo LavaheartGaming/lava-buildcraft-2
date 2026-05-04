@@ -10,9 +10,9 @@
 	allowinfinitecolonies = false
 	#Should colonies in other dimensions be allowed? [Default: true]
 	allowotherdimcolonies = true
-	#Max citizens in one colony. [Default: 250, min: 100, max: 500]
+	#Max citizens in one colony. [Default: 250, min: 25, max: 500]
 	# Default: 250
-	# Range: 100 ~ 500
+	# Range: 25 ~ 500
 	maxcitizenpercolony = 250
 	#Should development features be enabled (might be buggy)? [Default: false]
 	enableindevelopmentfeatures = false
@@ -35,7 +35,7 @@
 	#How common diseases are. 1 = Very common, 100 = extremely rare. [Default: 5, min: 1, max: 100]
 	# Default: 5
 	# Range: 1 ~ 100
-	diseasemodifier = 7
+	diseasemodifier = 5
 	#If part of the colony is loaded by an owner/officer, should the colony be kept loaded? (Set how many chunks are loaded with the "Colony Chunk Loading Strictness" option.) [Default: true]
 	forceloadcolony = true
 	#Set how long chunks stay loaded after player leaves, does not persist through restarts. Default: 10min [Default: 10, min: 1, max: 1440]
@@ -117,11 +117,11 @@
 	#minecolonies.config.barbarianhordedifficulty.comment [Default: 5, min: 0, max: 10]
 	# Default: 5
 	# Range: 0 ~ 10
-	barbarianhordedifficulty = 10
+	barbarianhordedifficulty = 5
 	#minecolonies.config.maxBarbarianSize.comment [Default: 80, min: 6, max: 400]
 	# Default: 80
 	# Range: 6 ~ 400
-	maxBarbarianSize = 200
+	maxBarbarianSize = 80
 	#minecolonies.config.dobarbariansbreakthroughwalls.comment [Default: true]
 	dobarbariansbreakthroughwalls = true
 	#The average number of nights between raids. [Default: 14, min: 1, max: 50]
@@ -131,7 +131,7 @@
 	#The minimum number of nights between raids. [Default: 10, min: 1, max: 30]
 	# Default: 10
 	# Range: 1 ~ 30
-	minimumnumberofnightsbetweenraids = 8
+	minimumnumberofnightsbetweenraids = 10
 	#Should mobs attack citizens? [Default: true]
 	mobattackcitizens = true
 	#minecolonies.config.shouldraiderbreakdoors.comment [Default: true]
@@ -139,11 +139,11 @@
 	#Attack damage multiplier for Guards. [Default: 1.0, min: 0.1, max: 15.0]
 	# Default: 1.0
 	# Range: 0.1 ~ 15.0
-	guardDamageMultiplier = 1.5
+	guardDamageMultiplier = 1.0
 	#Health multiplier for all Guards. [Default: 1.0, min: 0.1, max: 5.0]
 	# Default: 1.0
 	# Range: 0.1 ~ 5.0
-	guardhealthmult = 1.3
+	guardhealthmult = 1.0
 	#Turn on MineColonies PVP mode (colonies can be destroyed and griefed under certain conditions). [Default: false]
 	pvp_mode = false
 
@@ -154,6 +154,10 @@
 	#Independent from the colony protection, should explosions be turned off inside colonies? DAMAGE_NOTHING prevents explosions completely. DAMAGE_PLAYERS, allows explosions to damage players and hostile mobs, but not blocks or neutral or friendly mobs. DAMAGE_ENTITIES allows damage to all entities. DAMAGE_EVERYTHING allows explosions to damage entities and blocks. [Default: DAMAGE_ENTITIES, values: DAMAGE_NOTHING, DAMAGE_PLAYERS, DAMAGE_ENTITIES, DAMAGE_EVERYTHING]
 	#Allowed Values: DAMAGE_NOTHING, DAMAGE_PLAYERS, DAMAGE_ENTITIES, DAMAGE_EVERYTHING
 	turnoffexplosionsincolonies = "DAMAGE_ENTITIES"
+	#Disables colony permissions if player has a given permission level. [Default: 2, min: 0, max: 4]
+	# Default: 2
+	# Range: 0 ~ 4
+	permissioneventbypassminpermlevel = 2
 
 #All configuration related to mod compatibility
 [compatibility]
@@ -183,3 +187,8 @@
 [requestSystem]
 	#Should the request system creatively resolve (if possible) when the player is required to resolve a request? This is a debugging tool and can take a very long time to resolve a request. [Default: false]
 	creativeresolve = false
+
+#minecolonies.config.debugging.comment
+[debugging]
+	#minecolonies.config.netherworkertakesdamage.comment [Default: true]
+	netherworkertakesdamage = true

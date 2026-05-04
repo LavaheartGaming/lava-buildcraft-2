@@ -74,3 +74,5 @@ advancedIrisIntegrationEnabled = true
 firstPersonAnimationsEnabled = true
 #Enables advanced third person animations
 thirdPersonAnimationsEnabled = true
+#URL to open when clicking the Browse button in the Extension Packs screen
+extensionPackBrowseUrl = "https://www.curseforge.com/minecraft/search?page=1&pageSize=20&sortBy=relevancy&class=customization&search=point+blank"

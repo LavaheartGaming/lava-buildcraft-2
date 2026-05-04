@@ -1,48 +1,142 @@
-ServerEvents.recipes(event => {
-    let itemsToRemove = [
-      'artifacts:eternal_steak',
-      'artifacts:everlasting_beef',
-      'biomeswevegone:aspen_crafting_table',
-      'biomeswevegone:baobab_crafting_table',
-      'biomeswevegone:blue_enchanted_crafting_table',
-      'biomeswevegone:cika_crafting_table',
-      'biomeswevegone:cypress_crafting_table',
-      'biomeswevegone:ebony_crafting_table',
-      'biomeswevegone:fir_crafting_table',
-      'biomeswevegone:florus_crafting_table',
-      'biomeswevegone:fir_crafting_table',
-      'biomeswevegone:holly_crafting_table',
-      'biomeswevegone:ironwood_crafting_table',
-      'biomeswevegone:jacaranda_crafting_table',
-      'biomeswevegone:mahogany_crafting_table',
-      'biomeswevegone:maple_crafting_table',
-      'biomeswevegone:palm_crafting_table',
-      'biomeswevegone:pine_crafting_table',
-      'biomeswevegone:rainbow_eucalyptus_crafting_table',
-      'biomeswevegone:redwood_crafting_table',
-      'biomeswevegone:sakura_crafting_table',
-      'biomeswevegone:skyris_crafting_table',
-      'biomeswevegone:spirit_crafting_table',
-      'biomeswevegone:white_mangrove_crafting_table',
-      'biomeswevegone:zelkova_crafting_table',
-      'biomeswevegone:witch_hazel_crafting_table',
-      'biomeswevegone:willow_crafting_table',
-      'biomeswevegone:green_enchanted_crafting_table',
-      'mysticalagriculture:emerald_seeds',
-      'modern_industrialization:quantum_boots',
-      'modern_industrialization:quantum_chestplate',
-      'modern_industrialization:quantum_leggings',
-      'modern_industrialization:quantum_helmet',
-      'modern_industrialization:quantum_sword',
-      'modern_industrialization:replicator',
-      'twilightforest:uncrafting_table',
-      'extendedcrafting:compressor',
-      'draconicevolution:draconic_chestpiece'
-    ];
+//priority: -1
 
-    itemsToRemove.forEach(item => {
-      event.remove({ output: item });
-      event.remove({ input: item });
-    });
-  });
+(() =>
+{
+
+const removedIngredient = () => Ingredient.of(global.REMOVED)
+	const removedStack = itemStack => itemStack && !itemStack.empty && removedIngredient().test(itemStack)
+	const removedBlockID = blockID => global.REMOVED.includes(blockID)
   
+const handleItemEvent = (itemEvent, mode) =>
+	{
+		if (mode === "cancel")
+			itemEvent.cancel()
+		else if (mode === "delete")
+			itemEvent.item.setCount(0)
+	}
+	
+	const sanitizeStack = itemStack =>
+	{
+		if (!itemStack || itemStack.empty)
+			return
+		
+		if (removedStack(itemStack))
+		{
+			itemStack.setCount(0)
+			return
+		}
+		
+		const nbt = itemStack.nbt
+		if (!nbt)
+			return
+			
+		if (Ingredient.of(/^[^:]+:.*(?:sword|pickaxe|shovel|axe|hoe|helmet|chestplate|leggings|boots|gloves|bow|lance|slayer|rod|paxel|hammer|excavator|knife|lance)/).test(itemStack))
+		{
+			;["Enchantments", "StoredEnchantments"].forEach(key => nbt.remove(key))
+			itemStack.nbt = nbt
+		}
+		
+		if (Ingredient.of(/^[^:]+:(?:.*potion|tipped_arrow)$/i).test(itemStack))
+		{
+			nbt.putString("Potion", "minecraft:water")
+			;["CustomPotionEffects", "CustomPotionColor"].forEach(key => nbt.remove(key))
+			itemStack.nbt = nbt
+		}
+		
+		if (Ingredient.of(/^[^:]+:.*_furnace$/).test(itemStack))
+				nbt.remove("BlockEntityTag")
+	}
+	
+	const parseItem = (itemEvent, mode) =>
+	{
+		const itemStack = itemEvent.item
+		if (!itemStack || itemStack.empty)
+			return
+		
+		if (removedStack(itemStack))
+		{
+			handleItemEvent(itemEvent, mode)
+			return
+		}
+		
+		sanitizeStack(itemStack)
+	}
+
+  const purgeSlot = container =>
+	{
+		const menu = container.openedMenu ?? container.containerMenu
+		if (!menu?.slots)
+			return
+		
+		menu.slots.forEach(slot =>
+		{
+			const item = slot.item
+			if (!item || item.empty)
+				return
+			
+			if (removedStack(item))
+			{
+				item.setCount(0)
+				return
+			}
+			
+			sanitizeStack(item)
+		})
+	}
+
+  function Obliterate()
+  {
+    PlayerEvents.inventoryChanged(cont => { purgeSlot(cont.player) })
+		PlayerEvents.inventoryOpened(cont => { purgeSlot(cont.player) })
+		ServerEvents.tick(event =>
+		{
+			event.server.entities.filterSelector("@e[type=item]").forEach(it =>
+			{
+				const st = it.item
+				if (removedStack(st))
+					it.kill()
+			})
+		})
+		
+		// Item interactions event purger
+		ItemEvents.dropped(itm => { parseItem(itm, "cancel") })
+		ItemEvents.canPickUp(itm => { parseItem(itm, "cancel") })
+		ItemEvents.pickedUp(itm => { parseItem(itm, "delete") })
+
+    ServerEvents.recipes(recipe =>
+		{
+			global.REMOVED.forEach(rule => recipe.remove({ output: rule }))
+			
+			// Removes tool repairing in crafting grids
+			recipe.remove({ type: "minecraft:crafting_special_repairitem" })
+		})
+		BlockEvents.rightClicked(click =>
+		{
+			const id = click.block.id
+			if (removedBlockID(id) && !global.TCHESTS.includes(id))
+				click.cancel()
+		})
+		
+		// Object placement event prevention*
+		BlockEvents.placed(click =>
+		{
+			if (!removedBlockID(click.block.id))
+				return
+			
+			click.cancel()
+			
+			[click.player.mainHandItem, click.player.offHandItem].forEach(slot =>
+			{
+				if (removedStack(slot))
+					slot.setCount(0)
+			})
+		})
+		
+		// Loot table purger**
+		LootJS.modifiers(loot =>
+		{
+			 loot.addTableModifier(/.*/).removeLoot(global.REMOVED)
+       })
+	}
+	Obliterate()
+})()

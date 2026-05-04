@@ -1,0 +1,13 @@
+{
+  "name": "Tungsten",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalextendedtier:9",
+  "ingredient": {
+    "item": "modern_industrialization:tungsten_ingot"
+  },
+  "color": "b5ac9f",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

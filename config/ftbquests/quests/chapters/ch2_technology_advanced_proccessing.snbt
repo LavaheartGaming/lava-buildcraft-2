@@ -383,44 +383,6 @@
 			y: -15.0d
 		}
 		{
-			dependencies: ["13A9147F5965DCD7"]
-			id: "5F86FD38FB5EB187"
-			rewards: [{
-				id: "43AD1F13D8D3BD49"
-				item: {
-					count: 1
-					id: "solarflux:sp_7"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2382E29D53097215"
-				item: { count: 1, id: "solarflux:sp_7" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["5F86FD38FB5EB187"]
-			id: "290596E9FCD1B389"
-			rewards: [{
-				id: "2BFE6A2CCADA2D8B"
-				item: {
-					count: 1
-					id: "solarflux:sp_8"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "336CD1CE91DF7B08"
-				item: { count: 1, id: "solarflux:sp_8" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.5d
-		}
-		{
 			dependencies: ["77CC6612395E964C"]
 			id: "3DEDACE691A60A6A"
 			rewards: [{
@@ -495,14 +457,14 @@
 					id: "2D71D5399B4F8DCC"
 					item: {
 						count: 1
-						id: "enderio:empty_soul_vial"
+						id: "enderio:soul_vial"
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "25AE1DAA9FEB2148"
-				item: { count: 1, id: "enderio:empty_soul_vial" }
+				item: { count: 1, id: "enderio:soul_vial" }
 				type: "item"
 			}]
 			x: -22.5d
@@ -578,13 +540,13 @@
 				id: "3F4810A5C67809F6"
 				item: {
 					count: 1
-					id: "extendedcrafting:advanced_table"
+					id: "avaritia:nether_crafting_table"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "58DEED701E775072"
-				item: { count: 1, id: "extendedcrafting:advanced_table" }
+				item: { count: 1, id: "avaritia:nether_crafting_table" }
 				type: "item"
 			}]
 			x: -8.5d
@@ -1282,7 +1244,10 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["02203A4B855E8C31"]
+			dependencies: [
+				"02203A4B855E8C31"
+				"6DC41C73D41AF21A"
+			]
 			id: "3DF24A5687B44E83"
 			rewards: [{
 				id: "5749DC6A8A877C52"
@@ -1347,7 +1312,7 @@
 				id: "46664D92A56A873C"
 				item: {
 					count: 1
-					id: "enderio:empty_soul_vial"
+					id: "enderio:soul_vial"
 				}
 				type: "item"
 			}]
@@ -1423,6 +1388,227 @@
 			}]
 			x: -16.0d
 			y: -15.0d
+		}
+		{
+			dependencies: ["58251CB697BFD04A"]
+			id: "16821337CA00EE38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FED4AB8F539864C"
+				table_id: 4212152493652920437L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C9CA0E72A419001"
+				item: { count: 1, id: "pointblank:printer" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["36D739AFFFE137A2"]
+			id: "4D164AB6303DA8D5"
+			tasks: [{
+				id: "212B0745A95688C2"
+				item: { count: 1, id: "pneumaticcraft:air_compressor" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D164AB6303DA8D5"]
+			id: "2E4CC686A2CAE5CB"
+			tasks: [{
+				id: "6F96EBDE83E3C712"
+				item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B7C7C2F1934B7AE"]
+			id: "6DC41C73D41AF21A"
+			tasks: [{
+				id: "041D3402DC147531"
+				item: { count: 1, id: "pneumaticcraft:lubricant_bucket" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2E4CC686A2CAE5CB"]
+			id: "01E5A77BE8AF3F20"
+			tasks: [
+				{
+					count: 16L
+					id: "75B4F547A2D50991"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_wall" }
+					type: "item"
+				}
+				{
+					id: "0B979E434945CDDE"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_valve" }
+					type: "item"
+				}
+				{
+					id: "5BB30C260F2F3F9F"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_interface" }
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01E5A77BE8AF3F20"]
+			id: "4B7C7C2F1934B7AE"
+			tasks: [{
+				id: "6AA0FA9415F6A7A5"
+				item: { count: 1, id: "pneumaticcraft:fluid_mixer" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["43BE80EABC7EF731"]
+			id: "4610F2A3E7CAB87E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "016CA04720959554"
+				table_id: 4030610885414247070L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2118F9A28301ACFA"
+				item: { count: 1, id: "powah:player_transmitter_starter" }
+				type: "item"
+			}]
+			x: -26.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28B7509B44440D92"]
+			id: "43BE80EABC7EF731"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2028BC081DD20F1E"
+				table_id: 6211157656392253481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FFDB573D8CFE2DD"
+				item: { count: 1, id: "powah:player_aerial_pearl" }
+				type: "item"
+			}]
+			x: -26.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0F5F75B3C6C09998"
+				"3DF24A5687B44E83"
+			]
+			hide_dependency_lines: true
+			id: "28B7509B44440D92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65A5127B24F3171C"
+				table_id: 6211157656392253481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4305F7366A624F25"
+				item: { count: 1, id: "powah:aerial_pearl" }
+				type: "item"
+			}]
+			x: -26.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7ED72198DDA2ABBB"]
+			id: "565977B709D6DAAF"
+			rewards: [{
+				id: "1AF9E5B5253EA12A"
+				item: {
+					count: 1
+					id: "mekanismgenerators:solar_generator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "167EFCBE1F5145DB"
+				item: { count: 1, id: "mekanismgenerators:solar_generator" }
+				type: "item"
+			}]
+			x: -22.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["565977B709D6DAAF"]
+			id: "2BE995EB33FCD6AB"
+			rewards: [{
+				id: "02E8B43D5C24D01D"
+				item: {
+					count: 1
+					id: "mekanismgenerators:advanced_solar_generator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E2375815EE43C1E"
+				item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
+				type: "item"
+			}]
+			x: -25.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2BE995EB33FCD6AB"]
+			hide_dependent_lines: true
+			id: "261F8F380525E858"
+			rewards: [{
+				id: "20496ED529DEFCDA"
+				item: {
+					count: 1
+					id: "evolvedmekanism:advanced_solar_generator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "093B25D565795068"
+				item: { count: 1, id: "evolvedmekanism:advanced_solar_generator" }
+				type: "item"
+			}]
+			x: -25.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"261F8F380525E858"
+				"018BD4709F5047FC"
+			]
+			id: "2DAD4271060E5BD4"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "69F76461637D33A7"
+				item: {
+					count: 1
+					id: "evolvedmekanism:elite_solar_generator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C881687CAFA814F"
+				item: { count: 1, id: "evolvedmekanism:elite_solar_generator" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: -16.5d
 		}
 	]
 }

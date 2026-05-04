@@ -251,8 +251,11 @@
 			rewards: [{
 				id: "1692179B900AE470"
 				item: {
+					components: {
+						"ftbquests:missing_item": "eternal_starlight:nightfall_spider_spawn_egg"
+					}
 					count: 1
-					id: "eternal_starlight:nightfall_spider_spawn_egg"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
@@ -453,8 +456,11 @@
 				{
 					id: "133C0C87A0FEEB71"
 					item: {
+						components: {
+							"ftbquests:missing_item": "eternal_starlight:thermal_springstone_axe"
+						}
 						count: 1
-						id: "eternal_starlight:thermal_springstone_axe"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -754,32 +760,18 @@
 				id: "hostilenetworks:data_model"
 			}
 			id: "51461B4668BBBF86"
-			rewards: [
-				{
-					count: 5
-					id: "252EEFA12A28D24C"
-					item: {
-						components: {
-							"hostilenetworks:data_model": "hostilenetworks:wither"
-						}
-						count: 1
-						id: "hostilenetworks:prediction"
+			rewards: [{
+				count: 5
+				id: "252EEFA12A28D24C"
+				item: {
+					components: {
+						"hostilenetworks:data_model": "hostilenetworks:wither"
 					}
-					type: "item"
+					count: 1
+					id: "hostilenetworks:prediction"
 				}
-				{
-					count: 5
-					id: "56BF270F84AA44CA"
-					item: {
-						components: {
-							"hostilenetworks:data_model": "hostilenetworks:wither_skeleton"
-						}
-						count: 1
-						id: "hostilenetworks:prediction"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:wither"
 				id: "489022E43C7314D2"
@@ -1214,8 +1206,11 @@
 				{
 					id: "7F5DC67D5B730BE9"
 					item: {
+						components: {
+							"ftbquests:missing_item": "deeperdarker:warden_upgrade_smithing_template"
+						}
 						count: 1
-						id: "deeperdarker:warden_upgrade_smithing_template"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}

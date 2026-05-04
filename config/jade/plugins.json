@@ -67,6 +67,11 @@
   "ftbquests": {
     "barrier": true
   },
+  "avaritia": {
+    "extreme_smithing": true,
+    "crafting_table": true,
+    "compressor": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -78,8 +83,9 @@
     "block_properties": false,
     "mod_name": true
   },
-  "custommachinery": {
-    "machine_component_provider": true
+  "extendedae": {
+    "jade_chamber": true,
+    "jade_wireless": true
   },
   "ae2": {
     "part_icon": true,
@@ -92,21 +98,6 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
-  },
-  "extendedcrafting": {
-    "elite_auto_table": true,
-    "ender_crafter": true,
-    "basic_auto_table": true,
-    "flux_crafter": true,
-    "advanced_table": true,
-    "auto_ender_crafter": true,
-    "ultimate_table": true,
-    "ultimate_auto_table": true,
-    "elite_table": true,
-    "basic_table": true,
-    "crafting_core": true,
-    "advanced_auto_table": true,
-    "compressor": true
   },
   "hammerlib": {
     "root": true
@@ -182,6 +173,9 @@
     "armory": true,
     "drawer": true
   },
+  "mysticalextendedtier": {
+    "infused_farmland": true
+  },
   "xycraft": {
     "energy_pipe_debug": true,
     "tank_component": true,
@@ -199,6 +193,7 @@
     "infused_farmland": true
   },
   "twilightforest": {
+    "drying_rack": true,
     "chiseled_bookshelf_spawner": true,
     "quest_ram_wool": true
   },

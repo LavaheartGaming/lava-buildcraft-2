@@ -49,7 +49,9 @@
             "solarflux:sp_de.wyvern": true,
             "solarflux:sp_de.chaotic": true,
             "solarflux:solar_panels/draconicevolution/wyvern": true,
-            "solarflux:solar_panels/draconicevolution/draconic": true
+            "solarflux:solar_panels/draconicevolution/draconic": true,
+            "solarflux:sp_avaritia.neutronium": true,
+            "solarflux:sp_avaritia.infinity": true
         }
     },
     "unregistered": {}

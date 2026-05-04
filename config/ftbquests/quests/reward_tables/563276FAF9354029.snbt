@@ -14,7 +14,6 @@
 			weight: 0.3f
 		}
 		{ id: "7170E14564C0F48D", item: { count: 1, id: "pneumaticcraft:unassembled_pcb" } }
-		{ id: "74980A4F77C02BCF", item: { count: 1, id: "deeperdarker:reinforced_echo_shard" } }
 		{ id: "0C00E2D51786C0BC", item: { count: 1, id: "minecraft:netherite_ingot" } }
 		{
 			count: 4

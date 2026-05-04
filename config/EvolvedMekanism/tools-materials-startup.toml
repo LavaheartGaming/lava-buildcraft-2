@@ -1,0 +1,287 @@
+#Settings for configuring Mekanism: Tools' material settings. This config is not synced automatically between client and server. It is highly recommended to ensure you are using the same values for this config on the server and client.
+[materials]
+
+	#Material Settings for Better Gold
+	[materials.better_gold]
+		#Maximum durability of Better Gold tools.
+		# Default: 8192
+		# Range: > 1
+		better_goldToolDurability = 8192
+		#Efficiency of Better Gold tools.
+		better_goldEfficiency = 8.0
+		#Base attack damage of Better Gold items.
+		# Default: 2.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		better_goldAttackDamage = 2.0
+		#Natural enchantability factor of Better Gold items.
+		# Default: 16
+		# Range: > 0
+		better_goldEnchantability = 16
+		#Maximum durability of Better Gold shields.
+		# Default: 3360
+		# Range: > 0
+		better_goldShieldDurability = 3360
+		#Attack damage modifier of Better Gold swords. Must be less than or equal to Base Damage.
+		better_goldSwordDamage = 14.0
+		#Attack speed of Better Gold swords.
+		better_goldSwordAtkSpeed = -2.4000000953674316
+		#Attack damage modifier of Better Gold shovels. Must be greater than or equal to negative Base Damage.
+		better_goldShovelDamage = 10.5
+		#Attack speed of Better Gold shovels.
+		better_goldShovelAtkSpeed = -3.0
+		#Attack damage modifier of Better Gold axes.
+		better_goldAxeDamage = 16.0
+		#Attack speed of Better Gold axes.
+		better_goldAxeAtkSpeed = -3.0
+		#Attack damage modifier of Better Gold pickaxes. Must be greater than or equal to negative Base Damage.
+		better_goldPickaxeDamage = 10.0
+		#Attack speed of Better Gold pickaxes.
+		better_goldPickaxeAtkSpeed = -2.799999952316284
+		#Attack damage modifier of Better Gold hoes. Must be greater than or equal to negative Base Damage.
+		better_goldHoeDamage = 0.0
+		#Attack speed of Better Gold hoes.
+		better_goldHoeAtkSpeed = -1.0
+		#Attack damage modifier of Better Gold paxels. Must be greater than or equal to negative Base Damage.
+		better_goldPaxelDamage = 17.0
+		#Attack speed of Better Gold paxels.
+		better_goldPaxelAtkSpeed = -2.4000000953674316
+		#Efficiency of Better Gold paxels.
+		better_goldPaxelEfficiency = 8.0
+		#Natural enchantability factor of Better Gold paxels.
+		# Default: 16
+		# Range: > 0
+		better_goldPaxelEnchantability = 16
+		#Maximum durability of Better Gold paxels.
+		# Default: 16384
+		# Range: > 1
+		better_goldPaxelDurability = 16384
+		#Base armor toughness value of Better Gold armor.
+		# Default: 5.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		better_goldToughness = 5.0
+		#Base armor knockback resistance value of Better Gold armor.
+		# Default: 0.20000000298023224
+		# Range: 0.0 ~ 3.4028234663852886E38
+		better_goldKnockbackResistance = 0.20000000298023224
+		#Maximum durability of Better Gold boots.
+		# Default: 1650
+		# Range: > 1
+		better_goldBootDurability = 1650
+		#Protection value of Better Gold boots.
+		# Default: 7
+		# Range: > 0
+		better_goldBootArmor = 7
+		#Maximum durability of Better Gold leggings.
+		# Default: 2250
+		# Range: > 1
+		better_goldLeggingDurability = 2250
+		#Protection value of Better Gold leggings.
+		# Default: 10
+		# Range: > 0
+		better_goldLeggingArmor = 10
+		#Maximum durability of Better Gold chestplates.
+		# Default: 2400
+		# Range: > 1
+		better_goldChestplateDurability = 2400
+		#Protection value of Better Gold chestplates.
+		# Default: 12
+		# Range: > 0
+		better_goldChestplateArmor = 12
+		#Maximum durability of Better Gold helmets.
+		# Default: 1950
+		# Range: > 1
+		better_goldHelmetDurability = 1950
+		#Protection value of Better Gold helmets.
+		# Default: 8
+		# Range: > 0
+		better_goldHelmetArmor = 8
+
+	#Material Settings for Plaslitherite
+	[materials.plaslitherite]
+		#Maximum durability of Plaslitherite tools.
+		# Default: 16384
+		# Range: > 1
+		plaslitheriteToolDurability = 16384
+		#Efficiency of Plaslitherite tools.
+		plaslitheriteEfficiency = 8.0
+		#Base attack damage of Plaslitherite items.
+		# Default: 2.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		plaslitheriteAttackDamage = 2.0
+		#Natural enchantability factor of Plaslitherite items.
+		# Default: 16
+		# Range: > 0
+		plaslitheriteEnchantability = 16
+		#Maximum durability of Plaslitherite shields.
+		# Default: 3360
+		# Range: > 0
+		plaslitheriteShieldDurability = 3360
+		#Attack damage modifier of Plaslitherite swords. Must be less than or equal to Base Damage.
+		plaslitheriteSwordDamage = 16.0
+		#Attack speed of Plaslitherite swords.
+		plaslitheriteSwordAtkSpeed = -2.4000000953674316
+		#Attack damage modifier of Plaslitherite shovels. Must be greater than or equal to negative Base Damage.
+		plaslitheriteShovelDamage = 12.5
+		#Attack speed of Plaslitherite shovels.
+		plaslitheriteShovelAtkSpeed = -3.0
+		#Attack damage modifier of Plaslitherite axes.
+		plaslitheriteAxeDamage = 18.0
+		#Attack speed of Plaslitherite axes.
+		plaslitheriteAxeAtkSpeed = -3.0
+		#Attack damage modifier of Plaslitherite pickaxes. Must be greater than or equal to negative Base Damage.
+		plaslitheritePickaxeDamage = 12.0
+		#Attack speed of Plaslitherite pickaxes.
+		plaslitheritePickaxeAtkSpeed = -2.799999952316284
+		#Attack damage modifier of Plaslitherite hoes. Must be greater than or equal to negative Base Damage.
+		plaslitheriteHoeDamage = 2.0
+		#Attack speed of Plaslitherite hoes.
+		plaslitheriteHoeAtkSpeed = -1.0
+		#Attack damage modifier of Plaslitherite paxels. Must be greater than or equal to negative Base Damage.
+		plaslitheritePaxelDamage = 19.0
+		#Attack speed of Plaslitherite paxels.
+		plaslitheritePaxelAtkSpeed = -2.4000000953674316
+		#Efficiency of Plaslitherite paxels.
+		plaslitheritePaxelEfficiency = 8.0
+		#Natural enchantability factor of Plaslitherite paxels.
+		# Default: 16
+		# Range: > 0
+		plaslitheritePaxelEnchantability = 16
+		#Maximum durability of Plaslitherite paxels.
+		# Default: 32768
+		# Range: > 1
+		plaslitheritePaxelDurability = 32768
+		#Base armor toughness value of Plaslitherite armor.
+		# Default: 5.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		plaslitheriteToughness = 5.0
+		#Base armor knockback resistance value of Plaslitherite armor.
+		# Default: 0.25
+		# Range: 0.0 ~ 3.4028234663852886E38
+		plaslitheriteKnockbackResistance = 0.25
+		#Maximum durability of Plaslitherite boots.
+		# Default: 3300
+		# Range: > 1
+		plaslitheriteBootDurability = 3300
+		#Protection value of Plaslitherite boots.
+		# Default: 9
+		# Range: > 0
+		plaslitheriteBootArmor = 9
+		#Maximum durability of Plaslitherite leggings.
+		# Default: 4500
+		# Range: > 1
+		plaslitheriteLeggingDurability = 4500
+		#Protection value of Plaslitherite leggings.
+		# Default: 12
+		# Range: > 0
+		plaslitheriteLeggingArmor = 12
+		#Maximum durability of Plaslitherite chestplates.
+		# Default: 4800
+		# Range: > 1
+		plaslitheriteChestplateDurability = 4800
+		#Protection value of Plaslitherite chestplates.
+		# Default: 14
+		# Range: > 0
+		plaslitheriteChestplateArmor = 14
+		#Maximum durability of Plaslitherite helmets.
+		# Default: 3900
+		# Range: > 1
+		plaslitheriteHelmetDurability = 3900
+		#Protection value of Plaslitherite helmets.
+		# Default: 10
+		# Range: > 0
+		plaslitheriteHelmetArmor = 10
+
+	#Material Settings for Refined Redstone
+	[materials.refined_redstone]
+		#Maximum durability of Refined Redstone tools.
+		# Default: 500
+		# Range: > 1
+		refined_redstoneToolDurability = 500
+		#Efficiency of Refined Redstone tools.
+		refined_redstoneEfficiency = 8.0
+		#Base attack damage of Refined Redstone items.
+		# Default: 0.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		refined_redstoneAttackDamage = 0.0
+		#Natural enchantability factor of Refined Redstone items.
+		# Default: 16
+		# Range: > 0
+		refined_redstoneEnchantability = 16
+		#Maximum durability of Refined Redstone shields.
+		# Default: 448
+		# Range: > 0
+		refined_redstoneShieldDurability = 448
+		#Attack damage modifier of Refined Redstone swords. Must be less than or equal to Base Damage.
+		refined_redstoneSwordDamage = 3.0
+		#Attack speed of Refined Redstone swords.
+		refined_redstoneSwordAtkSpeed = -2.4000000953674316
+		#Attack damage modifier of Refined Redstone shovels. Must be greater than or equal to negative Base Damage.
+		refined_redstoneShovelDamage = 1.5
+		#Attack speed of Refined Redstone shovels.
+		refined_redstoneShovelAtkSpeed = -3.0
+		#Attack damage modifier of Refined Redstone axes.
+		refined_redstoneAxeDamage = 7.0
+		#Attack speed of Refined Redstone axes.
+		refined_redstoneAxeAtkSpeed = -3.0
+		#Attack damage modifier of Refined Redstone pickaxes. Must be greater than or equal to negative Base Damage.
+		refined_redstonePickaxeDamage = 1.0
+		#Attack speed of Refined Redstone pickaxes.
+		refined_redstonePickaxeAtkSpeed = -2.799999952316284
+		#Attack damage modifier of Refined Redstone hoes. Must be greater than or equal to negative Base Damage.
+		refined_redstoneHoeDamage = -0.0
+		#Attack speed of Refined Redstone hoes.
+		refined_redstoneHoeAtkSpeed = -3.0
+		#Attack damage modifier of Refined Redstone paxels. Must be greater than or equal to negative Base Damage.
+		refined_redstonePaxelDamage = 8.0
+		#Attack speed of Refined Redstone paxels.
+		refined_redstonePaxelAtkSpeed = -2.4000000953674316
+		#Efficiency of Refined Redstone paxels.
+		refined_redstonePaxelEfficiency = 8.0
+		#Natural enchantability factor of Refined Redstone paxels.
+		# Default: 16
+		# Range: > 0
+		refined_redstonePaxelEnchantability = 16
+		#Maximum durability of Refined Redstone paxels.
+		# Default: 1000
+		# Range: > 1
+		refined_redstonePaxelDurability = 1000
+		#Base armor toughness value of Refined Redstone armor.
+		# Default: 2.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		refined_redstoneToughness = 2.0
+		#Base armor knockback resistance value of Refined Redstone armor.
+		# Default: 0.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		refined_redstoneKnockbackResistance = 0.0
+		#Maximum durability of Refined Redstone boots.
+		# Default: 260
+		# Range: > 1
+		refined_redstoneBootDurability = 260
+		#Protection value of Refined Redstone boots.
+		# Default: 3
+		# Range: > 0
+		refined_redstoneBootArmor = 3
+		#Maximum durability of Refined Redstone leggings.
+		# Default: 300
+		# Range: > 1
+		refined_redstoneLeggingDurability = 300
+		#Protection value of Refined Redstone leggings.
+		# Default: 6
+		# Range: > 0
+		refined_redstoneLeggingArmor = 6
+		#Maximum durability of Refined Redstone chestplates.
+		# Default: 320
+		# Range: > 1
+		refined_redstoneChestplateDurability = 320
+		#Protection value of Refined Redstone chestplates.
+		# Default: 8
+		# Range: > 0
+		refined_redstoneChestplateArmor = 8
+		#Maximum durability of Refined Redstone helmets.
+		# Default: 220
+		# Range: > 1
+		refined_redstoneHelmetDurability = 220
+		#Protection value of Refined Redstone helmets.
+		# Default: 3
+		# Range: > 0
+		refined_redstoneHelmetArmor = 3

@@ -255,6 +255,13 @@
 		# Range: 0 ~ 5
 		processingLevel = 0
 
+	[ores.antimony]
+		# Default: 5
+		# Range: 0 ~ 5
+		processingLevel = 5
+		#Disable recipe what smelting/blasting dust into ingot.
+		disableDustCooking = false
+
 	[ores.boron]
 		# Default: 5
 		# Range: 0 ~ 5
@@ -270,6 +277,13 @@
 		disableDustCooking = false
 
 	[ores.thorium]
+		# Default: 5
+		# Range: 0 ~ 5
+		processingLevel = 5
+		#Disable recipe what smelting/blasting dust into ingot.
+		disableDustCooking = false
+
+	[ores.palladium]
 		# Default: 5
 		# Range: 0 ~ 5
 		processingLevel = 5

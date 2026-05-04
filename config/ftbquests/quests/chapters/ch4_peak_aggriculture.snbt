@@ -1,0 +1,121 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch4_peak_aggriculture"
+	group: "0018F6994B00DCA1"
+	id: "04A3902065F57810"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["364FC046609AD062"]
+			id: "2F355AADB7E3C6C5"
+			rewards: [{
+				id: "7AF30447215BF847"
+				item: {
+					count: 1
+					id: "mysticalextendedtier:ornium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28E923938072ECD6"
+				item: { count: 1, id: "mysticalextendedtier:ornium_essence" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2F355AADB7E3C6C5"]
+			id: "060D5A3F6D600942"
+			rewards: [{
+				id: "1383757C11F771BD"
+				item: {
+					count: 1
+					id: "mysticalextendedtier:lightium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FC8946E23DA2AA3"
+				item: { count: 1, id: "mysticalextendedtier:lightium_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["060D5A3F6D600942"]
+			id: "1C3BE54395A23826"
+			rewards: [{
+				id: "68BEE4DD56FF127D"
+				item: {
+					count: 1
+					id: "mysticalextendedtier:tornium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59F698252D8AE842"
+				item: { count: 1, id: "mysticalextendedtier:tornium_essence" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1C3BE54395A23826"]
+			id: "65767DF6F06B5C67"
+			rewards: [{
+				id: "127F77C1B5F2CBBA"
+				item: {
+					count: 1
+					id: "mysticalextendedtier:ouranium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FB45A0FEF76D529"
+				item: { count: 1, id: "mysticalextendedtier:ouranium_essence" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1C3BE54395A23826"]
+			id: "47D0FCFEBC2E8845"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45F4C45D63AECD62"
+				table_id: 3448359885751380133L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27DC1568783C7B80"
+				item: { count: 1, id: "mysticalagriculture:tungsten_seeds" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F355AADB7E3C6C5"]
+			id: "5452A3A4A54A7137"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7188601F5F083113"
+				table_id: 3448359885751380133L
+				type: "random"
+			}]
+			tasks: [{
+				id: "12E812E7BD531F3E"
+				item: { count: 1, id: "mysticalagriculture:antimony_seeds" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+	]
+}

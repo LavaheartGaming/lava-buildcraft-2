@@ -1,0 +1,190 @@
+{
+	chapter.04A24DFB0DB3023C.title: "Ch5: StarGates"
+	chapter.0D5981902D94EE01.title: "Cap1 [magia]: the gathering"
+	chapter.23896B2F5FBC8AC9.title: "Cap3 [granjas] maestro granjero"
+	chapter.282DE262DEFC6C99.title: "la recta final"
+	chapter.2CC6D406CD3A2936.title: "Cap2: sumergiéndose en lava's mod"
+	chapter.35EFF74EC578BA5C.title: "Cap3: ascensión a semidiós"
+	chapter.39A582E0A7E5BE6A.title: "combate"
+	chapter.39E8D74C364AC153.title: "Cap2 [tecnología] procesamiento avanzado"
+	chapter.50D9953ADABF1EC0.title: "Cap3 [tecnología]: ingeniero"
+	chapter.6642BFB1D995C300.title: "Cap1 [granjas]: siembra y cosecha"
+	chapter.6C23DE799D9E524C.title: "Cap2 [magia]: magia avanzada"
+	chapter.6EF9CB87D0BEB449.title: "Cap1: empezando"
+	chapter.72A9DCBF8B848419.title: "Cap5: Armas espaciales"
+	chapter.7608C1EC275A68BB.title: "Cap1 [tecnología]: generación de energía y almacenamiento básico"
+	chapter.78E1183FCAE4D375.title: "Cap2 [granjas]: columna vertebral de la sociedad"
+	chapter_group.0018F6994B00DCA1.title: "tomo 4: nacimiento de un dios"
+	chapter_group.0168F7E7756B10A6.title: "tomo 2: en medio de todo"
+	chapter_group.097460243B4AA538.title: "tomo 3: un camino hacia la inmortalidad"
+	chapter_group.482DD8A241D1335B.title: "tomo 1 juego temprano"
+	chapter_group.723E49C2B2CAC8A2.title: "tomo 5: viaje espacial"
+	quest.00053A6101C77763.quest_desc: ["ah sí, el lucky block épico, puedes obtener muchas cosas geniales aquí "]
+	quest.0123F4D53688B832.title: "De vuelta a los cajones de almacenamiento"
+	quest.02B066656B216B81.quest_subtitle: "¿pasaste todo este tiempo haciendo el horno arcoíris? ¡ok explótalo!"
+	quest.05FD52305CE63E34.quest_desc: ["Hoc mihi sensum linguae antiquae praebet. Fortasse Latinae?"]
+	quest.05FD52305CE63E34.quest_subtitle: "Visita la dimensión Cavum Tenebrae"
+	quest.05FD52305CE63E34.title: "Cavum Tenebrae"
+	quest.06008EFBE331EA27.title: "inscripción"
+	quest.07382FF335EADCD9.quest_subtitle: "el mejor lingote disponible antes de explorar lava's mod"
+	quest.07382FF335EADCD9.title: "de primera"
+	quest.0B1A1E20B4933AA2.quest_desc: ["El dominio de Apophis"]
+	quest.0B1A1E20B4933AA2.quest_subtitle: "Visita la dimensión Chulak"
+	quest.0B1A1E20B4933AA2.title: "Chulak"
+	quest.0F2A08FE241428E5.quest_subtitle: "desbloquea parte del capítulo de magia"
+	quest.139117037B61EC52.quest_subtitle: "ahora estás arruinado"
+	quest.139117037B61EC52.title: "¿mejor armadura?"
+	quest.14091FB5A5889481.quest_subtitle: "el mejor brote de cuarzo de cerus que puedes hacer"
+	quest.14D2D18358550A58.quest_desc: ["ah sí, el lucky block poco común, lo abrirás mucho, especialmente porque lo necesitas para mejorar a uno raro para obtener tu primer corruptita"]
+	quest.1672EA87449E3B54.quest_desc: ["Habiendo instalado spice of life, deberías tratar de variar tu dieta para obtener máxima salud"]
+	quest.1672EA87449E3B54.quest_subtitle: "quizás deberías considerar variar tus fuentes de alimento"
+	quest.17A9B8A3CA1E7121.quest_desc: ["el 5º mejor metal "]
+	quest.1887D6983424EDFA.quest_subtitle: "desbloquea la mitad del capítulo 2"
+	quest.1887D6983424EDFA.title: "herramientas de pam"
+	quest.1AC1F8EA9D332F1D.quest_subtitle: "Automatiza tu trabajo"
+	quest.1C39D748DA5D0FD2.quest_subtitle: "desbloquea el capítulo de granjas 1"
+	quest.1C39D748DA5D0FD2.title: "Déjalo crecer"
+	quest.1C877C621972562E.quest_desc: ["esta es la forma de comenzar la industrialización moderna"]
+	quest.1C91075A042213D5.quest_desc: ["1 mejora más restante"]
+	quest.1C91075A042213D5.quest_subtitle: "el segundo paso hacia el infinito"
+	quest.1CC7C667DAC874A2.quest_desc: ["fabrica una mesa de trabajo"]
+	quest.1CC7C667DAC874A2.quest_subtitle: "tienes que empezar en algún lugar, ¿verdad?"
+	quest.1CC7C667DAC874A2.title: "la vieja confiable"
+	quest.24544553C3D36455.quest_desc: ["¡lo hiciste! obtuviste el arma más poderosa del juego"]
+	quest.2556D4531B48F97A.title: "cargado"
+	quest.26655B016A1B0B2A.quest_desc: ["Craftea una Classic Stargate"]
+	quest.26655B016A1B0B2A.title: "¿Viaje espacial? ¡SÍ!"
+	quest.28F00089471ABB39.quest_desc: [
+		"este bloque puede usarse para invocar al azura guardian, pero me temo que necesitarás rainbowstone para la invocación,"
+		""
+		"la invocación es así: rainbowstone, bloque de ombrum, cabeza de dragón"
+		""
+		"este jefe es extremadamente difícil, asegúrate de tener excelentes encantamientos y un arma/hechizo a distancia poderoso"
+	]
+	quest.2E94860409C2CA85.title: "almacenamiento de fabricación"
+	quest.2F295D7A77652DF8.title: "creative jetpack"
+	quest.30DC0445C1EDEE5F.quest_subtitle: "úsalos para daño y rango extra. ¡Ingenioso!"
+	quest.30DC0445C1EDEE5F.title: "¡joyas!"
+	quest.3404EF6A71654028.title: "calentando las cosas"
+	quest.3477FE574CFCC1FC.title: "el comienzo de un viaje"
+	quest.351774128AE3D978.quest_subtitle: "preparándose para el nether"
+	quest.351774128AE3D978.title: "vidrio negro"
+	quest.35370CA63E6B4122.title: "un lugar para descansar"
+	quest.38FAEA661927A87D.title: "carne gourmet"
+	quest.3FB5B3CA2AAC6629.quest_subtitle: "usa un martillo para cavar en una formación 3x3"
+	quest.40AC97C9735801ED.quest_desc: ["el primer paso hacia el infinito"]
+	quest.42296AB75088D174.title: "durabilidad infinita"
+	quest.428620D6B221A4BC.quest_subtitle: "¡impresionante! ¡hazlo más!"
+	quest.428620D6B221A4BC.title: "charged infinity"
+	quest.442571B042DEA10B.quest_subtitle: "este es el camino del infinity shard"
+	quest.444182758B322E24.title: "formación fluix"
+	quest.463717F0F1AA2C7C.quest_subtitle: "probablemente deberías hacer una armadura con eso"
+	quest.47487AA4BB6B2355.quest_subtitle: "desbloquea la mitad del capítulo 2"
+	quest.47E2724E5168946F.quest_desc: ["más por venir en el tomo 5 "]
+	quest.47E2724E5168946F.title: "¿tomo 5?"
+	quest.47FFF03F996F0F1E.quest_desc: ["usa /bank add coins x (donde x es el número que quieres agregar a tu cuenta bancaria)"]
+	quest.49718CA444AA0057.title: "atuendo de hechicero"
+	quest.4A40A03DC0C39B2C.title: "almacenamiento sofisticado"
+	quest.4C9684B540567772.quest_desc: ["hierro carmesí pero mucho mejor"]
+	quest.4C9684B540567772.title: "harder, better, faster, stronger"
+	quest.4D33FEFC69D0D421.title: "preparándose"
+	quest.4FE49A810B769C02.title: "alimentos básicos"
+	quest.513DA621A314D377.title: "El metal mejor que el diamante"
+	quest.520AD0271CF1ACAA.title: "granjas automáticas"
+	quest.539CFFE2A7F66986.quest_desc: ["esto no es un pez ordinario, se usa para teñir algunos bloques de lava's mod en su variante arcoíris, muy útil para invocar al azura guardian."]
+	quest.541147390FE76FD9.quest_subtitle: "por nuestra cuenta"
+	quest.541147390FE76FD9.title: "almacenamiento digital"
+	quest.54C2C14401EB0D93.quest_subtitle: "desbloquea el capítulo de almacenamiento"
+	quest.559D8B3B5E21AC29.quest_desc: [
+		"¡ah sí, mi lucky block favorito! "
+		"puedes obtener gemas divinas, tarjetas de crédito e incluso bedrock de ella |:D|"
+	]
+	quest.56E53FA8DB065A85.quest_subtitle: "Visita la dimensión Athos"
+	quest.56E53FA8DB065A85.title: "Athos"
+	quest.581B8485032C0075.title: "el nether"
+	quest.581D033631383067.quest_desc: [
+		"Una de las primeras cosas que hacemos en mekanism es el famoso generador de energía de etileno de melón"
+		"esta línea de misiones te ayudará a configurar eso "
+	]
+	quest.581D033631383067.quest_subtitle: "necesitarás una granja automática para esa línea de misiones"
+	quest.58251CB697BFD04A.quest_desc: ["estudios científicos recientes han confirmado la presencia de microplásticos en el tejido cerebral humano. Un estudio de 2025 publicado en Nature Medicine analizó muestras de cerebro de 47 individuos fallecidos y encontró que las concentraciones de microplásticos en el cerebro eran significativamente más altas —hasta 30 veces— que las del hígado o los riñones. El tipo predominante de plástico identificado fue polietileno, comúnmente utilizado en materiales de embalaje. Cabe destacar que los individuos diagnosticados con demencia tenían hasta diez veces más microplásticos en su tejido cerebral en comparación con aquellos sin la condición. Además, el estudio observó un aumento del 50% en los niveles de microplásticos cerebrales entre 2016 y 2024, sugiriendo una tendencia creciente de acumulación con el tiempo. Aunque las implicaciones exactas para la salud aún están bajo investigación, los investigadores están preocupados de que los microplásticos puedan contribuir a la inflamación, daño celular y trastornos neurológicos."]
+	quest.58251CB697BFD04A.quest_subtitle: "no comas eso"
+	quest.5B6D104751112B61.quest_subtitle: "se necesita toque de seda"
+	quest.5C4B5B51A0A3F756.quest_desc: ["el primer ingrediente para un equipo excelente"]
+	quest.60445635EE28E7D8.quest_desc: [
+		"felicidades por derrotar al asesino, si los drops de ombrum no te son útiles,"
+		"derrite estos elementos a cambio de ombrum."
+	]
+	quest.62BAFE95F286AD51.title: "you got the power"
+	quest.6328343EE856CFB4.quest_desc: ["Subnautica Vibes.  Porcierto Compadres, Subnautica 2 Early access estará disponible para jugar en steam a partir del 14 de mayo de este año (2026) ;D"]
+	quest.6328343EE856CFB4.quest_subtitle: "Visita la dimensión Lantea"
+	quest.6328343EE856CFB4.title: "Lantea"
+	quest.63B369C1F72938F9.quest_desc: ["Me dijeron que este es un planeta en el dominio de Ra. Yo tendría cuidado."]
+	quest.63B369C1F72938F9.quest_subtitle: "Visita la dimensión Abydos"
+	quest.63B369C1F72938F9.title: "Abydos"
+	quest.649B242881A9D6FF.quest_desc: [
+		"obtienes granos de infinito al encender bedrock "
+		""
+		"¿cansado de ir al nivel de bedrock por ellos? no te preocupes porque eventualmente obtendrás bedrock"
+	]
+	quest.64CD8157B69D7EA6.quest_desc: ["Otra parte del dominio de Apophis"]
+	quest.64CD8157B69D7EA6.quest_subtitle: "Visita la dimensión Rima"
+	quest.64CD8157B69D7EA6.title: "Rima"
+	quest.66E203B99CE6FDA9.quest_desc: ["¡excelente! ahora que tienes tu primer corruptita puedes corromper algunos bloques, para hacer más corruptita, simplemente corrompe un bloque de mineral de lapislázuli "]
+	quest.6D48F595AF078B38.quest_desc: ["lamentablemente no hay ningún &fmod de &1ba&fgu&4ette  "]
+	quest.6D48F595AF078B38.title: "¡Pan! ¡Me encanta el pan! ¡Viva el pan!"
+	quest.6F1AFB02EA2123D2.quest_desc: [""]
+	quest.6F1AFB02EA2123D2.quest_subtitle: "Visita la dimensión Unitas"
+	quest.6F1AFB02EA2123D2.title: "Unitas"
+	quest.7078EBB0EF250EA9.quest_subtitle: "buena suerte cargando eso"
+	quest.7078EBB0EF250EA9.title: "infinity shard"
+	quest.7172E64AE0971E39.quest_subtitle: "eficiente en combustible y fácil de hacer"
+	quest.744E930B4449DA83.quest_subtitle: "pon todas esas comidas duras en la cámara de presión de pneumaticraft"
+	quest.744E930B4449DA83.title: "abominación culinaria"
+	quest.74C80669F4E3C858.quest_subtitle: "puedes multiplicar tus generadores por 8 y 64"
+	quest.74EBAFA85F2DFC2B.quest_desc: [
+		"ok, este es un bloque muy importante ya que te permite invocar al asesino, asegúrate de tener el mejor equipo posible para luchar contra él"
+		""
+		"como aún no sé cómo importar imágenes aquí:"
+		""
+		"para invocar al asesino debes colocar una obsidiana, un bloque de corruptita y una calavera de wither esqueleto uno encima del otro"
+	]
+	quest.75A90E9E34C86689.quest_desc: [
+		"sí, leíste bien, hay lucky blocks en este modpack, este en particular puede darte diamantes, no hay consecuencias negativas al romper estos bloques"
+		""
+		"&4 cada lucky block excepto el legendario tiene un 1% de posibilidad de mejorarse a la siguiente rareza"
+	]
+	quest.75A90E9E34C86689.quest_subtitle: "¿te sientes con suerte?"
+	quest.778AE2FF6B7D9D75.quest_subtitle: "necesario para conectar tu red AE"
+	quest.77A19299031201E0.title: "jadeo"
+	quest.78AF5EECC8FA3225.title: "comenzando la compresión"
+	quest.7AAB323A6A2E8772.quest_subtitle: "¿no odias cuando se te agotan justo antes del portal? ¿No? ¿solo yo? ok"
+	quest.7ADF4625F71CC784.title: "señor de la guerra"
+	quest.7B70965BC3FF1E05.quest_subtitle: "la mejor solución para energía renovable inicial"
+	quest.7E2CF32952892962.quest_subtitle: "¿autoalimentación? ¡Sí, por favor!"
+	quest.7F6F5A3BD97C6EE1.title: "singularidad última"
+	reward_table.2FDB090BBFEAE8A5.title: "legendario"
+	reward_table.37EF9B3EC4F05A9E.title: "épico"
+	reward_table.3A74926043F54875.title: "poco común"
+	reward_table.4CB40DF295515FFE.title: "común"
+	reward_table.563276FAF9354029.title: "raro"
+	task.0684A2FA559AE847.title: "Cualquier #minecraft:logs"
+	task.0BC34697BFD5A280.title: "decimador"
+	task.146B71DEB43361A2.title: "Cualquier #c:strings"
+	task.154DB9D966E9F647.title: "¿árbol de habilidades?"
+	task.1689842B00872432.title: "Cualquier #storagedrawers:drawers"
+	task.1BC63BCFD896F0E1.title: "Cualquier #c:player_workstations/crafting_tables"
+	task.217D81E7704C7CB0.title: "el end-game"
+	task.296DAB73B21C260F.title: "Cualquier #c:seeds"
+	task.2AC73D0692B8FFEF.title: "belicista"
+	task.2D3CC850FD64585F.title: "Cualquier #minecraft:hoes"
+	task.3EBB0F4CE5BD7CC7.title: "multiplicar generadores"
+	task.5489CA47183814DF.title: "ascender a la divinidad"
+	task.67184E576232D011.title: "Cualquier #c:ingots/platinum"
+	task.68ECE75E16C8335A.title: "sé humano de nuevo"
+	task.6AE965C11EADC11F.title: "Cualquier #c:juices"
+	task.6E59EBC307226BFD.title: "pentakill"
+	task.70963682D2165A80.title: "Cualquier #c:icecream"
+	task.762542DCE5EB77E5.title: "Cualquier #c:ingots/osmium"
+	task.7D98EF1A70AD8978.title: "no muy amigable"
+}

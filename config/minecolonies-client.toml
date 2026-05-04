@@ -16,3 +16,5 @@
 	colonyteamborders = true
 	#Should special holiday content be displayed? [Default: true]
 	holidayfeatures = true
+	#When true, dyed leather items will show a tooltip so that you know what color to use. [Default: true]
+	showdyetooltips = true

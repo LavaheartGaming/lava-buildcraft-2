@@ -1,0 +1,199 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch5_multiplanet"
+	group: "723E49C2B2CAC8A2"
+	id: "04A24DFB0DB3023C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "26655B016A1B0B2A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68A0EE700FD60ED7"
+				table_id: 3448359885751380133L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3E1E49FB7AC293E5"
+				item: { count: 1, id: "sgjourney:classic_stargate" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26655B016A1B0B2A"]
+			id: "6AF6838F940144B6"
+			tasks: [{
+				id: "78599FF6738DC55F"
+				item: { components: { "minecraft:block_entity_data": { generation_step: 2b, id: "sgjourney:universe_stargate" } }, count: 1, id: "sgjourney:universe_stargate" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AF6838F940144B6"]
+			id: "5C648F4E915BCD56"
+			tasks: [{
+				id: "49D8C75D495687C5"
+				item: { components: { "minecraft:block_entity_data": { generation_step: 2b, id: "sgjourney:milky_way_stargate" } }, count: 1, id: "sgjourney:milky_way_stargate" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5C648F4E915BCD56"]
+			id: "4FC60A74C440F33F"
+			tasks: [{
+				id: "3D9D9E5F1CD43A24"
+				item: { components: { "minecraft:block_entity_data": { generation_step: 2b, id: "sgjourney:pegasus_stargate" } }, count: 1, id: "sgjourney:pegasus_stargate" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4FC60A74C440F33F"]
+			id: "3D43C9F05CCE7429"
+			tasks: [{
+				id: "6749F796D598B084"
+				item: { components: { "minecraft:block_entity_data": { generation_step: 2b, id: "sgjourney:tollan_stargate" } }, count: 1, id: "sgjourney:tollan_stargate" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.0d
+		}
+		{
+			id: "6B6B5F56FA95ECF4"
+			tasks: [{
+				id: "41956D4B2274EAD8"
+				item: { count: 1, id: "sgjourney:classic_dhd" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			id: "2D8FB95CF3C6194E"
+			tasks: [{
+				id: "6FFD679DEA33E313"
+				item: { components: { "minecraft:block_entity_data": { crystal_inventory: { Items: [ { Count: 1b, Slot: 0, id: "sgjourney:large_control_crystal" }, { Count: 1b, Slot: 1, id: "sgjourney:advanced_energy_crystal" }, { Count: 1b, Slot: 2, id: "sgjourney:advanced_communication_crystal" }, { Count: 1b, Slot: 3, id: "sgjourney:advanced_energy_crystal" }, { Count: 1b, Slot: 6, id: "sgjourney:advanced_communication_crystal" }, { Count: 1b, Slot: 7, id: "sgjourney:advanced_transfer_crystal" } ], Size: 9 }, energy: 0L, energy_inventory: { Items: [{ Count: 1b, Slot: 0, id: "sgjourney:fusion_core" }], Size: 2 }, id: "sgjourney:pegasus_dhd" } }, count: 1, id: "sgjourney:pegasus_dhd" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "5DE0E4D32ECDFA65"
+			tasks: [{
+				id: "2C4CB6AA154E80D9"
+				item: { components: { "minecraft:block_entity_data": { crystal_inventory: { Items: [ { Count: 1b, Slot: 0, id: "sgjourney:large_control_crystal" }, { Count: 1b, Slot: 1, id: "sgjourney:energy_crystal" }, { Count: 1b, Slot: 2, id: "sgjourney:communication_crystal" }, { Count: 1b, Slot: 3, id: "sgjourney:energy_crystal" }, { Count: 1b, Slot: 5, id: "sgjourney:energy_crystal" }, { Count: 1b, Slot: 7, id: "sgjourney:transfer_crystal" } ], Size: 9 }, energy: 0L, energy_inventory: { Items: [{ Count: 1b, Slot: 0, id: "sgjourney:fusion_core" }], Size: 2 }, id: "sgjourney:milky_way_dhd" } }, count: 1, id: "sgjourney:milky_way_dhd" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			id: "4788E92F1F1509B9"
+			rewards: [{
+				id: "5D4F4939901F98FA"
+				item: {
+					components: {
+						"patchouli:book": "sgjourney:stargate_journey"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5794C47E0702F299"
+				item: { count: 1, id: "sgjourney:naquadah_alloy" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26655B016A1B0B2A"]
+			id: "64CD8157B69D7EA6"
+			tasks: [{
+				dimension: "sgjourney:rima"
+				id: "376A59B9F55C6A44"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["26655B016A1B0B2A"]
+			id: "6F1AFB02EA2123D2"
+			tasks: [{
+				dimension: "sgjourney:unitas"
+				id: "3886B979CF64D8CA"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["26655B016A1B0B2A"]
+			id: "63B369C1F72938F9"
+			tasks: [{
+				dimension: "sgjourney:abydos"
+				id: "7BD9724004D85D31"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["26655B016A1B0B2A"]
+			id: "56E53FA8DB065A85"
+			tasks: [{
+				dimension: "sgjourney:athos"
+				id: "11C27EFA21235EF3"
+				type: "dimension"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["26655B016A1B0B2A"]
+			id: "05FD52305CE63E34"
+			tasks: [{
+				dimension: "sgjourney:cavum_tenebrae"
+				id: "70F2E2C304D0186A"
+				type: "dimension"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["26655B016A1B0B2A"]
+			id: "0B1A1E20B4933AA2"
+			tasks: [{
+				dimension: "sgjourney:chulak"
+				id: "160473AB6B8932FD"
+				type: "dimension"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["26655B016A1B0B2A"]
+			id: "6328343EE856CFB4"
+			tasks: [{
+				dimension: "sgjourney:lantea"
+				id: "73F349F0043C554B"
+				type: "dimension"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+	]
+}

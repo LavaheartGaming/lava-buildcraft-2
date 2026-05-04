@@ -1,0 +1,24 @@
+[client_options]
+	#Default: true
+	custom_items_in_vanilla_creative_tabs = true
+
+[particles]
+	#Default: true
+	leaves_particles = true
+	#Range: [0.0, 5.0]
+	#Default: 1.0
+	prismarite_sparkle_rate = 1.0
+
+[block_color_options]
+	#Sets Eucalyptus colour transition size. Bigger number = bigger distance between colours.
+	#Range: [0.0, 200.0]
+	#Default: 25.0
+	eucalyptus_transition_size = 25.0
+	#Sets Eucalyptus colour saturation.
+	#Range: [0.0, 1.0]
+	#Default: 0.5
+	eucalyptus_saturation = 0.5
+	#Sets Eucalyptus colour brightness.
+	#Range: [0.0, 1.0]
+	#Default: 0.8
+	eucalyptus_brightness = 0.8

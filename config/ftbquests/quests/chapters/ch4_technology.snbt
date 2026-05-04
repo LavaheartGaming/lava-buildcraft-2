@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch4_technology"
+	group: "0018F6994B00DCA1"
+	id: "5D459FBCD923B1F4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

@@ -1,4 +1,5 @@
 {
+	chapter.04A24DFB0DB3023C.title: "Ch5: StarGates"
 	chapter.0D5981902D94EE01.title: "Ch1 [magic]: the gathering"
 	chapter.23896B2F5FBC8AC9.title: "CH3 [farming] master farmer"
 	chapter.282DE262DEFC6C99.title: "the final stretch"
@@ -10,18 +11,26 @@
 	chapter.6642BFB1D995C300.title: "Ch1 [farming]: reap and sow"
 	chapter.6C23DE799D9E524C.title: "Ch2 [magic]: advanced magic"
 	chapter.6EF9CB87D0BEB449.title: "Ch1: getting started"
+	chapter.72A9DCBF8B848419.title: "Ch5: Spatial Weapons"
 	chapter.7608C1EC275A68BB.title: "Ch1 [technology]: power generation and basic storage"
 	chapter.78E1183FCAE4D375.title: "CH2 [farming]: backbone of society"
 	chapter_group.0018F6994B00DCA1.title: "tome 4: birth of a god"
 	chapter_group.0168F7E7756B10A6.title: "tome 2: into the thick of it all"
 	chapter_group.097460243B4AA538.title: "tome 3: a path for immortality"
 	chapter_group.482DD8A241D1335B.title: "tome 1 early game"
+	chapter_group.723E49C2B2CAC8A2.title: "Tome 5: Space Trip"
 	quest.00053A6101C77763.quest_desc: ["ah yes the epic lucky block, you can get a lot of cool stuff in here "]
 	quest.0123F4D53688B832.title: "back to the drawer wall"
 	quest.02B066656B216B81.quest_subtitle: "you spent all this time making the rainbow furnace ? ok blow it up !"
+	quest.05FD52305CE63E34.quest_desc: ["Hoc mihi sensum linguae antiquae praebet. Fortasse Latinae?"]
+	quest.05FD52305CE63E34.quest_subtitle: "Visit Cavum Tenebrae Dimension"
+	quest.05FD52305CE63E34.title: "Cavum Tenebrae"
 	quest.06008EFBE331EA27.title: "inscribing"
 	quest.07382FF335EADCD9.quest_subtitle: "the best available ingot before delving into lava's mod"
 	quest.07382FF335EADCD9.title: "tip top"
+	quest.0B1A1E20B4933AA2.quest_desc: ["Apophis' Domain"]
+	quest.0B1A1E20B4933AA2.quest_subtitle: "Visit Chulak Dimension"
+	quest.0B1A1E20B4933AA2.title: "Chulak"
 	quest.0F2A08FE241428E5.quest_subtitle: "unlocks part of the magic chapiter"
 	quest.139117037B61EC52.quest_subtitle: "you are now busted"
 	quest.139117037B61EC52.title: "best armor ?"
@@ -32,7 +41,8 @@
 	quest.17A9B8A3CA1E7121.quest_desc: ["the 5th best metal "]
 	quest.1887D6983424EDFA.quest_subtitle: "unlocks half of chapiter 2"
 	quest.1887D6983424EDFA.title: "pam's tools"
-	quest.1C39D748DA5D0FD2.quest_subtitle: "unlocks the farming chpiter 1"
+	quest.1AC1F8EA9D332F1D.quest_subtitle: "Automatize your work"
+	quest.1C39D748DA5D0FD2.quest_subtitle: "unlocks the farming chapiter 1"
 	quest.1C39D748DA5D0FD2.title: "Let it grow"
 	quest.1C877C621972562E.quest_desc: ["this is the way to start modern industrialization"]
 	quest.1C91075A042213D5.quest_desc: ["1 more upgrade left"]
@@ -42,6 +52,8 @@
 	quest.1CC7C667DAC874A2.title: "ol reliable"
 	quest.24544553C3D36455.quest_desc: ["you did it ! you got the most powerful weapon in the game"]
 	quest.2556D4531B48F97A.title: "charged up"
+	quest.26655B016A1B0B2A.quest_desc: ["Craft a Classic Stargate"]
+	quest.26655B016A1B0B2A.title: "SpaceTrip? YEAH!"
 	quest.28F00089471ABB39.quest_desc: [
 		"this block can be used to spawn the azura guardian, but i am afraid you will need rainbowstone  for the summoning,"
 		""
@@ -59,6 +71,7 @@
 	quest.351774128AE3D978.title: "black glass"
 	quest.35370CA63E6B4122.title: "a place to rest"
 	quest.38FAEA661927A87D.title: "gourmet meat"
+	quest.397F74DF5FA4E99E.quest_desc: ["With this, you can Encode a craft in order to automatize it and then put it in the auto fabricator"]
 	quest.3FB5B3CA2AAC6629.quest_subtitle: "use a hammer to dig in a 3x3 formation"
 	quest.40AC97C9735801ED.quest_desc: ["the first step towards infinity"]
 	quest.42296AB75088D174.title: "infinite durability"
@@ -68,15 +81,13 @@
 	quest.444182758B322E24.title: "fluix formation"
 	quest.463717F0F1AA2C7C.quest_subtitle: "probably should make an armor with that"
 	quest.47487AA4BB6B2355.quest_subtitle: "unlocks half of chapiter 2"
-	quest.47E2724E5168946F.quest_desc: ["more to come in tome 5 "]
-	quest.47E2724E5168946F.title: "tome 5 ?"
+	quest.47E2724E5168946F.title: "Tome 5 ???"
 	quest.47FFF03F996F0F1E.quest_desc: ["use /bank add coins x (x being the number you want to add into your bank account)"]
 	quest.49718CA444AA0057.title: "sorceror attire"
 	quest.4A40A03DC0C39B2C.title: "sophisticated storage"
 	quest.4C9684B540567772.quest_desc: ["crimson iron but much better"]
 	quest.4C9684B540567772.title: "harder, better, faster, stronger"
 	quest.4D33FEFC69D0D421.title: "getting ready"
-	quest.4E91D29BEDCB7793.quest_subtitle: "use this to trade with players"
 	quest.4FE49A810B769C02.title: "basic foods"
 	quest.513DA621A314D377.title: "The metal better than diamond"
 	quest.520AD0271CF1ACAA.title: "auto farming"
@@ -88,6 +99,8 @@
 		"ah yes my favorite lucky block ! "
 		"you can get godly gems, credit cards and even bedrock from it "
 	]
+	quest.56E53FA8DB065A85.quest_subtitle: "Visit Athos Dimension"
+	quest.56E53FA8DB065A85.title: "Athos"
 	quest.581B8485032C0075.title: "the nether"
 	quest.581D033631383067.quest_desc: [
 		"One of the first things we do in mekanism is the famous melon ethylene energy generator"
@@ -103,19 +116,32 @@
 		"smelt these items in exchange for ombrum."
 	]
 	quest.62BAFE95F286AD51.title: "you got the power"
+	quest.6328343EE856CFB4.quest_desc: ["Subnautica Vibes.  By the way, Subnautica 2 early access will be avaible the 14th of May of this year (2026). ;D"]
+	quest.6328343EE856CFB4.quest_subtitle: "Visit Lantea Dimension"
+	quest.6328343EE856CFB4.title: "Lantea"
+	quest.63B369C1F72938F9.quest_desc: ["They told me that this is a planet in Ra's domain. I'd be careful"]
+	quest.63B369C1F72938F9.quest_subtitle: "Visit Abydos Dimension"
+	quest.63B369C1F72938F9.title: "Abydos"
 	quest.649B242881A9D6FF.quest_desc: [
 		"you get grains of infinity by igniting bedrock "
 		""
 		"tired of going to bedrock level for them ? do not fret because you will eventually get bedrock"
 	]
+	quest.64CD8157B69D7EA6.quest_desc: ["Another part of Apophis' domain"]
+	quest.64CD8157B69D7EA6.quest_subtitle: "Visit Rima Dimension"
+	quest.64CD8157B69D7EA6.title: "Rima"
 	quest.66E203B99CE6FDA9.quest_desc: ["great ! now that you have your first corruptite you can corrupt some blocks, to make more corruptite, simply corrupt a lapis lasuli ore block "]
 	quest.6D48F595AF078B38.quest_desc: ["sadly there is no &1ba&fgu&4ette &fmod "]
 	quest.6D48F595AF078B38.title: "Bread ! I love bread !"
+	quest.6F1AFB02EA2123D2.quest_desc: [""]
+	quest.6F1AFB02EA2123D2.quest_subtitle: "Visit Unitas Dimension"
+	quest.6F1AFB02EA2123D2.title: "Unitas"
 	quest.7078EBB0EF250EA9.quest_subtitle: "good luck charging that thing"
 	quest.7078EBB0EF250EA9.title: "infinity shard"
 	quest.7172E64AE0971E39.quest_subtitle: "fuel efficient and easy to make"
 	quest.744E930B4449DA83.quest_subtitle: "put all of those hard meals into the pneumaticraft pressure chamber"
 	quest.744E930B4449DA83.title: "culinary abomination"
+	quest.7493F9822E890F68.quest_desc: [""]
 	quest.74C80669F4E3C858.quest_subtitle: "you can multiply your generators by 8 and 64"
 	quest.74EBAFA85F2DFC2B.quest_desc: [
 		"ok this is a very important block as it allows you to summon the assassin, make you you have the best gear possible to fight him"

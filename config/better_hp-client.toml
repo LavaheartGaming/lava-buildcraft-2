@@ -1,0 +1,138 @@
+#Enable or disable the custom Better HP HUD
+enableCustomHUD = true
+#Show vanilla hearts
+showVanillaHearts = false
+#Enable dynamic health color change (Green -> Full, Yellow -> Low, Red -> Critical)
+enableDynamicHealthColor = true
+#Show vanilla armor bar
+showVanillaArmor = false
+#Show vanilla hunger bar
+showVanillaHunger = false
+#Show vanilla oxygen bubbles
+showVanillaOxygen = false
+#Show numeric hunger instead of vanilla hunger bar
+showNumericHunger = true
+#Show numeric health instead of vanilla health bar
+showNumericHealth = true
+#Show custom oxygen icon when underwater
+showOxygenIcon = true
+#Show numeric oxygen value when underwater
+showNumericOxygen = true
+#Show custom health icon
+showHealthIcon = true
+#Show custom armor icon
+showArmorIcon = true
+#Show custom hunger icon
+showHungerIcon = true
+#Horizontal position of the health icon display
+# Default: -70
+# Range: -1000 ~ 1000
+healthDisplayX = -70
+#Vertical position of the health icon display
+# Default: 43
+# Range: 0 ~ 1000
+healthDisplayY = 43
+#Horizontal position of the armor icon display
+# Default: -5
+# Range: -1000 ~ 1000
+armorDisplayX = -5
+#Vertical position of the armor icon display
+# Default: 56
+# Range: 0 ~ 1000
+armorDisplayY = 56
+#Show custom toughness icon
+showToughnessIcon = true
+#Horizontal position of the toughness icon display
+# Default: 35
+# Range: -1000 ~ 1000
+toughnessDisplayX = 35
+#Vertical position of the toughness icon display
+# Default: 56
+# Range: 0 ~ 1000
+toughnessDisplayY = 56
+#Horizontal position of the hunger icon display
+# Default: 45
+# Range: -1000 ~ 1000
+hungerDisplayX = 45
+#Vertical position of the hunger icon display
+# Default: 43
+# Range: 0 ~ 1000
+hungerDisplayY = 43
+#Horizontal position of the oxygen icon display
+# Default: 67
+# Range: -1000 ~ 1000
+oxygenDisplayX = 67
+#Vertical position of the oxygen icon display
+# Default: 60
+# Range: 0 ~ 1000
+oxygenDisplayY = 60
+#Color of the health numerical value in the HUD. Uses Decimal color code; Default is Red
+# Default: 16733525
+# Range: 0 ~ 16777215
+healthColor = 16733525
+#Show vanilla mount hearts (when riding an entity like a horse)
+showVanillaMountHealth = false
+#Show custom mount health icon and value on HUD when riding
+showMountIcon = true
+#Horizontal position of the mount health icon display
+# Default: -70
+# Range: -1000 ~ 1000
+mountDisplayX = -70
+#Vertical position of the mount health icon display
+# Default: 63
+# Range: 0 ~ 1000
+mountDisplayY = 63
+#Show +Absorption numeric text
+showAbsorptionText = true
+#Place absorption right after the rendered health text so it never overlaps
+absorptionFollowHealthWidth = true
+#Absorption X offset RELATIVE to the health anchor (used if absorptionFollowHealthWidth=false)
+# Default: -18
+# Range: -1000 ~ 1000
+absorptionOffsetX = -18
+#Absorption Y offset RELATIVE to the health anchor (positive moves down)
+# Default: 0
+# Range: -1000 ~ 1000
+absorptionOffsetY = 0
+#Show +Saturation numeric text
+showSaturationText = true
+#Hide saturation number when vanilla hunger bar is enabled
+hideSaturationIfVanillaHunger = true
+#Show Iron's Spells & Spellbooks mana value (only when Iron's is installed)
+showMana = true
+#Show numeric mana value
+showNumericMana = true
+#Show mana icon
+showManaIcon = true
+#Place mana right after the rendered health text so it never overlaps
+manaFollowHealthWidth = true
+#Mana X offset relative to the health anchor (used if manaFollowHealthWidth=false)
+# Default: 122
+# Range: -1000 ~ 1000
+manaOffsetX = 122
+#Mana Y offset relative to the health anchor (positive moves up in your coordinate system if you add to healthY)
+# Default: 0
+# Range: -1000 ~ 1000
+manaOffsetY = 0
+#Show Iron's Spells & Spellbooks mana in the BetterHP HUD (requires irons_spellbooks)
+showIronsMana = true
+#If true, BetterHP will attempt to disable Iron's own mana bar so only BetterHP renders it.
+disableIronsManaBar = true
+#If Iron's Spells & Spellbooks is installed, render BetterHP's mana display.
+enableIronsManaCompat = true
+#If enabled, BetterHP will hide Iron's default mana bar when compat is active.
+hideIronsManaOverlay = true
+#Moves the vanilla held-item name text (e.g., 'Splash Potion of Healing'). Negative = higher, Positive = lower.
+# Default: -10
+# Range: -40 ~ 40
+selectedItemNameOffsetY = -10
+#Only apply the selected item name offset when the player has armor > 0.
+moveSelectedItemNameOnlyWhenArmor = true
+#Scale of BetterHP HUD icons. 1.0 = normal size
+# Default: 1.0
+# Range: 0.5 ~ 4.0
+hudIconScale = 1.0
+#Scale of BetterHP HUD text. 1.0 = normal size
+# Default: 1.0
+# Range: 0.5 ~ 4.0
+hudTextScale = 1.0

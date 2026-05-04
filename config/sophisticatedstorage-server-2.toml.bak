@@ -6,6 +6,12 @@
 	# Default: 200
 	# Range: 0 ~ 1000
 	tooManyItemEntityDrops = 200
+	#Determines if limited barrel counts can be dyed to change their color
+	limitedBarrelCountDyeingEnabled = true
+	#Defines the maximum range of the controller at which it connects storage blocks to multiblock
+	# Default: 15
+	# Range: 4 ~ 64
+	controllerRange = 15
 
 	#Wood Barrel Settings
 	[server.WoodBarrel]
@@ -835,3 +841,17 @@
 		# Default: 4
 		# Range: 1 ~ 6
 		slotsInRow = 4
+
+	#Alchemy Upgrade Settings
+	[server.alchemyUpgrade]
+		#Number of Alchemy Upgrade's filter slots
+		# Default: 4
+		# Range: 1 ~ 20
+		filterSlots = 4
+
+	#Advanced Alchemy Upgrade Settings
+	[server.advancedAlchemyUpgrade]
+		#Number of Advanced Alchemy Upgrade's filter slots
+		# Default: 8
+		# Range: 1 ~ 20
+		filterSlots = 8

@@ -1,0 +1,84 @@
+#Settings for configuring the spawn chance of Mekanism: Tools' gear on mobs
+[mobGearSpawnRate]
+
+	#Spawn chances for pieces of Bronze gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
+	[mobGearSpawnRate.bronze]
+		#If enabled, zombies can spawn with Bronze weapons.
+		canSpawnWeapon = true
+		#The chance that mobs will spawn with Bronze swords rather than Bronze shovels. Requires canSpawnWeapon to be enabled.
+		# Default: 0.33
+		# Range: 0.0 ~ 1.0
+		swordWeight = 0.33
+		#The chance that mobs can spawn with Bronze helmets.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		helmetChance = 1.0
+		#The chance that mobs can spawn with Bronze chestplates.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		chestplateChance = 1.0
+		#The chance that mobs can spawn with Bronze leggings.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		leggingsChance = 1.0
+		#The chance that mobs can spawn with Bronze boots.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		bootsChance = 1.0
+		#The chance that after each piece of Bronze armor a mob spawns with no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
+		# Default: 0.25
+		# Range: 0.0 ~ 1.0
+		multiplePieceChance = 0.25
+		#The chance on hard mode that after each piece of Bronze armor a mob spawns with no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		multiplePieceChanceHard = 0.1
+		#The chance that if a mob spawns with Bronze weapons that it will be enchanted. This is multiplied modified by the chunk's difficulty modifier. Requires canSpawnWeapon to be enabled.
+		# Default: 0.25
+		# Range: 0.0 ~ 1.0
+		weaponEnchantmentChance = 0.25
+		#The chance that if a mob spawns with Bronze armor that they will be enchanted. This is multiplied modified by the chunk's difficulty modifier.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		armorEnchantmentChance = 0.5
+
+	#Spawn chances for pieces of Lapis Lazuli gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
+	[mobGearSpawnRate.lapis_lazuli]
+		#If enabled, zombies can spawn with Lapis Lazuli weapons.
+		canSpawnWeapon = true
+		#The chance that mobs will spawn with Lapis Lazuli swords rather than Lapis Lazuli shovels. Requires canSpawnWeapon to be enabled.
+		# Default: 0.33
+		# Range: 0.0 ~ 1.0
+		swordWeight = 0.33
+		#The chance that mobs can spawn with Lapis Lazuli helmets.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		helmetChance = 1.0
+		#The chance that mobs can spawn with Lapis Lazuli chestplates.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		chestplateChance = 1.0
+		#The chance that mobs can spawn with Lapis Lazuli leggings.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		leggingsChance = 1.0
+		#The chance that mobs can spawn with Lapis Lazuli boots.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		bootsChance = 1.0
+		#The chance that after each piece of Lapis Lazuli armor a mob spawns with no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
+		# Default: 0.25
+		# Range: 0.0 ~ 1.0
+		multiplePieceChance = 0.25
+		#The chance on hard mode that after each piece of Lapis Lazuli armor a mob spawns with no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		multiplePieceChanceHard = 0.1
+		#The chance that if a mob spawns with Lapis Lazuli weapons that it will be enchanted. This is multiplied modified by the chunk's difficulty modifier. Requires canSpawnWeapon to be enabled.
+		# Default: 0.25
+		# Range: 0.0 ~ 1.0
+		weaponEnchantmentChance = 0.25
+		#The chance that if a mob spawns with Lapis Lazuli armor that they will be enchanted. This is multiplied modified by the chunk's difficulty modifier.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		armorEnchantmentChance = 0.5

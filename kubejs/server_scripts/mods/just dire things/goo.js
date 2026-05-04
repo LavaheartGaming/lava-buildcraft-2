@@ -1,6 +1,6 @@
 ServerEvents.recipes(lava => {
+  lava.remove({output: 'ae2:condenser'})
     lava.custom({
-        
   "type": "justdirethings:goospread",
   "craftingDuration": 4800,
   "id": "ae2:condenser",
