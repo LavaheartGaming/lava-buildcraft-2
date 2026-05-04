@@ -1,4 +1,5 @@
 {
+	chapter.04A24DFB0DB3023C.title: "Ch5: StarGates"
 	chapter.0D5981902D94EE01.title: "Cap1 [magia]: the gathering"
 	chapter.23896B2F5FBC8AC9.title: "Cap3 [granjas] maestro granjero"
 	chapter.282DE262DEFC6C99.title: "la recta final"
@@ -10,18 +11,26 @@
 	chapter.6642BFB1D995C300.title: "Cap1 [granjas]: siembra y cosecha"
 	chapter.6C23DE799D9E524C.title: "Cap2 [magia]: magia avanzada"
 	chapter.6EF9CB87D0BEB449.title: "Cap1: empezando"
+	chapter.72A9DCBF8B848419.title: "Cap5: Armas espaciales"
 	chapter.7608C1EC275A68BB.title: "Cap1 [tecnología]: generación de energía y almacenamiento básico"
 	chapter.78E1183FCAE4D375.title: "Cap2 [granjas]: columna vertebral de la sociedad"
 	chapter_group.0018F6994B00DCA1.title: "tomo 4: nacimiento de un dios"
 	chapter_group.0168F7E7756B10A6.title: "tomo 2: en medio de todo"
 	chapter_group.097460243B4AA538.title: "tomo 3: un camino hacia la inmortalidad"
 	chapter_group.482DD8A241D1335B.title: "tomo 1 juego temprano"
+	chapter_group.723E49C2B2CAC8A2.title: "tomo 5: viaje espacial"
 	quest.00053A6101C77763.quest_desc: ["ah sí, el lucky block épico, puedes obtener muchas cosas geniales aquí "]
 	quest.0123F4D53688B832.title: "De vuelta a los cajones de almacenamiento"
 	quest.02B066656B216B81.quest_subtitle: "¿pasaste todo este tiempo haciendo el horno arcoíris? ¡ok explótalo!"
+	quest.05FD52305CE63E34.quest_desc: ["Hoc mihi sensum linguae antiquae praebet. Fortasse Latinae?"]
+	quest.05FD52305CE63E34.quest_subtitle: "Visita la dimensión Cavum Tenebrae"
+	quest.05FD52305CE63E34.title: "Cavum Tenebrae"
 	quest.06008EFBE331EA27.title: "inscripción"
 	quest.07382FF335EADCD9.quest_subtitle: "el mejor lingote disponible antes de explorar lava's mod"
 	quest.07382FF335EADCD9.title: "de primera"
+	quest.0B1A1E20B4933AA2.quest_desc: ["El dominio de Apophis"]
+	quest.0B1A1E20B4933AA2.quest_subtitle: "Visita la dimensión Chulak"
+	quest.0B1A1E20B4933AA2.title: "Chulak"
 	quest.0F2A08FE241428E5.quest_subtitle: "desbloquea parte del capítulo de magia"
 	quest.139117037B61EC52.quest_subtitle: "ahora estás arruinado"
 	quest.139117037B61EC52.title: "¿mejor armadura?"
@@ -32,6 +41,7 @@
 	quest.17A9B8A3CA1E7121.quest_desc: ["el 5º mejor metal "]
 	quest.1887D6983424EDFA.quest_subtitle: "desbloquea la mitad del capítulo 2"
 	quest.1887D6983424EDFA.title: "herramientas de pam"
+	quest.1AC1F8EA9D332F1D.quest_subtitle: "Automatiza tu trabajo"
 	quest.1C39D748DA5D0FD2.quest_subtitle: "desbloquea el capítulo de granjas 1"
 	quest.1C39D748DA5D0FD2.title: "Déjalo crecer"
 	quest.1C877C621972562E.quest_desc: ["esta es la forma de comenzar la industrialización moderna"]
@@ -42,6 +52,8 @@
 	quest.1CC7C667DAC874A2.title: "la vieja confiable"
 	quest.24544553C3D36455.quest_desc: ["¡lo hiciste! obtuviste el arma más poderosa del juego"]
 	quest.2556D4531B48F97A.title: "cargado"
+	quest.26655B016A1B0B2A.quest_desc: ["Craftea una Classic Stargate"]
+	quest.26655B016A1B0B2A.title: "¿Viaje espacial? ¡SÍ!"
 	quest.28F00089471ABB39.quest_desc: [
 		"este bloque puede usarse para invocar al azura guardian, pero me temo que necesitarás rainbowstone para la invocación,"
 		""
@@ -87,6 +99,8 @@
 		"¡ah sí, mi lucky block favorito! "
 		"puedes obtener gemas divinas, tarjetas de crédito e incluso bedrock de ella |:D|"
 	]
+	quest.56E53FA8DB065A85.quest_subtitle: "Visita la dimensión Athos"
+	quest.56E53FA8DB065A85.title: "Athos"
 	quest.581B8485032C0075.title: "el nether"
 	quest.581D033631383067.quest_desc: [
 		"Una de las primeras cosas que hacemos en mekanism es el famoso generador de energía de etileno de melón"
@@ -102,14 +116,26 @@
 		"derrite estos elementos a cambio de ombrum."
 	]
 	quest.62BAFE95F286AD51.title: "you got the power"
+	quest.6328343EE856CFB4.quest_desc: ["Subnautica Vibes.  Porcierto Compadres, Subnautica 2 Early access estará disponible para jugar en steam a partir del 14 de mayo de este año (2026) ;D"]
+	quest.6328343EE856CFB4.quest_subtitle: "Visita la dimensión Lantea"
+	quest.6328343EE856CFB4.title: "Lantea"
+	quest.63B369C1F72938F9.quest_desc: ["Me dijeron que este es un planeta en el dominio de Ra. Yo tendría cuidado."]
+	quest.63B369C1F72938F9.quest_subtitle: "Visita la dimensión Abydos"
+	quest.63B369C1F72938F9.title: "Abydos"
 	quest.649B242881A9D6FF.quest_desc: [
 		"obtienes granos de infinito al encender bedrock "
 		""
 		"¿cansado de ir al nivel de bedrock por ellos? no te preocupes porque eventualmente obtendrás bedrock"
 	]
+	quest.64CD8157B69D7EA6.quest_desc: ["Otra parte del dominio de Apophis"]
+	quest.64CD8157B69D7EA6.quest_subtitle: "Visita la dimensión Rima"
+	quest.64CD8157B69D7EA6.title: "Rima"
 	quest.66E203B99CE6FDA9.quest_desc: ["¡excelente! ahora que tienes tu primer corruptita puedes corromper algunos bloques, para hacer más corruptita, simplemente corrompe un bloque de mineral de lapislázuli "]
 	quest.6D48F595AF078B38.quest_desc: ["lamentablemente no hay ningún &fmod de &1ba&fgu&4ette  "]
 	quest.6D48F595AF078B38.title: "¡Pan! ¡Me encanta el pan! ¡Viva el pan!"
+	quest.6F1AFB02EA2123D2.quest_desc: [""]
+	quest.6F1AFB02EA2123D2.quest_subtitle: "Visita la dimensión Unitas"
+	quest.6F1AFB02EA2123D2.title: "Unitas"
 	quest.7078EBB0EF250EA9.quest_subtitle: "buena suerte cargando eso"
 	quest.7078EBB0EF250EA9.title: "infinity shard"
 	quest.7172E64AE0971E39.quest_subtitle: "eficiente en combustible y fácil de hacer"
