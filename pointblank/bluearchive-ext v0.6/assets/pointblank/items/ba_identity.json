@@ -1,0 +1,102 @@
+{
+  "name": "ba_identity",
+  "type": "Gun",
+  "maxAmmoCapacity": 3,
+  "compatibleAmmo": [
+    "ammocreative",
+    "ammo50bmg"
+  ],
+  "damage": 450,
+  "fireSound": "ba_identity",
+  "fireModes": [
+    "SINGLE"
+  ],
+  "rpm": 30,
+  "drawCooldownDuration": 1020,
+  "gunRecoilInitialAmplitude": 1.9,
+  "shakeRecoilAmplitude": 2,
+  "shakeRecoilSpeed": 5,
+  "viewRecoilAmplitude": 6,
+  "compatibleAttachmentGroups": [
+    "snipers_sights"
+  ],
+  "compatibleAttachments": [
+    "cantedrail"
+  ],
+  "defaultAttachments": [
+    "precision_scope"
+  ],
+  "features": [
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "firing",
+          "name": "muzzle_flash_big_ex"
+        }
+      ],
+      "condition": {
+        "allOf": [
+          {
+            "isUsingDefaultMuzzle": true
+          },
+          {
+            "doesNotHaveAttachment": "hp_suppressor"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Aiming",
+      "zoom": 0.25,
+      "condition": {
+        "doesNotHaveAttachmentGroup": "snipers_sights"
+      }
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 1",
+      "duration": 3720,
+      "animation": "animation.model.reload"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 1",
+      "duration": 3720,
+      "animation": "animation.model.reloadoneleft"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 5020,
+      "animation": "animation.model.reloadempty"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracerminigun"
+    }
+  ],
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 100,
+      "condition": "ammoCount > 0"
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 5530,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.inspectempty",
+      "duration": 5530,
+      "condition": "ammoCount == 0"
+    }
+  ]
+}

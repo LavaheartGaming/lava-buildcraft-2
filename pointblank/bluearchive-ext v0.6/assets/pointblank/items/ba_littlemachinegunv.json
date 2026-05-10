@@ -1,0 +1,73 @@
+{
+  "name": "ba_littlemachinegunv",
+  "type": "Gun",
+  "maxAmmoCapacity": 200,
+  "compatibleAmmo": [
+    "ammocreative",
+    "ammo762x51"
+  ],
+  "damage": 20,
+  "fireSound": "ba_littlemachinegunv",
+  "fireModes": [
+    "AUTOMATIC"
+  ],
+  "rpm": 2000,
+  "gunRecoilInitialAmplitude": 0.1,
+  "shakeRecoilAmplitude": 0.7,
+  "shakeRecoilSpeed": 2,
+  "viewRecoilAmplitude": 0.6,
+  "prepareFireCooldownDuration": 500,
+  "completeFireCooldownDuration": 500,
+  "drawCooldownDuration": 1100,
+  "aimingEnabled": false,
+  "shotsPerTrace": 100,
+  "sustainedRecoil": {
+    "posZCap": 0.4,
+    "posZIncrement": 0.04,
+    "decayTime": 2000
+  },
+  "rotations": [
+    {
+      "phase": "fire",
+      "modelPart": "spinny",
+      "rpm": 300,
+      "acceleration": 3.0,
+      "deceleration": 1
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "duration": 5270,
+      "animation": "animation.model.reload"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "ba_greentracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash_big_ex"
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 4930,
+      "condition": "ammoCount > 1"
+    },
+    {
+      "name": "animation.model.inspectempty",
+      "duration": 4930,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 100
+    }
+  ]
+}

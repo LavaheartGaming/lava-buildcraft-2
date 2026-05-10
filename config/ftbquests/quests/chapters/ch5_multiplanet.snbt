@@ -2,12 +2,15 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ch5_multiplanet"
-	group: "723E49C2B2CAC8A2"
+	group: "12E2101AFCF3C7A4"
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
 	id: "04A24DFB0DB3023C"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["428620D6B221A4BC"]
 			id: "26655B016A1B0B2A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -68,36 +71,40 @@
 			y: -11.0d
 		}
 		{
+			dependencies: ["4788E92F1F1509B9"]
 			id: "6B6B5F56FA95ECF4"
 			tasks: [{
 				id: "41956D4B2274EAD8"
 				item: { count: 1, id: "sgjourney:classic_dhd" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.5d
+			x: -0.5d
+			y: 8.5d
 		}
 		{
+			dependencies: ["4788E92F1F1509B9"]
 			id: "2D8FB95CF3C6194E"
 			tasks: [{
 				id: "6FFD679DEA33E313"
 				item: { components: { "minecraft:block_entity_data": { crystal_inventory: { Items: [ { Count: 1b, Slot: 0, id: "sgjourney:large_control_crystal" }, { Count: 1b, Slot: 1, id: "sgjourney:advanced_energy_crystal" }, { Count: 1b, Slot: 2, id: "sgjourney:advanced_communication_crystal" }, { Count: 1b, Slot: 3, id: "sgjourney:advanced_energy_crystal" }, { Count: 1b, Slot: 6, id: "sgjourney:advanced_communication_crystal" }, { Count: 1b, Slot: 7, id: "sgjourney:advanced_transfer_crystal" } ], Size: 9 }, energy: 0L, energy_inventory: { Items: [{ Count: 1b, Slot: 0, id: "sgjourney:fusion_core" }], Size: 2 }, id: "sgjourney:pegasus_dhd" } }, count: 1, id: "sgjourney:pegasus_dhd" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -0.5d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
+			dependencies: ["4788E92F1F1509B9"]
 			id: "5DE0E4D32ECDFA65"
 			tasks: [{
 				id: "2C4CB6AA154E80D9"
 				item: { components: { "minecraft:block_entity_data": { crystal_inventory: { Items: [ { Count: 1b, Slot: 0, id: "sgjourney:large_control_crystal" }, { Count: 1b, Slot: 1, id: "sgjourney:energy_crystal" }, { Count: 1b, Slot: 2, id: "sgjourney:communication_crystal" }, { Count: 1b, Slot: 3, id: "sgjourney:energy_crystal" }, { Count: 1b, Slot: 5, id: "sgjourney:energy_crystal" }, { Count: 1b, Slot: 7, id: "sgjourney:transfer_crystal" } ], Size: 9 }, energy: 0L, energy_inventory: { Items: [{ Count: 1b, Slot: 0, id: "sgjourney:fusion_core" }], Size: 2 }, id: "sgjourney:milky_way_dhd" } }, count: 1, id: "sgjourney:milky_way_dhd" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: -0.5d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
+			dependencies: ["64CD8157B69D7EA6"]
 			id: "4788E92F1F1509B9"
 			rewards: [{
 				id: "5D4F4939901F98FA"
@@ -115,8 +122,8 @@
 				item: { count: 1, id: "sgjourney:naquadah_alloy" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
+			x: -0.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["26655B016A1B0B2A"]

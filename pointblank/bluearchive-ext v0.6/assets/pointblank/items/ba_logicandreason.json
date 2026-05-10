@@ -1,0 +1,222 @@
+{
+  "name": "ba_logicandreason",
+  "type": "Gun",
+  "maxAmmoCapacity": 30,
+  "compatibleAmmo": [
+    "ammocreative",
+    "ammo9mm"
+  ],
+  "damage": 35,
+  "fireSound": "ba_logicandreason",
+  "fireModes": [
+    "AUTOMATIC"
+  ],
+  "rpm": 850,
+  "dualWielding": true,
+  "gunRecoilInitialAmplitude": 0.1,
+  "shakeRecoilAmplitude": 0.35,
+  "shakeRecoilSpeed": 2,
+  "viewRecoilAmplitude": 1.0,
+  "sustainedRecoil": {
+    "posZCap": 0.16,
+    "posZIncrement": 0.12,
+    "pitchIncrement": 0,
+    "posYIncrement": 0,
+    "decayTime": 1200
+  },
+  "glowingParts": [
+    {
+      "name": "glowy" 
+    },
+    {
+      "name": "glowy2" 
+    },
+    {
+      "name": "glowy3" 
+    }
+  ],
+  "compatibleAttachmentGroups": [
+    "smg_muzzle",
+    "ar_sightsandscopes"
+  ],
+  "compatibleAttachments": [
+    "cantedrail"
+  ],
+  "features": [
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "firing",
+          "name": "muzzle_flash"
+        }
+      ],
+      "condition": {
+        "allOf": [
+          {
+            "isUsingDefaultMuzzle": true
+          },
+          {
+            "doesNotHaveAttachmentGroup": "smg_suppressors"
+          }
+        ]
+      }
+    },
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "rearsight",
+          "visible": false,
+          "condition": {
+            "hasAttachmentGroup": "ar_sightsandscopes"
+          }
+        },
+        {
+          "name": "frontsight",
+          "visible": false,
+          "condition": {
+            "hasAttachmentGroup": "ar_sightsandscopes"
+          }
+        },
+        {
+          "name": "rearsightflipped",
+          "visible": true,
+          "condition": {
+            "hasAttachmentGroup": "ar_sightsandscopes"
+          }
+        },
+        {
+          "name": "frontsightflipped",
+          "visible": true,
+          "condition": {
+            "hasAttachmentGroup": "ar_sightsandscopes"
+          }
+        }
+      ]
+    },
+    {
+      "type": "Aiming",
+      "zoom": 0.3,
+      "condition": {
+        "doesNotHaveAttachmentGroup": "ar_sightsandscopes"
+      }
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "automatic",
+          "displayName": "label.pointblank.fireMode.automatic",
+          "type": "AUTOMATIC",
+          "rpm": 850,
+          "damage": 3.5,
+          "shakeRecoilAmplitude": 0.35,
+          "shakeRecoilSpeed": 2.0,
+          "shakeRecoilDuration": 350,
+          "enableFireModeAnimations": [
+            {
+              "name": "animation.model.switch",
+              "duration": 470
+            }
+          ]
+        },
+        {
+          "name": "single",
+          "displayName": "label.pointblank.fireMode.single",
+          "type": "SINGLE",
+          "rpm": 850,
+          "damage": 3.5,
+          "shakeRecoilAmplitude": 0.35,
+          "shakeRecoilSpeed": 2.0,
+          "shakeRecoilDuration": 350,
+          "enableFireModeAnimations": [
+            {
+              "name": "animation.model.switch",
+              "duration": 470
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Sound",
+      "fireSounds": [
+        {
+          "sound": "ba_logicandreason_suppressed",
+          "volume": 1,
+          "condition": {
+            "hasAttachmentGroup": "smg_suppressors"
+          }
+        }
+      ]
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 1",
+      "duration": 1900,
+      "animation": "animation.model.reload"
+    },
+    {
+      "phase": "RELOADING",
+      "duration": 1900,
+      "condition": "reloadIterationIndex == 1",
+      "animation": "animation.model.reloadoneleft"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 2220,
+      "animation": "animation.model.reloadempty"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 6300,
+      "condition": "ammoCount > 1"
+    },
+    {
+      "name": "animation.model.inspectempty",
+      "duration": 6670,
+      "condition": "ammoCount == 0"
+    },
+    {
+      "name": "animation.model.inspectoneleft",
+      "duration": 6300,
+      "condition": "ammoCount == 1"
+    }
+  ],
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 100,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.idleempty",
+      "duration": 100,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 670,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.drawempty",
+      "duration": 670,
+      "condition": "ammoCount == 0"
+    }
+  ]
+}

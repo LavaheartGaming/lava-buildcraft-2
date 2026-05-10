@@ -1,4 +1,5 @@
 {
+	chapter.04A24DFB0DB3023C.title: "Ch5: StarGates"
 	chapter.04A3902065F57810.title: "ch4 [farming]: peak aggriculture"
 	chapter.0D5981902D94EE01.title: "Ch1 [magic]: the gathering"
 	chapter.23896B2F5FBC8AC9.title: "CH3 [farming]: master farmer"
@@ -8,6 +9,8 @@
 	chapter.58A5AD8A2A5817B4.title: "Immortality"
 	chapter.5D459FBCD923B1F4.title: "ch4 [technology]: "
 	chapter_group.12E2101AFCF3C7A4.title: "tome 5: Trancendental Power"
+	quest.26655B016A1B0B2A.quest_desc: ["Craft a Classic Stargate"]
+	quest.26655B016A1B0B2A.title: "SpaceTrip? YEAH!"
 	quest.36D739AFFFE137A2.title: "explosion !!!"
 	quest.463717F0F1AA2C7C.quest_subtitle: "probably should make an armor with that"
 	quest.5FEDA1B7CFE06A32.quest_desc: ["they drop from cows, pigs and sheep"]

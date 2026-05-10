@@ -1,0 +1,986 @@
+{
+    "ba_draw": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_draw",
+                "stream": false
+            }
+        ]
+    },
+    "ba_horus_catchshell": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_horus_catchshell",
+                "stream": false
+            }
+        ]
+    },
+    "ba_horus_close": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_horus_close",
+                "stream": false
+            }
+        ]
+    },
+    "ba_horus_insert": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_horus_insert",
+                "stream": false
+            }
+        ]
+    },
+    "ba_horus_inspectinsert": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_horus_inspectinsert",
+                "stream": false
+            }
+        ]
+    },
+    "ba_horus_chamberopen": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_horus_chamberopen",
+                "stream": false
+            }
+        ]
+    },
+    "ba_horus_chamberclose": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_horus_chamberclose",
+                "stream": false
+            }
+        ]
+    },
+    "ba_inspecttilt": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_inspecttilt",
+                "stream": false
+            }
+        ]
+    },
+    "ba_inspectturn": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_inspectturn",
+                "stream": false
+            }
+        ]
+    },
+    "ba_inspectup": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_inspectup",
+                "stream": false
+            }
+        ]
+    },
+    "ba_eyeofhorus": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_eyeofhorus",
+                "stream": false
+            }
+        ]
+    },
+    "ba_sincerity_actionback": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_sincerity_actionback",
+                "stream": false
+            }
+        ]
+    },
+    "ba_sincerity_actionforward": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_sincerity_actionforward",
+                "stream": false
+            }
+        ]
+    },
+    "ba_sincerity_bolt": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_sincerity_bolt",
+                "stream": false
+            }
+        ]
+    },
+    "ba_sincerity_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_sincerity_magin",
+                "stream": false
+            }
+        ]
+    },
+    "ba_sincerity_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_sincerity_magout",
+                "stream": false
+            }
+        ]
+    },
+    "ba_rifle_draw": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_rifle_draw",
+                "stream": false
+            }
+        ]
+    },
+    "ba_switch": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_switch",
+                "stream": false
+            }
+        ]
+    },
+    "ba_mag_tilt": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_mag_tilt",
+                "stream": false
+            }
+        ]
+    },
+    "ba_sincerity": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_sincerity",
+                "stream": false
+            }
+        ]
+    },
+    "ba_sincerity_suppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_sincerity_suppressed",
+                "stream": false
+            }
+        ]
+    },
+    "ba_whitefang_465_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_whitefang_465_magin",
+                "stream": false
+            }
+        ]
+    },
+    "ba_whitefang465_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_whitefang465_magout",
+                "stream": false
+            }
+        ]
+    },
+    "ba_whitefang465_actionback": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_whitefang465_actionback",
+                "stream": false
+            }
+        ]
+    },
+    "ba_whitefang465_actionforward": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_whitefang465_actionforward",
+                "stream": false
+            }
+        ]
+    },
+    "ba_whitefang465_actionforward2": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_whitefang465_actionforward2",
+                "stream": false
+            }
+        ]
+    },
+    "ba_whitefang465_bolt": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_whitefang465_bolt",
+                "stream": false
+            }
+        ]
+    },
+    "ba_whitefang465": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_whitefang465",
+                "stream": false
+            }
+        ]
+    },
+    "ba_whitefang465_suppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_whitefang465_suppressed",
+                "stream": false
+            }
+        ]
+    },
+    "ba_lmgv_belt": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_lmgv_belt",
+                "stream": false
+            }
+        ]
+    },
+    "ba_lmgv_charge": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_lmgv_charge",
+                "stream": false
+            }
+        ]
+    },
+    "ba_lmgv_draw": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_lmgv_draw",
+                "stream": false
+            }
+        ]
+    },
+    "ba_lmgv_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_lmgv_magin",
+                "stream": false
+            }
+        ]
+    },
+    "ba_lmgv_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_lmgv_magout",
+                "stream": false
+            }
+        ]
+    },
+    "ba_lmgv_unwind": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_lmgv_unwind",
+                "stream": false
+            }
+        ]
+    },
+    "ba_lmgv_up": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_lmgv_up",
+                "stream": false
+            }
+        ]
+    },
+    "ba_lmgv_cycle": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_lmgv_cycle",
+                "stream": false
+            }
+        ]
+    },
+    "ba_littlemachinegunv": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_littlemachinegunv",
+                "stream": false
+            }
+        ]
+    },
+    "ba_commonsense": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_commonsense",
+                "stream": false
+            }
+        ]
+    },
+    "ba_commonsense_silenced": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_commonsense_silenced",
+                "stream": false
+            }
+        ]
+    },
+    "ba_commonsense_back": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_commonsense_back",
+                "stream": false
+            }
+        ]
+    },
+    "ba_commonsense_forward": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_commonsense_forward",
+                "stream": false
+            }
+        ]
+    },
+    "ba_commonsense_reload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_commonsense_reload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_commonsense_unload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_commonsense_unload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_commonsense_slide": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_commonsense_slide",
+                "stream": false
+            }
+        ]
+    },
+    "ba_pistoldraw": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_pistoldraw",
+                "stream": false
+            }
+        ]
+    },
+    "ba_pistolup": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_pistolup",
+                "stream": false
+            }
+        ]
+    },
+    "ba_ariusar": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_ariusar",
+                "stream": false
+            }
+        ]
+    },
+    "ba_ariusar_suppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_ariusar_suppressed",
+                "stream": false
+            }
+        ]
+    },
+    "ba_ariusar_back": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_ariusar_back",
+                "stream": false
+            }
+        ]
+    },
+    "ba_ariusar_bolt": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_ariusar_bolt",
+                "stream": false
+            }
+        ]
+    },
+    "ba_ariusar_forward": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_ariusar_forward",
+                "stream": false
+            }
+        ]
+    },
+    "ba_ariusar_hit": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_ariusar_hit",
+                "stream": false
+            }
+        ]
+    },
+    "ba_ariusar_reload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_ariusar_reload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_ariusar_unload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_ariusar_unload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_smg_draw": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_smg_draw",
+                "stream": false
+            }
+        ]
+    },
+    "ba_scorpius_back": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_scorpius_back",
+                "stream": false
+            }
+        ]
+    },
+    "ba_scorpius_forward": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_scorpius_forward",
+                "stream": false
+            }
+        ]
+    },
+    "ba_scorpius_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_scorpius_magin",
+                "stream": false
+            }
+        ]
+    },
+    "ba_scorpius_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_scorpius_magout",
+                "stream": false
+            }
+        ]
+    },
+    "ba_scorpius_magoutfast": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_scorpius_magoutfast",
+                "stream": false
+            }
+        ]
+    },
+    "ba_scorpius_press": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_scorpius_press",
+                "stream": false
+            }
+        ]
+    },
+    "ba_scorpius": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_scorpius",
+                "stream": false
+            }
+        ]
+    },
+    "ba_scorpius_suppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_scorpius_suppressed",
+                "stream": false
+            }
+        ]
+    },
+    "ba_identity": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_identity",
+                "stream": false
+            }
+        ]
+    },
+    "ba_identity_boltback1": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_identity_boltback1",
+                "stream": false
+            }
+        ]
+    },
+    "ba_identity_boltback2": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_identity_boltback2",
+                "stream": false
+            }
+        ]
+    },
+    "ba_identity_boltforward": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_identity_boltforward",
+                "stream": false
+            }
+        ]
+    },
+    "ba_identity_reload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_identity_reload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_identity_unload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_identity_unload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_logic_back": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_logic_back",
+                "stream": false
+            }
+        ]
+    },
+    "ba_logic_bolt": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_logic_bolt",
+                "stream": false
+            }
+        ]
+    },
+    "ba_logic_forward": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_logic_forward",
+                "stream": false
+            }
+        ]
+    },
+    "ba_logic_reload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_logic_reload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_logic_unload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_logic_unload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_logicandreason": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_logicandreason",
+                "stream": false
+            }
+        ]
+    },
+    "ba_logicandreason_suppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_logicandreason_suppressed",
+                "stream": false
+            }
+        ]
+    },
+    "ba_secretarysvote": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_secretarysvote",
+                "stream": false
+            }
+        ]
+    },
+    "ba_secretarysvote_suppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_secretarysvote_suppressed",
+                "stream": false
+            }
+        ]
+    },
+    "ba_sv_reload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_sv_reload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_sv_unload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_sv_unload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_sv_slide": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_sv_slide",
+                "stream": false
+            }
+        ]
+    },
+    "ba_stock": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_stock",
+                "stream": false
+            }
+        ]
+    },
+    "ba_theenddestroyer": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_theenddestroyer",
+                "stream": false
+            }
+        ]
+    },
+    "ba_hinawindup": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_hinawindup",
+                "stream": false
+            }
+        ]
+    },
+    "ba_hinawinddown": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_hinawinddown",
+                "stream": false
+            }
+        ]
+    },
+    "ba_hinaunload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_hinaunload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_hinaunloadother": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_hinaunloadother",
+                "stream": false
+            }
+        ]
+    },
+    "ba_hinareload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_hinareload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_hinacharge": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_hinacharge",
+                "stream": false
+            }
+        ]
+    },
+    "ba_heavyfoley": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_heavyfoley",
+                "stream": false
+            }
+        ]
+    },
+    "ba_crackshot": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_crackshot",
+                "stream": false
+            }
+        ]
+    },
+    "ba_crackshotsuppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_crackshotsuppressed",
+                "stream": false
+            }
+        ]
+    },
+    "ba_crackshotinsert": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_crackshotinsert",
+                "stream": false
+            }
+        ]
+    },
+    "ba_crackshotopen": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_crackshotopen",
+                "stream": false
+            }
+        ]
+    },
+    "ba_crackshotclose": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_crackshotclose",
+                "stream": false
+            }
+        ]
+    },
+    "ba_sniperdraw": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_sniperdraw",
+                "stream": false
+            }
+        ]
+    },
+    "ba_sniperup": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_sniperup",
+                "stream": false
+            }
+        ]
+    },
+    "ba_supportpointer": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_supportpointer",
+                "stream": false
+            }
+        ]
+    },
+    "ba_supportpointer_unload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_supportpointer_unload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_supportpointer_reload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_supportpointer_reload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_supportpointer_charge": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_supportpointer_charge",
+                "stream": false
+            }
+        ]
+    },
+    "ba_hotshot": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_hotshot",
+                "stream": false
+            }
+        ]
+    },
+    "ba_hotshot_unload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_hotshot_unload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_hotshot_reload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_hotshot_reload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_hotshot_charge": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_hotshot_charge",
+                "stream": false
+            }
+        ]
+    },
+    "ba_trickortrick": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_trickortrick",
+                "stream": false
+            }
+        ]
+    },
+    "ba_trick_unload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_trick_unload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_trick_reload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_trick_reload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_trick_charge": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_trick_charge",
+                "stream": false
+            }
+        ]
+    },
+    "ba_trick_click": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_trick_click",
+                "stream": false
+            }
+        ]
+    },
+    "ba_wineredadmire": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_wineredadmire",
+                "stream": false
+            }
+        ]
+    },
+    "ba_aru_open": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_aru_open",
+                "stream": false
+            }
+        ]
+    },
+    "ba_aru_unload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_aru_unload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_aru_reload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_aru_reload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_aru_close": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_aru_close",
+                "stream": false
+            }
+        ]
+    },
+    "ba_aru_inspect1": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_aru_inspect1",
+                "stream": false
+            }
+        ]
+    },
+    "ba_aru_inspect2": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_aru_inspect2",
+                "stream": false
+            }
+        ]
+    },
+    "ba_demonsroar": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_demonsroar",
+                "stream": false
+            }
+        ]
+    },
+    "ba_demonsroar_suppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_demonsroar_suppressed",
+                "stream": false
+            }
+        ]
+    },
+    "ba_demonsroar_unload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_demonsroar_unload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_demonsroar_reload": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_demonsroar_reload",
+                "stream": false
+            }
+        ]
+    },
+    "ba_demonsroar_slide": {
+        "sounds": [
+            {
+                "name": "pointblank:ba_demonsroar_slide",
+                "stream": false
+            }
+        ]
+    }
+}

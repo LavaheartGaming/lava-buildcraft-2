@@ -1,0 +1,144 @@
+{
+  "name": "ba_eyeofhorus",
+  "type": "Gun",
+  "maxAmmoCapacity": 12,
+  "maxAmmoPerReloadIteration": 1,
+  "compatibleAmmo": [
+    "ammocreative",
+    "ammo12gauge"
+  ],
+  "pelletCount": 50,
+  "pelletSpread": 0.1,
+  "damage": 10,
+  "rpm": 350,
+  "fireModes": [
+    "SINGLE"
+  ],
+  "fireSound": "ba_eyeofhorus",
+  "aimingZoom": 0.25,
+  "gunRecoilInitialAmplitude": 0.35,
+  "shakeRecoilAmplitude": 2,
+  "shakeRecoilSpeed": 2,
+  "viewRecoilAmplitude": 7,
+  "compatibleAttachmentGroups": [
+    "ar_sightsandscopes"
+  ],
+  "compatibleAttachments": [
+    "cantedrail"
+  ],
+  "features": [
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "firing",
+          "name": "muzzle_flash_big"
+        }
+      ],
+      "condition": {
+        "allOf": [
+          {
+            "isUsingDefaultMuzzle": true
+          },
+          {
+            "doesNotHaveAttachmentGroup": "ar_suppressors"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Sound",
+      "fireSounds": [
+        {
+          "sound": "ak74_silenced",
+          "volume": 1,
+          "condition": {
+            "allOf": [
+              {
+                "unselectedFireMode": "grenade"
+              },
+              {
+                "hasAttachmentGroup": "ar_suppressors"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "Aiming",
+      "zoom": 0.25,
+      "condition": {
+        "doesNotHaveAttachmentGroup": "ar_sightsandscopes"
+      }
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "PREPARING",
+      "condition": "reloadIterationIndex == -1",
+      "duration": 480,
+      "animation": "animation.model.preparealt"
+    },
+    {
+      "phase": "PREPARING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 480,
+      "animation": "animation.model.prepare"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 1000,
+      "animation": "animation.model.loadfirst"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 480,
+      "animation": "animation.model.iterativeload"
+    },
+    {
+      "phase": "COMPLETETING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 670,
+      "animation": "animation.model.finish"
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 6030,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.inspectempty",
+      "duration": 5070,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 100,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.idleempty",
+      "duration": 100,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 770,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.drawempty",
+      "duration": 770,
+      "condition": "ammoCount == 0"
+    }
+  ]
+}

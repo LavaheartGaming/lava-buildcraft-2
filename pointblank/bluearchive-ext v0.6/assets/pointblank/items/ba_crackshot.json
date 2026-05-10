@@ -1,0 +1,131 @@
+{
+  "type": "gun",
+  "name": "ba_crackshot",
+  "maxAmmoCapacity": 5,
+  "maxAmmoPerReloadIteration": 1,
+  "damage": 250.0,
+  "rpm": 60,
+  "fireSound": "ba_crackshot",
+  "gunRecoilInitialAmplitude": 0.6,
+  "gunRecoilPitchMultiplier": 1.5,
+  "shakeRecoilAmplitude": 0.65,
+  "shakeRecoilSpeed": 3.5,
+  "viewRecoilAmplitude": 7.0,
+  "fireModes": [
+    "SINGLE"
+  ],
+  "compatibleAmmo": [
+    "ammocreative",
+    "ba_792x57mm"
+  ],
+  "effects": [
+    {
+      "phase": "HIT_SCAN_ACQUIRED",
+      "name": "tracerminigun"
+    }
+  ],
+  "compatibleAttachmentGroups": [
+    "snipers_sights",
+    "rf_muzzle"
+  ],
+  "compatibleAttachments": [
+    "cantedrail"
+  ],
+  "features": [
+    {
+      "type": "MUZZLEFLASH",
+      "condition": {
+        "doesNotHaveAttachmentGroup": "rf_suppressors"
+      },
+      "effects": [
+        {
+          "phase": "FIRING",
+          "name": "muzzle_flash_big_ex"
+        }
+      ]
+    },
+    {
+      "type": "AIMING",
+      "condition": {
+        "doesNotHaveAttachmentGroup": "snipers_sights"
+      },
+      "zoom": 0.25
+    },
+    {
+      "type": "PARTVISIBILITY",
+      "parts": [
+        {
+          "name": "rail",
+          "visible": true,
+          "condition": {
+            "hasAttachmentGroup": "m16_sightsandscopes"
+          }
+        }
+      ]
+    },
+    {
+      "type": "SOUND",
+      "condition": {
+        "hasAttachmentGroup": "rf_suppressors"
+      },
+      "fireSound": "ba_crackshotsuppressed",
+      "fireSoundVolume": 1
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "PREPARING",
+      "condition": "reloadIterationIndex == -1",
+      "duration": 1000,
+      "animation": "animation.model.prepareempty"
+    },
+    {
+      "phase": "PREPARING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 1000,
+      "animation": "animation.model.prepare"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 580,
+      "animation": "animation.model.loadfirst"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 580,
+      "animation": "animation.model.load"
+    },
+    {
+      "phase": "COMPLETETING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 1130,
+      "animation": "animation.model.finish"
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 4830,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.inspectempty",
+      "duration": 4830,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 100
+    }
+  ],
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 830
+    }
+  ]
+}

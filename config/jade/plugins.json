@@ -58,12 +58,6 @@
   "entangled": {
     "entangled_block_component": true
   },
-  "endertanks": {
-    "hud.basic": true,
-    "hud": true,
-    "hud.status": true,
-    "hud.contents": true
-  },
   "ftbquests": {
     "barrier": true
   },
@@ -102,6 +96,9 @@
   "hammerlib": {
     "root": true
   },
+  "enderio": {
+    "soul_bound": true
+  },
   "mekanism": {
     "chemical": true,
     "remove_builtin": true,
@@ -136,9 +133,6 @@
     "preservation_chamber": true,
     "milk_jar": true,
     "toaster": true
-  },
-  "toms_trading_network": {
-    "vending_machine": true
   },
   "framedblocks": {
     "framed_item_frame": true,
@@ -183,11 +177,6 @@
   },
   "ars_nouveau": {
     "mob_jar": true
-  },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
   },
   "mysticalagradditions": {
     "infused_farmland": true
