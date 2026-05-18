@@ -1,5 +1,6 @@
 {
 	chapter.04A24DFB0DB3023C.title: "Ch5: StarGates"
+	chapter.04A3902065F57810.title: "ch4: [farming] ultimate ressource gathering"
 	chapter.0D5981902D94EE01.title: "Ch1 [magic]: the gathering"
 	chapter.23896B2F5FBC8AC9.title: "CH3 [farming] master farmer"
 	chapter.282DE262DEFC6C99.title: "the final stretch"
@@ -8,6 +9,8 @@
 	chapter.39A582E0A7E5BE6A.title: "combat"
 	chapter.39E8D74C364AC153.title: "Ch2 [technology] advanced proccessing"
 	chapter.50D9953ADABF1EC0.title: "Ch3 [technology]: engineer"
+	chapter.58A5AD8A2A5817B4.title: "path to immortality"
+	chapter.5D459FBCD923B1F4.title: "ch4: [technology] transendental power !"
 	chapter.6642BFB1D995C300.title: "Ch1 [farming]: reap and sow"
 	chapter.6C23DE799D9E524C.title: "Ch2 [magic]: advanced magic"
 	chapter.6EF9CB87D0BEB449.title: "Ch1: getting started"
@@ -16,6 +19,7 @@
 	chapter_group.0018F6994B00DCA1.title: "tome 4: birth of a god"
 	chapter_group.0168F7E7756B10A6.title: "tome 2: into the thick of it all"
 	chapter_group.097460243B4AA538.title: "tome 3: a path for immortality"
+	chapter_group.12E2101AFCF3C7A4.title: "tome 5: The true end"
 	chapter_group.482DD8A241D1335B.title: "tome 1 early game"
 	chapter_group.723E49C2B2CAC8A2.title: "Tome 5: Space Trip"
 	quest.00053A6101C77763.quest_desc: ["ah yes the epic lucky block, you can get a lot of cool stuff in here "]

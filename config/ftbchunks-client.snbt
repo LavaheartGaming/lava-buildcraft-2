@@ -138,73 +138,93 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:bee": true
-			"minecraft:pillager": true
-			"aquaculture:red_grouper": false
-			"minecraft:sheep": true
-			"minecraft:cow": true
-			"artifacts:mimic": true
-			"ars_nouveau:whirlisprig": true
-			"minecraft:witch": true
-			"minecraft:horse": true
-			"aquaculture:tuna": false
-			"livingthings:raccoon": true
-			"minecraft:villager": true
-			"minecraft:zombie": true
-			"aquaculture:perch": false
-			"aquaculture:gar": false
-			"minecraft:squid": true
+			"ars_nouveau:drygmy": true
 			"alexis_food:orange_mob": true
+			"minecraft:tropical_fish": false
 			"minecraft:skeleton": true
-			"aquaculture:minnow": false
-			"minecraft:enderman": true
-			"minecraft:creeper": true
-			"aquaculture:catfish": false
-			"minecraft:pufferfish": false
-			"minecraft:cat": true
-			"minecraft:slime": true
-			"livingthings:seahorse": true
-			"aquaculture:arapaima": true
-			"aquaculture:synodontis": false
-			"endermanoverhaul:end_enderman": true
-			"livingthings:crab": true
-			"minecraft:cod": false
-			"minecraft:phantom": true
-			"minecraft:trader_llama": true
-			"minecraft:wolf": true
-			"livingthings:shark": true
-			"endermanoverhaul:cave_enderman": true
-			"livingthings:peacock": true
-			"aquaculture:brown_trout": false
-			"minecraft:glow_squid": true
-			"minecraft:fox": true
-			"livingthings:snail": true
-			"minecraft:bat": true
 			"minecraft:chicken": true
-			"aquaculture:jellyfish": false
-			"ars_nouveau:starbuncle": true
-			"livingthings:owl": true
+			"minecraft:pufferfish": false
+			"minecraft:drowned": true
+			"livingthings:seahorse": true
+			"minecraft:camel": true
+			"aquaculture:arapaima": true
+			"cataclysm:amethyst_crab": true
+			"minecraft:zombie": true
+			"ars_nouveau:alakarkinos": true
+			"aquaculture:perch": false
+			"minecraft:pig": true
 			"minecraft:parrot": true
-			"minecraft:armadillo": true
+			"ars_nouveau:whirlisprig": true
+			"minecraft:trader_llama": true
+			"aquaculture:piranha": false
+			"minecraft:wolf": true
+			"ars_nouveau:starbuncle": true
+			"minecraft:enderman": true
+			"minecraft:frog": true
+			"aquaculture:gar": false
+			"minecraft:witch": true
 			"minecraft:spider": true
+			"minecraft:bogged": true
+			"aquaculture:synodontis": false
+			"aquaculture:brown_trout": false
+			"minecraft:bee": true
+			"livingthings:peacock": true
+			"aquaculture:tuna": false
+			"minecraft:glow_squid": true
+			"minecraft:cod": false
+			"minecraft:bat": true
+			"minecraft:pillager": true
+			"endermanoverhaul:cave_enderman": true
+			"aquaculture:tambaqui": false
+			"aquaculture:atlantic_herring": false
+			"aquaculture:smallmouth_bass": false
+			"aquaculture:catfish": false
+			"minecraft:cat": true
 			"aquaculture:arrau_turtle": false
-			"minecraft:wandering_trader": true
+			"minecraft:slime": true
+			"aquaculture:bayad": false
+			"livingthings:crab": true
+			"livingthings:koala": true
+			"minecraft:armadillo": true
+			"ars_elemental:siren_entity": true
+			"livingthings:mantaray": true
+			"ars_nouveau:vexing_weald_walker": true
+			"minecraft:villager": true
+			"minecraft:sheep": true
+			"minecraft:salmon": false
+			"aquaculture:atlantic_halibut": false
+			"minecraft:cow": true
+			"minecraft:llama": true
+			"minecraft:horse": true
+			"endermanoverhaul:end_enderman": true
+			"minecraft:squid": true
+			"minecraft:ocelot": true
+			"ars_elemental:flashjack_entity": true
+			"minecraft:cave_spider": true
+			"minecraft:iron_golem": true
+			"livingthings:shark": true
+			"ars_nouveau:wilden_stalker": true
 			"aquaculture:rainbow_trout": false
+			"minecraft:zombie_villager": true
+			"aquaculture:jellyfish": false
+			"livingthings:owl": true
+			"aquaculture:minnow": false
+			"artifacts:mimic": true
+			"minecraft:rabbit": true
+			"aquaculture:carp": false
+			"minecraft:wandering_trader": true
+			"aquaculture:red_grouper": false
+			"livingthings:monkey": true
+			"minecraft:phantom": true
+			"ars_nouveau:gift_starby": true
 			"minecraft:axolotl": true
+			"minecraft:creeper": true
+			"livingthings:snail": true
+			"aquaculture:pollock": false
+			"livingthings:raccoon": true
 			"aquaculture:muskellunge": false
 			"aquaculture:bluegill": false
-			"minecraft:iron_golem": true
-			"minecraft:zombie_villager": true
-			"aquaculture:smallmouth_bass": false
-			"aquaculture:atlantic_herring": false
-			"aquaculture:carp": false
-			"minecraft:pig": true
-			"minecraft:drowned": true
-			"minecraft:ocelot": true
-			"minecraft:camel": true
-			"minecraft:tropical_fish": false
-			"aquaculture:atlantic_halibut": false
-			"ars_nouveau:drygmy": true
+			"minecraft:fox": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
