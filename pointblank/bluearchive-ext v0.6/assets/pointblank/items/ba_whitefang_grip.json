@@ -1,0 +1,15 @@
+{
+  "name" : "ba_whitefang_grip",
+  "type": "Attachment",
+  "category": "underbarrel",
+  "groups": [
+    "underbarrel",
+    "underbarrel_extra"
+  ],
+  "features": [
+    {
+      "type": "Recoil",
+      "recoilModifier": 0.6
+    }
+  ]
+}

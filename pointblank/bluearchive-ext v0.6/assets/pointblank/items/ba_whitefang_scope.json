@@ -1,0 +1,26 @@
+{
+  "name": "ba_whitefang_scope",
+  "type": "Attachment",
+  "category": "scope",
+  "groups": [
+    "sights_group",
+    "ar_sightsandscopes",
+    "m16_sightsandscopes",
+    "deagle_sights",
+    "snipers_sights",
+    "sl8_sights"
+  ],
+  "features": [
+    {
+      "type": "Aiming",
+      "zoom": 0.4
+    },
+    {
+      "type": "PIP",
+      "overlayTexture": "textures/gui/starscope_pip.png",
+      "zoom": 0.6,
+      "parallax": true,
+      "maxAngularOffset": 5
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name" : "ba_whitefang_suppressor",
+  "type": "Attachment",
+  "category": "muzzle",
+  "groups": [
+    "ar_suppressors",
+    "ar_muzzle"
+  ],
+  "features": [
+    {
+      "type": "Recoil",
+      "recoilModifier": 1.2
+    },
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "firing",
+          "name": "muzzle_flash_small"
+        }
+      ]
+    }
+  ]
+}

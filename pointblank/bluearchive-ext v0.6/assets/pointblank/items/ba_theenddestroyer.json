@@ -1,0 +1,109 @@
+{
+  "name": "ba_theenddestroyer",
+  "type": "Gun",
+  "maxAmmoCapacity": 100,
+  "compatibleAmmo": [
+    "ammocreative",
+    "ammolasercharge"
+  ],
+  "damage": 60,
+  "fireSound": "ba_theenddestroyer",
+  "fireModes": [
+    "AUTOMATIC"
+  ],
+  "rpm": 700,
+  "gunRecoilInitialAmplitude": 0.1,
+  "shakeRecoilAmplitude": 0.7,
+  "shakeRecoilSpeed": 2,
+  "viewRecoilAmplitude": 0.6,
+  "prepareFireCooldownDuration": 500,
+  "completeFireCooldownDuration": 500,
+  "drawCooldownDuration": 1100,
+  "sustainedRecoil": {
+    "posZCap": 0.4,
+    "posZIncrement": 0.04,
+    "decayTime": 1000
+  },
+  "glowingParts": [
+    {
+      "name": "glowy"
+    },
+    {
+      "name": "glowy2"
+    },
+    {
+      "name": "glowy3"
+    },
+    {
+      "name": "glowy4"
+    }
+  ],
+  "rotations": [
+    {
+      "phase": "fire",
+      "modelPart": "spinny",
+      "rpm": 300,
+      "acceleration": 3.0,
+      "deceleration": 1
+    }
+  ],
+  "features": [
+    {
+      "type": "Aiming",
+      "zoom": 0.3
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "duration": 2780,
+      "condition": "reloadIterationIndex > 1",
+      "animation": "animation.model.reload"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 1",
+      "duration": 2780,
+      "animation": "animation.model.reloadoneleft"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 3750,
+      "animation": "animation.model.reloadempty"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "ba_purpletracer"
+    },
+    {
+      "phase": "firing",
+      "name": "ba_purpleflash"
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 5480,
+      "condition": "ammoCount > 1"
+    },
+    {
+      "name": "animation.model.inspectempty",
+      "duration": 5480,
+      "condition": "ammoCount == 1"
+    },
+    {
+      "name": "animation.model.inspectempty",
+      "duration": 5480,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 100
+    }
+  ]
+}

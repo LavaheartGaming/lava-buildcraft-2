@@ -17,12 +17,19 @@
 	chapter_group.0168F7E7756B10A6.title: "tome 2 : au cœur de l'action"
 	chapter_group.097460243B4AA538.title: "tome 3 : un chemin vers l'immortalité"
 	chapter_group.482DD8A241D1335B.title: "tome 1 : début du jeu"
+	chapter_group.723E49C2B2CAC8A2.title: "tome 5 : voyage spatial"
 	quest.00053A6101C77763.quest_desc: ["ah, oui. Le lucky bloc epique, tu peux obtenir plein de trucs sympas dedans. Ou pas. "]
 	quest.0123F4D53688B832.title: "retour au mur des tiroirs"
 	quest.02B066656B216B81.quest_subtitle: "tu as passé tout ce temps à faire le fourneau arc-en-ciel ? ok, fais-le exploser !"
+	quest.05FD52305CE63E34.quest_desc: ["Hoc mihi sensum linguae antiquae praebet. Fortasse Latinae?"]
+	quest.05FD52305CE63E34.quest_subtitle: "Visitez la dimension Cavum Tenebrae"
+	quest.05FD52305CE63E34.title: "Cavum Tenebrae"
 	quest.06008EFBE331EA27.title: "inscription"
 	quest.07382FF335EADCD9.quest_subtitle: "le meilleur lingot disponible avant d'explorer le mod de lava"
 	quest.07382FF335EADCD9.title: "top qualité"
+	quest.0B1A1E20B4933AA2.quest_desc: ["Domaine d'Apophis"]
+	quest.0B1A1E20B4933AA2.quest_subtitle: "Visitez la dimension Chulak"
+	quest.0B1A1E20B4933AA2.title: "Chulak"
 	quest.0F2A08FE241428E5.quest_subtitle: "déverrouille une partie du chapitre magie"
 	quest.139117037B61EC52.quest_subtitle: "tu es maintenant pulvérisé"
 	quest.139117037B61EC52.title: "meilleure armure ?"
@@ -33,6 +40,7 @@
 	quest.17A9B8A3CA1E7121.quest_desc: ["le 5e meilleur métal "]
 	quest.1887D6983424EDFA.quest_subtitle: "déverrouille la moitié du chapitre 2"
 	quest.1887D6983424EDFA.title: "outils de Pam"
+	quest.1AC1F8EA9D332F1D.quest_subtitle: "Automatisez votre travail"
 	quest.1C39D748DA5D0FD2.quest_subtitle: "déverrouille le chapitre agriculture 1"
 	quest.1C39D748DA5D0FD2.title: "Laisse ça pousser"
 	quest.1C877C621972562E.quest_desc: ["c'est le moyen de commencer l'industrialisation moderne"]
@@ -43,6 +51,7 @@
 	quest.1CC7C667DAC874A2.title: "l'incontournable"
 	quest.24544553C3D36455.quest_desc: ["tu l'as fait ! tu as l'arme la plus puissante du jeu"]
 	quest.2556D4531B48F97A.title: "chargée"
+	quest.26655B016A1B0B2A.title: "Voyage spatial ? OUI !"
 	quest.28F00089471ABB39.quest_desc: ["ce bloc peut être utilisé pour invoquer le gardien azura, mais j'ai peur que tu aies besoin de rainbowstone pour l'invocation. L'invocation se fait ainsi : rainbowstone, bloc d'ombrum, tête de dragon. Ce boss est extrêmement difficile, assure-toi d'avoir d'excellents enchantements et une arme/magie à distance puissante."]
 	quest.2E94860409C2CA85.title: "stockage de craft"
 	quest.2F295D7A77652DF8.title: "jetpack créatif"
@@ -82,6 +91,8 @@
 		"Ah Oui ! Mon lucky bloc préferé ! "
 		"Tu peut y obtenir des godly gems, cartes de crédits et même de la bedrock "
 	]
+	quest.56E53FA8DB065A85.quest_subtitle: "Visitez la dimension Athos"
+	quest.56E53FA8DB065A85.title: "Athos"
 	quest.581B8485032C0075.title: "le Nether"
 	quest.581D033631383067.quest_desc: [
 		"Une des premières choses que l'on fait dans mekanism c'est le fameux générateur d'énérgie d'éthylène melon"
@@ -94,10 +105,21 @@
 	quest.5C4B5B51A0A3F756.quest_desc: ["le premier ingrédient pour un super équipement"]
 	quest.60445635EE28E7D8.quest_desc: ["Félicitations d'avoir vaincu l'assassin, si les drops d'ombrum ne te sont pas utiles, fonds ces items en échange d'ombrum."]
 	quest.62BAFE95F286AD51.title: "tu as le pouvoir"
+	quest.6328343EE856CFB4.quest_desc: ["Subnautica Vibes. Au fait, l'accès anticipé à Subnautica 2 sera disponible le 14 mai de cette année (2026). ;D"]
+	quest.6328343EE856CFB4.quest_subtitle: "Visitez la dimension Lantea"
+	quest.6328343EE856CFB4.title: "Lantea"
+	quest.63B369C1F72938F9.quest_desc: ["Ils m'ont dit que c'était une planète du domaine de Râ. Je serais prudent par ici."]
+	quest.63B369C1F72938F9.quest_subtitle: "Visitez la dimension Abydos"
+	quest.63B369C1F72938F9.title: "Abydos"
 	quest.649B242881A9D6FF.quest_desc: ["tu obtiens des grains d'infini en embrasant la roche-mère. Fatigué d'aller au niveau de la roche-mère pour les obtenir ? Ne t'inquiète pas car tu finiras par obtenir de la roche-mère."]
+	quest.64CD8157B69D7EA6.quest_desc: ["Une autre partie du domaine d'Apophis."]
+	quest.64CD8157B69D7EA6.quest_subtitle: "Visitez la dimension Rima"
+	quest.64CD8157B69D7EA6.title: "Rima"
 	quest.66E203B99CE6FDA9.quest_desc: ["super ! maintenant que tu as ta première corruptite, tu peux corrompre des blocs. Pour faire plus de corruptite, corromps simplement un bloc de minerai de lapis-lazuli."]
 	quest.6D48F595AF078B38.quest_desc: ["malheureusement il n'y a pas de mod baguette"]
 	quest.6D48F595AF078B38.title: "Du pain ! J'adore le pain !"
+	quest.6F1AFB02EA2123D2.quest_subtitle: "Visitez la dimension Unitas"
+	quest.6F1AFB02EA2123D2.title: "Unitas"
 	quest.7078EBB0EF250EA9.quest_subtitle: "bonne chance pour charger ce truc"
 	quest.7078EBB0EF250EA9.title: "infinite shard"
 	quest.7172E64AE0971E39.quest_subtitle: "efficace en carburant et facile à fabriquer"
@@ -139,27 +161,4 @@
 	task.70963682D2165A80.title: "N'importe quel #c:icecream"
 	task.762542DCE5EB77E5.title: "N'importe quel #c:ingots/osmium"
 	task.7D98EF1A70AD8978.title: "pas très amical"
-	chapter.72A9DCBF8B848419.title: "Ch5 : Armes spatiales"
-	chapter_group.723E49C2B2CAC8A2.title: "tome 5 : voyage spatial"
-	quest.05FD52305CE63E34.quest_desc: ["Hoc mihi sensum linguae antiquae praebet. Fortasse Latinae?"]
-	quest.05FD52305CE63E34.quest_subtitle: "Visitez la dimension Cavum Tenebrae"
-	quest.05FD52305CE63E34.title: "Cavum Tenebrae"
-	quest.0B1A1E20B4933AA2.quest_desc: ["Domaine d'Apophis"]
-	quest.0B1A1E20B4933AA2.quest_subtitle: "Visitez la dimension Chulak"
-	quest.0B1A1E20B4933AA2.title: "Chulak"
-	quest.1AC1F8EA9D332F1D.quest_subtitle: "Automatisez votre travail"
-	quest.26655B016A1B0B2A.title: "Voyage spatial ? OUI !"
-	quest.56E53FA8DB065A85.quest_subtitle: "Visitez la dimension Athos"
-	quest.56E53FA8DB065A85.title: "Athos"
-	quest.6328343EE856CFB4.quest_desc: ["Subnautica Vibes. Au fait, l'accès anticipé à Subnautica 2 sera disponible le 14 mai de cette année (2026). ;D"]
-	quest.6328343EE856CFB4.quest_subtitle: "Visitez la dimension Lantea"
-	quest.6328343EE856CFB4.title: "Lantea"
-	quest.63B369C1F72938F9.quest_desc: ["Ils m'ont dit que c'était une planète du domaine de Râ. Je serais prudent par ici."]
-	quest.63B369C1F72938F9.quest_subtitle: "Visitez la dimension Abydos"
-	quest.63B369C1F72938F9.title: "Abydos"
-	quest.64CD8157B69D7EA6.quest_desc: ["Une autre partie du domaine d'Apophis."]
-	quest.64CD8157B69D7EA6.quest_subtitle: "Visitez la dimension Rima"
-	quest.64CD8157B69D7EA6.title: "Rima"
-	quest.6F1AFB02EA2123D2.quest_subtitle: "Visitez la dimension Unitas"
-	quest.6F1AFB02EA2123D2.title: "Unitas"
 }

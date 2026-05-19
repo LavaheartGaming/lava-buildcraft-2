@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "combat_1"
-	group: "482DD8A241D1335B"
+	group: ""
 	hide_quest_until_deps_complete: true
 	icon: {
 		id: "lava:cosmic_sword"
 	}
 	id: "39A582E0A7E5BE6A"
-	order_index: 4
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
